@@ -1,0 +1,55 @@
+
+set_default_starting_resources_major_house = {
+    add_resource = {
+		minerals = 100
+		energy = 100
+		food = 100
+		influence = 10
+		consumer_goods = 10
+		alloys = 10
+		sr_spice = 200
+	}
+}
+
+
+set_default_starting_resources_guild = {
+    add_resource = {
+		minerals = 100
+		energy = 100
+		food = 100
+		influence = 10
+		consumer_goods = 10
+		alloys = 10
+		sr_spice = 600
+		sr_guild = 20
+	}
+}
+
+
+
+set_default_starting_resources_benegesserit = {
+    add_resource = {
+		minerals = 100
+		energy = 100
+		food = 100
+		influence = 10
+		consumer_goods = 10
+		alloys = 10
+		sr_spice = 400
+		sr_truthsayers = 20
+	}
+}
+
+
+
+set_default_starting_resources_fremen = {
+    add_resource = {
+		minerals = 100
+		energy = 100
+		food = 100
+		influence = 10
+		consumer_goods = 10
+		alloys = 10
+		sr_spice = 300
+	}
+}

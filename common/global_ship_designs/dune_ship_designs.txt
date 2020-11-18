@@ -1,0 +1,45 @@
+
+
+ship_design = {
+	name = "Guild Heighliner Military"
+	ship_size = guild_heighliner
+	hide_size = yes
+	is_event_design = yes
+	section = {
+		template = "guild_heighliner_military_stern"
+		slot = "stern"
+		component = { slot = "SMALL_UTILITY_1" template = "SPACE_FOLDER_DRIVE_1" }
+		component = { slot = "SMALL_UTILITY_2" template = "NAVIGATOR_SECTION" }
+	}
+}
+
+
+ship_design = {
+	name = "Guild Heighliner Science"
+	ship_size = guild_heighliner_science
+	hide_size = yes
+	is_event_design = yes
+	section = {
+		template = "guild_heighliner_science_stern"
+		slot = "stern"
+		component = { slot = "SMALL_UTILITY_1" template = "SPACE_FOLDER_DRIVE_1" }
+		component = { slot = "SMALL_UTILITY_2" template = "NAVIGATOR_SECTION_CIVILIAN" }
+	}
+}
+
+
+
+ship_design = {
+	name = "Guild Heighliner Massive"
+	ship_size = guild_heighliner_massive
+	hide_size = yes
+	is_event_design = yes
+	section = {
+		template = "guild_heighliner_massive_stern"
+		slot = "stern"
+		component = { slot = "SMALL_UTILITY_1" template = "SPACE_FOLDER_DRIVE_1" }
+		component = { slot = "SMALL_UTILITY_2" template = "NAVIGATOR_SECTION_CIVILIAN" }
+	}
+}
+
+

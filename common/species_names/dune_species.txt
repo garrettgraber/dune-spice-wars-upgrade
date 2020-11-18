@@ -1,0 +1,165 @@
+# Generated species derive their names from here
+
+### MAMMALIANS
+
+DUNE = {
+	atreides = {
+		name = "House Atreides"
+		plural = Atreides
+		home_planet = Caladan
+		home_system = "Delta Pavonis"
+		name_list = "atreides"
+	}	
+	
+	bene_gesserit = {
+		name = "Bene Gesserit"
+		plural = "Bene Gesserit"
+		home_planet = "Wallach IX"
+		home_system = "Laoujin"
+		name_list = "benegesserit"
+	}
+	
+	bene_tleilaxu = {
+		name = "Bene Tleilaxu"
+		plural = Tleilaxu
+		home_planet = Tleilax
+		home_system = Thalim
+		name_list = "bene_tleilaxu"
+	}
+	
+	corrino = {
+		name = "House Corrino"
+		plural = Corrinos
+		home_planet = Kaitain
+		home_system = "Gamma Waiping"
+		name_list = "corrino"
+	}
+	
+	ecaz = {
+		name = "House Ecaz"
+		plural = Ecazi
+		home_planet = Ecaz
+		home_system = "Alpha Centauri b" 
+		name_list = "ecaz"
+	}
+	
+	ezharian = {
+		name = "House Ezharian"
+		plural = Ezharians
+		home_planet = "Enif IV"
+		home_system = Enif
+		name_list = "ezharian"
+	}
+	
+	fremen = {
+		name = Fremen
+		plural = Fremen
+		home_planet = Arrakis
+		home_system = Canopus
+		name_list = "fremen"
+	}
+	
+	ginaz = {
+		name = "House Ginaz"
+		plural = Ginazi
+		home_planet = Ginaz
+		home_system = Junagadh
+		name_list = "ginaz"
+	}
+	
+	guild = {
+		name = "Spacing Guild"
+		plural = "Spacing Guild"
+		home_planet = "Junction"
+		home_system = Junction
+		name_list = "guild"
+	}
+		
+	harkonnen = {
+		name = "House Harkonnen"
+		plural = Harkonnens
+		home_planet = "Giedi Prime"
+		home_system = "Opiuchi b"
+		name_list = "harkonnen"
+	}
+
+	khumali = {
+		name = "House Khumali"
+		plural = Khumali
+		home_planet = Khumali
+		home_system = "Beta Apteri"
+		name_list = "khumali"
+	}
+
+	moritani = {
+		name = "House Moritani"
+		plural = Moritani
+		home_planet = "Grumman"
+		home_system = "Psi Draconis"
+		name_list = "moritani"
+	}
+
+	nebiro = {
+		name = "House Wayku"
+		plural = Wayku
+		home_planet = "New Wayku"
+		home_system = "Gamma Kulon"
+		name_list = "nebiro"
+	}
+		
+	omnius = {
+		name = "Synchronized Worlds"
+		plural = "Thinking Machines"
+		home_planet = Synchrony
+		home_system = Root
+		name_list = "omnius"
+	}
+
+	ordos = {
+		name = "House Ordos"
+		plural = Ordos
+		home_planet = "Sigma Draconis IV"
+		home_system = "Sigma Draconis"
+		name_list = "ordos"
+	}
+	
+	richese = {
+		name = "House Richese"
+		plural = Richesian
+		home_planet = Richese
+		home_system = "Epsilon Eridani"
+		name_list = "richese"
+	}
+
+	tantor = {
+		name = "House Tantor"
+		plural = Tantor
+		home_planet = Tantor
+		home_system = "Tau Omicron"
+		name_list = "tantor"
+	}
+
+	vernius = {
+		name = "House Vernius"
+		plural = Ixians
+		home_planet = Ix
+		home_system = "Alkalurops"
+		name_list = "vernius"
+	}
+	
+	rayki = {
+		name = "House Rayki"
+		plural = Raykians
+		home_planet = Mars
+		home_system = Sol
+		name_list = "rayki"
+	}
+	
+	albans = {
+		name = "Mentat"
+		plural = Mentats
+		home_planet = Septimus
+		home_system = Erasmus
+		name_list = "albans"
+	}
+}

@@ -1,0 +1,197 @@
+# This is a full example of system initializers and initializer trees
+# A system initializer is used to initialize each solar system in the game by creating planets, setting names and values on everything.
+# The system also has a tree structure that allows one initializer decide how neighboring systems should be initialized ( see the 'neighbor_system' part further down ).
+#
+# All numeric values can be scripted as 'x = 10' or 'x = { min = 5 max = 15 }', except within the triggers and effects
+#
+# Useful console commands:
+# 'Draw.Clusters' will toggle clusters on/off. Some clusters are created in the beginning and will be used for placing empires. Clusters can(will) also be created from effects and events
+# 'Draw.SystemInit' will print the initializer used for each system, as well as lines to show which initializer triggered another
+
+
+alpha_centauri_b_system_initializer = {
+	name = "Alpha Centauri B"						#Name of the system.
+	class = "sc_g"								#system's star class. [random] picks a random class from all available system classes. ["name_of_class"] picks a specific class. ["name_of_random_list"] picks a random class from the specified random_list ( random_list are found in the same files as the star classes )
+	#asteroids_distance = 235			#asteroid field distance from center
+	
+	asteroid_belt = {
+        type = rocky_asteroid_belt
+        radius = 235
+    }
+
+	usage = custom_empire
+	
+	#Initializers can specify how the game can use them.
+	#valid values are:
+	#usage = empire_init		#game can pick this initializer randomly to initialize systems for regular empires ( i.e the player(s) or regular AI empires ) that do not specify a specific initializer
+	#usage = misc_system_init	#game can pick this initializer randomly when initializing misc systems. i.e systems that have not been initialized by empires or fallen empires
+	#you can specify multiple usages for an initializer.
+	#By not specifiying any usage the game won't use this initializer except when explicitly told to from another script ( if a prescripted species or an effect specify an initializer by name )
+	#usage_odds = 20				#if a 'usage = x' is specified the usage_odds is used to control the odds of this initializer being picked over another.
+	max_instances = 1			#This initializer can at most be used 1 time. leave blank or negative for infinite. Note that this limit is also applied when spawning systems from effects, i.e if the galaxy starts with 9 instances you can only create 1 system with this initializer from effects.
+	#when all planets have been created and the system is initialized the init_effect will be executed
+	#you can use this to spawn mining drones etc
+	#the scope will be a galactic_object scope, with prev being set to the previous system that was initialized by this tree ( if any ). Root will point to the first system in the tree.
+		
+	#create the sun first. This is the minimum script required for a sun
+
+	planet = {
+		count = 1
+		class = none
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 0 max = 0 }
+		has_ring = no
+	}
+
+	change_orbit = 25
+
+	planet = {
+		name = "Alpha Centauri A"
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 25 max = 30 }
+		has_ring = no
+		flags = { mzilli_binary_a }
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Alpha Centauri B"
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 180
+		size = { min = 20 max = 25 }
+		has_ring = no
+		flags = { mzilli_binary_b }
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	#create a planet
+	planet = {
+		name = "Chaundra"
+		class = "pc_molten"
+		orbit_distance = 50						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -50						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 9								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Ismitta"
+		class = "pc_molten"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -160						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 11								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Lucine"
+		class = "pc_molten"
+		orbit_distance = 20						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 180						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 14								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}	
+	
+	planet = {
+		name = "Ecaz"
+		class = "pc_tropical"
+		orbit_distance = 30
+		orbit_angle = 160
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+
+		init_effect = {
+			add_deposit = d_house_ecaz_homestead_deposit
+		}
+
+		init_effect = {
+			generate_ecaz_buildings = yes
+		}
+
+		init_effect = {
+			add_modifier = {
+				modifier = "elacca_wood"
+				days = -1
+			}
+		}
+		
+		moon = {
+			name = "Pamuya"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 8
+			orbit_angle = 10
+			has_ring = no
+		}
+		
+		moon = {
+			name = "Neomea"
+			class = "pc_toxic"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Zaharia"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 60						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 35								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Kamaria"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = 180						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Jana"
+		class = "pc_gas_giant"
+		orbit_distance = 30						#distance from center, relative to previous planets orbit. ( if the previous planet was placed at distance 100 from the center, orbit_distance = 10 would put us 110 from the center ).
+		orbit_angle = -140						#orbit angle from previous planet, in degrees. orbit_distance and orbit_angle together makes the polar coordinate of the planet
+		size = 25								#planet size. remember that all numeric values support { min = x max = y } syntax
+		has_ring = no
+	}
+
+		planet = {
+		name = "Proxima Centauri"
+		count = 1
+		class = star
+		orbit_distance = 50
+		orbit_angle = 180
+		size = { min = 30 max = 40 }
+		has_ring = no
+		flags = { mzilli_binary_c }
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+}

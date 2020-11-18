@@ -1,0 +1,125 @@
+portraits = {
+	# harkonnen
+	harkonnen_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_harkonnen_female_clothes_01" 	hair_selector = "harkonnen_female_hair"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_01.dds"
+		}
+	}
+	harkonnen_female_02 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_harkonnen_female_clothes_01" 	hair_selector = "harkonnen_female_hair"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_04.dds"
+		}
+	}
+	harkonnen_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_harkonnen_male_clothes_01" 	hair_selector = "harkonnen_male_hair"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_01.dds"
+		}
+	}	
+	harkonnen_male_02 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_harkonnen_male_clothes_01" 	hair_selector = "harkonnen_male_hair"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_04.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	harkonnen = {
+		default = harkonnen_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					harkonnen_male_01
+					harkonnen_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					harkonnen_female_01
+					harkonnen_female_02
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					harkonnen_female_01
+					harkonnen_female_02
+					harkonnen_male_01
+					harkonnen_male_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					harkonnen_female_01
+					harkonnen_female_02
+					harkonnen_male_01
+					harkonnen_male_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					harkonnen_female_01
+					harkonnen_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					harkonnen_male_01
+					harkonnen_male_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					harkonnen_female_01
+					harkonnen_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					harkonnen_male_01
+					harkonnen_male_02
+				}
+			}
+		}
+	}		
+		
+		
+		

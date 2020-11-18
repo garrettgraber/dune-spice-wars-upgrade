@@ -1,0 +1,95 @@
+
+
+ship_section_template = {
+   key = "guild_heighliner_military_stern"
+   ship_size = guild_heighliner
+   fits_on_slot = stern
+   entity = "guild_heighliner_entity"
+   icon = "GFX_ship_part_core_mid"
+   icon_frame = 1
+   resources = { category = ship_sections cost = { alloys = 0 } }
+   small_utility_slots = 2
+   medium_utility_slots = 2
+   large_utility_slots = 2
+   aux_utility_slots = 1
+   ai_weight = { factor = 100 }
+}
+
+ship_section_template = {
+   key = "guild_heighliner_science_stern"
+   ship_size = guild_heighliner
+   fits_on_slot = stern
+   entity = "guild_heighliner_science_entity"
+   icon = "GFX_ship_part_core_mid"
+   icon_frame = 1
+   resources = { category = ship_sections cost = { alloys = 0 } }
+   small_utility_slots = 2
+   medium_utility_slots = 2
+   large_utility_slots = 2
+   aux_utility_slots = 1
+   ai_weight = { factor = 100 }
+}
+
+ship_section_template = {
+   key = "guild_heighliner_massive_stern"
+   ship_size = guild_heighliner
+   fits_on_slot = stern
+   entity = "guild_heighliner_massive_entity"
+   icon = "GFX_ship_part_core_mid"
+   icon_frame = 1
+   resources = { category = ship_sections cost = { alloys = 0 } }
+   small_utility_slots = 2
+   medium_utility_slots = 2
+   large_utility_slots = 2
+   aux_utility_slots = 1
+   ai_weight = { factor = 100 }
+}
+
+
+
+ship_section_template = {
+   key = "guild_heighliner_military_mid"
+   ship_size = guild_heighliner
+   fits_on_slot = mid
+   entity = "guild_heighliner_entity"
+   icon = "GFX_ship_part_core_mid"
+   icon_frame = 1
+   resources = { category = ship_sections cost = { alloys = 0 } }
+   small_utility_slots = 0
+   medium_utility_slots = 0
+   large_utility_slots = 0
+   aux_utility_slots = 0
+   ai_weight = { factor = 100 }
+}
+
+
+ship_section_template = {
+   key = "guild_heighliner_science_mid"
+   ship_size = guild_heighliner
+   fits_on_slot = mid
+   entity = "guild_heighliner_science_entity"
+   icon = "GFX_ship_part_core_mid"
+   icon_frame = 1
+   resources = { category = ship_sections cost = { alloys = 0 } }
+   small_utility_slots = 0
+   medium_utility_slots = 0
+   large_utility_slots = 0
+   aux_utility_slots = 0
+   ai_weight = { factor = 100 }
+}
+
+ship_section_template = {
+   key = "guild_heighliner_massive_mid"
+   ship_size = guild_heighliner
+   fits_on_slot = mid
+   entity = "guild_heighliner_massive_entity"
+   icon = "GFX_ship_part_core_mid"
+   icon_frame = 1
+   resources = { category = ship_sections cost = { alloys = 0 } }
+   small_utility_slots = 0
+   medium_utility_slots = 0
+   large_utility_slots = 0
+   aux_utility_slots = 0
+   ai_weight = { factor = 100 }
+}
+

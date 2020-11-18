@@ -1,0 +1,165 @@
+portraits = {
+	# albans
+	albans_female_01 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_albans_female_clothes_01" 	hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/dune/albans_female_body.dds"
+		}
+	}
+	albans_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_albans_female_clothes_01" 	hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/dune/albans_female_body.dds"
+		}
+	}
+	albans_female_03 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_albans_female_clothes_01" 	hair_selector = "human_female_hair_03"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/dune/albans_female_body.dds"
+		}
+	}	
+	albans_female_04 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_albans_female_clothes_01" 	hair_selector = "human_female_hair_05"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/dune/albans_female_body.dds"
+		}
+	}
+	albans_male_01 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_albans_male_clothes_01" 	hair_selector = "human_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/dune/albans_male_body.dds"
+		}
+	}	
+	albans_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_albans_male_clothes_01" 	hair_selector = "human_male_hair_02"		greeting_sound = "human_male_greetings_04" 
+		character_textures = {
+			"gfx/models/portraits/dune/albans_male_body.dds"
+		}
+	}	
+	albans_male_03 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_albans_male_clothes_01" 	hair_selector = "human_male_hair_03"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/dune/albans_male_body.dds"
+		}
+	}
+	albans_male_04 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_albans_male_clothes_01" 	hair_selector = "human_male_hair_05"	greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/dune/albans_male_body.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	albans = {
+		default = albans_male_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					albans_male_01
+					albans_male_02
+					albans_male_03
+					albans_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					albans_female_01
+					albans_female_02
+					albans_female_03
+					albans_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					albans_female_01
+					albans_female_02
+					albans_female_03
+					albans_female_04
+					albans_male_01
+					albans_male_02
+					albans_male_03
+					albans_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					albans_female_01
+					albans_female_02
+					albans_female_03
+					albans_female_04
+					albans_male_01
+					albans_male_02
+					albans_male_03
+					albans_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					albans_female_01
+					albans_female_02
+					albans_female_03
+					albans_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					albans_male_01
+					albans_male_02
+					albans_male_03
+					albans_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					albans_female_01
+					albans_female_02
+					albans_female_03
+					albans_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					albans_male_01
+					albans_male_02
+					albans_male_03
+					albans_male_04
+				}
+			}
+		}
+	}		
+		
+		
+		

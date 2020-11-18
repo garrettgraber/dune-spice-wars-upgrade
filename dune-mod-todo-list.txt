@@ -1,0 +1,52 @@
+
+
+DUNE Mod to do list:
+
+
+Spice Trade:
+(DONE) 1. Link Spice Trade to Guild Transportation
+(DONE) 2. Arrakis stability/crime/production of spice to set galactic spice output
+(DONE) 3. Setup CHOAM - Spice Trade (massively increase spice production on Arrakis, take percentage amount > 95% for CHOAM)
+	CHOAM Levels on Arrakis:
+	1. Very Low level spice mining ~ 60% : Fremen Control of Arrakis
+	2. Low level spice mining ~ 70% : Requires Royal House controlliing Arrakis (Low Stability / High Crime)
+	3. Medium level spice mining ~ 80% : Requires Royal House controlliing Arrakis (Decent Stability / Some Crime)
+	4. High level spice mining > 90% : Requires Royal House controlliing Arrakis (High Stability / Low Crime)
+
+	Fremen Bribes to Guild: 5% of all Spice Produced (Comes before CHOAM)
+
+
+
+Country:
+1. Specific Country starting bio (some already have it)
+2. Individual starts for some countries:
+	fremen, renegade houses, machines, bene gesserit, bene tleilaxu, major houses (landsraad members),
+	the spacing guild, mentats, corrino emperor
+3. Specific Country Techs (Could be open ended)
+(DONE) 4. Planet Modifiers for Each Faction
+(DONE) 5. Planet Deposits for Each Faction (many on Arrakis)
+
+
+Planet Arrakis (Dune) Setup
+1. Detailed Arrakis Setup (modifiers, events, fremen never actually die)
+2. Add Paul Atreides / Muad'Dib scenario (Wishlist)
+	a. Add generic events to occur
+	(DONE) b. Set year 10191 AG for full scenario
+
+
+Dune Universe Warfare (Great Convention Forms):
+1. Planetary Bombardment OFF
+2. Land ships on Planets (Not sure if possible)
+3. Attacking Guild disables Guild Transportion
+4. Setup rules of warfare inline with the DUNE Universe (Kanly, Vendetta, limited space conflict)
+
+
+Landsraad Council Setup
+1. Establish Landsraad as Galactic Council, Emperor has VETO power
+
+
+Butlerian Protocols
+1. No Building ROBOTS
+2. If you Build ROBOTS, everyone declares war on you
+3. If you're cutoff from the Guild (maybe develop AI to jump, NOT FREMEN)
+

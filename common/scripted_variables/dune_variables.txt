@@ -1,0 +1,9 @@
+# Add global variables here that will be available in all script files.
+# @something = 42
+# They can be overridden in each normal script file.
+
+### Dune Additions
+@base_spice_value = 4.0
+@arrakis_spice_production_baseline = 1.0
+@arrakis_stability_rate = 0.7
+@arrakis_crime_rate = 0.05

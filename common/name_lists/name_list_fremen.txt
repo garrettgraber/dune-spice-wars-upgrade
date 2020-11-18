@@ -1,0 +1,320 @@
+﻿### Dune Name List
+fremen = {
+	randomized = yes
+
+	ship_names = {
+		generic = {}
+		
+		corvette = {Matar
+		}
+		
+		constructor = {Shadda
+		}
+		
+		colonizer = {Sihaya
+		}
+		
+		science = {Karama
+		}
+		
+		destroyer = {Akrab
+		}
+		
+		cruiser = {Sadus
+		}
+		
+		battleship = {Usul
+		}
+		
+		mining_station = { }
+		research_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		
+		transport = {Cielago
+		}
+
+		military_station_small = {Sietch
+			
+		}
+		
+		#military_station_small = { 
+		#	sequential_names = { 
+		#		"Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
+		#		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
+		#		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
+		#		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40"
+		#	}
+		#}
+		
+		military_station_medium = {Sietch
+			 
+		}
+		
+		#military_station_medium = {
+		#	random_names = {
+		#		"Citadel Station" "Albacore Station" "Gateway Station" "Vincent Station" "Babylon Station" "Caernavon Station" "Acre Station" "Pembroke Station" 
+		#		"Acheron Station" "Spithead Station" "Halifax Station" "Victoria Station" "Chatham Station" "Anchorage Station" "Scapa Flow Station" "Hampton Roads Station"
+		#		"Brooklyn Station" "Norfolk Station" "Newport Station" "Guam Station" "Pensacola Station" "Vesuvius Station" "McKinley Station" "Everest Station"
+		#		"Kilimanjaro Station" "Aconcagua Station" "Elbrus Station" "St. Helens Station" "Fuji Station" "Olympus Station" "Sinai Station" "Ambrose Station"
+		#		"Bermuda Station" "Farpoint Station" "Blue Star Station" "Olympus Mons Station" "Tharsis Station" "Syrtis Station" "Blackham Station"
+		#	}
+		#		
+		#}
+		
+		military_station_large = {Sietch
+			
+		}
+		
+		#military_station_large = { 
+		#	random_names = {
+		#		"Fletcher Naval Base" "Perry Naval Base" "Butakov Naval Base" "Morris Naval Base" "Moorsom Naval Base" "Hart Naval Base" "Hargood Naval Base"
+		#		"Spruance Naval Base" "Tanaka Naval Base" "Halsey Naval Base" "Turner Naval Base" "Doria Naval Base" "Tirpitz Naval Base" "Cunningham Naval Base"
+		#		"Jellicoe Naval Base" "Hipper Naval Base" "Beatty Naval Base" "Potemkin Naval Base" "Durham Naval Base" "Codrington Naval Base" "Milne Naval Base"
+		#		"Laforey Naval Base" "Tyler Naval Base" "Hawke Naval Base" "Yonai Naval Base" "Pound Naval Base" "King Naval Base" "Crutchley Naval Base"
+		#		"Mountbatten Naval Base" "Kountouriotis Naval Base" "Kuznetsov Naval Base" "Essen Naval Base" "Kornilov Naval Base" "Suffren Naval Base"
+		#		"Treville Naval Base" "Villeneuve Naval Base" "Grasse Naval Base" "Byng Naval Base" "Lezo Naval Base"
+		#	}
+		#}
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Fremen Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Fremen Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Fedaykin"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robot Army"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Army"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+			first_names_male = {
+				Jabari Jelani Khairi Rashid Otheym Jamis Stilgar Usul Berk Muzaffer Nedim Nesim Nesip Okan Olcay 
+ Onan Ozan Ozaner Sadi Safak Selim Semih Sencer Sevilin Sinan Taner Tarkan Tecer Tercan Tezer 
+ Tuncer Ufuk Ugur Ulucan Yigit Yucel Zafer Zeki Zeren Kalani Lauaki Lisiate Uhila Ulani Vala Valu 
+ Vea Liet Abtin Ardalan Atash Azar Bahram Behdad Behruz Bijan Borna Caspar Cyrus Dareh Darius Davood 
+ Eskander Fazel Firouz Gaspar Kaspar Kaveh Khorshed Khortdad Kourosh Murdad Nard Persepolis Rashne 
+ Ruhollah Sarosh Siamak Kers Mog Nantan Nehru Omprakash Orenda Prabodh Praful Som Tadi Achachak 
+ Adahy Ahanu Akecheta Alo Apenimon Ashkii Atohi Bemossed Bidziil Chatam Chesmu Cheveyo Cheyenne 
+ Chogan Ciqala Cochise Colville Dakota Dichali Dyami Elan Elsu Enapay Etchemin Etu Gad Gawonii 
+ Gosheven Hania Helaku Hiamovi Hinto Holata Honovi Huritt Illanipi Jacy Kaga Kai Kele Kiyiyah 
+ Knoton Kohana Koi Lakota Lallo Lansa Len Lenno Lokni Lonato Mahkah Mahpee Maska Mikasi Misu Mohe 
+ Mojag Motega Mukki Nashoba Nebraska Nigan Nikan Nitis Nocona Nodin Odakota Ogima Ohanzee Ohio 
+ Olathe Omaha Onawa Oneida Oni Onida Opa Oya Paco Pallaton Patamon Patwin Paytah Pilan Powa Quanah 
+ Qued Quelatikan Qunnoune Rowtag Sahale Sakima Shaman Shilah Taimah Tansy Tate Tennessee 
+ Thaonawyuthe Tyee Uhubitu Unaduti Unkas Utatci Waban Wahid Wamblee Wapi Wicasa Wohehiv Wuyi 
+ Wynono Wyome Yahto Yancy Yas Yotimo Yottoko Youkioma Yuma Yutu Zitkaduta Juhani Jussi Kevat Miko 
+ Mustanen Vaino
+			}
+			first_names_female = {
+				Adia Barika Epua Kamaria Kesi Lakeisha Leta Nia Shani Simba Taariq Winda Zahra Chandra Kalinda 
+ Kalpana Kama Karma Kashmir Leelea Lilac Malika Manjusha Nalini Opal Shobha Sitara Taruna Chani 
+ Aylin Banu Jale Kari Karli Kerzi Kiral Nagihan Nerhim Nilgun Nuray Nurhan Olcay Onur Safak Sefika 
+ Semra Sezen Sibel Sila Zerdali Chione Femi Hekenu Hekt Icess Kanika Khety Lapis Mariasha Nakia 
+ Nashwa Nebta Neferu Neith Nile Nubia Ramla Rennefer Sabola Sagira Sahirah Salama Sanura Suma 
+ Tauret Tetisheri Kaula Lana Mahal Maili Pua Uinise Vailea Abtin Ardeshir Azarin Azura Cyra Darice 
+ Esther Fila Gelsey Jaleh Catori Chapawee Chosposi Kaliska Kansas Kasa Kaya Ketaki Kusum Malila 
+ Mansi Migina Narmada Natane Naveena Nirvelli Nishtha Nivedita Orenda Sahana Salena Sanchali 
+ Sanchaya Sanjana Shian Shivani Shubhada Sumitra Swati Tadi Taipa Tallulah Tansy Tarangini 
+ Tarjani Tiponya Trilochana Yenene Zaqaria Abeque Abey Abeytu Adoette Adsila Aiyana Alameda 
+ Alaqua Alawa Aleshanee Algoma Alsoomse Amadahy Amitola Anaba Angeni Aponi Aquene Awendela Ayasha 
+ Ayita Bly Chapa Chenoa Cheyenne Chimalis Dakota Doli Donoma Dyani Elu Enola Etenia Eyota Fala 
+ Galilahi Genesee Hachi Haiwee Halona Honovi Hurit Huyana Istas Ituha Kachine Kai Kaniya Kanti 
+ Karmiti Kilenya Kimama Kimimela Kiona Kishi Koko Koleyn Kwanita Labdhi Lahoma Lakota Leotie 
+ Lequoia Liluye Liseli Litonya Lomasi Luyu Macha Magena Mahala Mai Maka Makya Malina Mapiya Meda 
+ Miakoda Migisi Mika Mitena Mitexi Nahimana Nara Nascha Nasnan Nata Nayeli Netis Nita Nitika 
+ Nituna Nokomis Nuna Nuttah Ohio Olathe Olisa Onawa Oneida Oni Onida Opa Pala Pana Pelipa Pinquana 
+ Pocahontas Quanah Sahyko Sakari Sakima Salali Satinka Sequoia Shada Shako Shania Shaniya Shasta 
+ Shima Shysie Sihu Snana Sokanon Sora Soyala Taa Tabitha Taborri Tacincala Tadewi Tadita Taima 
+ Taini Tainn Takoda Tala Tama Tamsyn Tareva-Chine' Tarsha Tate Tawana Tayen Tazanna Tehya Tiva 
+ Tolinka Topanga Tuwa Unega Urika Usdi Utina Wachiwi Waneta Wapeka Wapin Wasula Wateka Wawetseka 
+ Weayaya Weetamoo Winema Wyanet Wynonah Wyome Yalika Yanaha Yoki Yona Zabana Zaltana Zonta Kaija 
+ Kalle Louhi Preita Senja Tarja Terhi
+			}
+			second_names = {Brenes Bugarin Buitron Busto Bustos Caamano Cabral Cadavid Caira Caldas Cales Calo Camba Cambra 
+ Campa Campoverde Cancio Candia Canedo Canlas Canosa Canton Carballo Cardosa Cardoso Carreira 
+ Carreiro Casares Castano Castelan Castrillon Castro Cea Cerna Cerne Cervantes Cervino Chan Chao 
+ Chaves Coello Colan Cora Corado Cordeiro Cortina Corzo Cota Coto Cova Cruce Cuba Cueto Curbelo 
+ Curro Da Costa Dantes Da Ponte Da Rocha Davila Demato Deus Dorta Encinas Escalera Estacio 
+ Fajardo Farina Ferreira Ferreiro Ferreyra Fiallo Fidel Figueira Figueiredo Figueredo Figueroa 
+ Fontan Fontes Formosa Formoso Fragoso Fraijo Freire Freitas Gandara Garduno Gironda Godoy Gordon 
+ Goris Goy Goya Grana Granda Guerreiro Junco Lage Lagos Lapa Lata Laza Lazo Ledo Lemos Lemus 
+ Lence Leyton Lista Lois Lomba Loureiro Louro Lua Lucio Lugo Macedo Maciel Madeiros Magalhaes Mar 
+ Marcelin Marcial Marin Marinez Marino Marte Martis Matey Mato Mazo Mazon Meda Medal Medeiros 
+ Medin Melendrez Mella Melle Mendez Mera Mero Migues Miguez Millan Millian Mira Miramontes Mones 
+ Montecalvo Monteiro Montelongo Monterroso Monteverde Moreira Morquecho Moscoso Moura Muniz Naron 
+ Naves Navia Neira Neto Netto Neve Neves Nicolau Noboa Nogueira Noia Nova Novo Novoa Noya Nunes 
+ Nuno Ocampo Ogas Oliveira Orta Ortega Ovalle Padin Padron Pais Palla Pallares Palma Pando Parada 
+ Paramo Paredes Parga Parra Pastor Patino Paulino Pazos Pecina Pedro Pedrosa Pedroso Peixoto Pena 
+ Pereda Peredo Pereira Perera Pereyra Pero Perrino Pesqueira Pico Picon Pineiro Pino Pinon Pinta 
+ Pintor Pombo Ponte Pontes Porras Porta Portal Portales Portanova Portela Pose Pozo Pozos Prada 
+ Prado Prados Puga Pulido Quintana Quintela Quiroga Rafael Rama Ramo Rana Rapa Raso Ravelo Rosales 
+ Sardina Sardinas Savedra Sedor Seoane Sequeira Silva Silvas Silveira Silvestre Sion Siqueiros 
+ Sisto Solar Somoza Sotolongo Sousa Souto Souza Taboada Tapia Teixeira Tella Tenorio Testa Texeira 
+ Toca Toran Torre Torres Triana Troche Troncoso Ulloa Valcarcel Valdovinos Vale Valente Vales 
+ Valladares Vallin Vara Varela Varon Vasco Vasquez Vazquez Vea Veiga Vela Velo Veloso Vento 
+ Verdugo Viana Vieira Vielma Viera Vieyra Vigo Vila Vilar Vilas Vina Vinal Vinas Viveiros Zapata 
+ Zea
+			}
+			regnal_first_names_male = {
+				Stilgar Otheym Jamis Paulus Korba Liet Ishmael Esmar Stabban Shamir Jabari Jelani Khairi Rashid Otheym Jamis Stilgar Usul Berk Muzaffer Nedim Nesim Nesip Okan Olcay 
+ Onan Ozan Ozaner Sadi Safak Selim Semih Sencer Sevilin Sinan Taner Tarkan Tecer Tercan Tezer 
+ Tuncer Ufuk Ugur Ulucan Yigit Yucel Zafer Zeki Zeren Kalani Lauaki Lisiate Uhila Ulani Vala Valu 
+ Vea Liet Abtin Ardalan Atash Azar Bahram Behdad Behruz Bijan Borna Caspar Cyrus Dareh Darius Davood 
+ Eskander Fazel Firouz Gaspar Kaspar Kaveh Khorshed Khortdad Kourosh Murdad Nard Persepolis Rashne 
+ Ruhollah Sarosh Siamak Kers Mog Nantan Nehru Omprakash Orenda Prabodh Praful Som Tadi Achachak 
+ Adahy Ahanu Akecheta Alo Apenimon Ashkii Atohi Bemossed Bidziil Chatam Chesmu Cheveyo Cheyenne 
+ Chogan Ciqala Cochise Colville Dakota Dichali Dyami Elan Elsu Enapay Etchemin Etu Gad Gawonii 
+ Gosheven Hania Helaku Hiamovi Hinto Holata Honovi Huritt Illanipi Jacy Kaga Kai Kele Kiyiyah 
+ Knoton Kohana Koi Lakota Lallo Lansa Len Lenno Lokni Lonato Mahkah Mahpee Maska Mikasi Misu Mohe 
+ Mojag Motega Mukki Nashoba Nebraska Nigan Nikan Nitis Nocona Nodin Odakota Ogima Ohanzee Ohio 
+ Olathe Omaha Onawa Oneida Oni Onida Opa Oya Paco Pallaton Patamon Patwin Paytah Pilan Powa Quanah 
+ Qued Quelatikan Qunnoune Rowtag Sahale Sakima Shaman Shilah Taimah Tansy Tate Tennessee 
+ Thaonawyuthe Tyee Uhubitu Unaduti Unkas Utatci Waban Wahid Wamblee Wapi Wicasa Wohehiv Wuyi 
+ Wynono Wyome Yahto Yancy Yas Yotimo Yottoko Youkioma Yuma Yutu Zitkaduta Juhani Jussi Kevat Miko 
+ Mustanen Vaino
+			}
+			regnal_first_names_female = {
+				Chani Burah Olia Jzika Olia Gara Verpa Adia Barika Epua Kamaria Kesi Lakeisha Leta Nia Shani Simba Taariq Winda Zahra Chandra Kalinda 
+ Kalpana Kama Karma Kashmir Leelea Lilac Malika Manjusha Nalini Opal Shobha Sitara Taruna Chani 
+ Aylin Banu Jale Kari Karli Kerzi Kiral Nagihan Nerhim Nilgun Nuray Nurhan Olcay Onur Safak Sefika 
+ Semra Sezen Sibel Sila Zerdali Chione Femi Hekenu Hekt Icess Kanika Khety Lapis Mariasha Nakia 
+ Nashwa Nebta Neferu Neith Nile Nubia Ramla Rennefer Sabola Sagira Sahirah Salama Sanura Suma 
+ Tauret Tetisheri Kaula Lana Mahal Maili Pua Uinise Vailea Abtin Ardeshir Azarin Azura Cyra Darice 
+ Esther Fila Gelsey Jaleh Catori Chapawee Chosposi Kaliska Kansas Kasa Kaya Ketaki Kusum Malila 
+ Mansi Migina Narmada Natane Naveena Nirvelli Nishtha Nivedita Orenda Sahana Salena Sanchali 
+ Sanchaya Sanjana Shian Shivani Shubhada Sumitra Swati Tadi Taipa Tallulah Tansy Tarangini 
+ Tarjani Tiponya Trilochana Yenene Zaqaria Abeque Abey Abeytu Adoette Adsila Aiyana Alameda 
+ Alaqua Alawa Aleshanee Algoma Alsoomse Amadahy Amitola Anaba Angeni Aponi Aquene Awendela Ayasha 
+ Ayita Bly Chapa Chenoa Cheyenne Chimalis Dakota Doli Donoma Dyani Elu Enola Etenia Eyota Fala 
+ Galilahi Genesee Hachi Haiwee Halona Honovi Hurit Huyana Istas Ituha Kachine Kai Kaniya Kanti 
+ Karmiti Kilenya Kimama Kimimela Kiona Kishi Koko Koleyn Kwanita Labdhi Lahoma Lakota Leotie 
+ Lequoia Liluye Liseli Litonya Lomasi Luyu Macha Magena Mahala Mai Maka Makya Malina Mapiya Meda 
+ Miakoda Migisi Mika Mitena Mitexi Nahimana Nara Nascha Nasnan Nata Nayeli Netis Nita Nitika 
+ Nituna Nokomis Nuna Nuttah Ohio Olathe Olisa Onawa Oneida Oni Onida Opa Pala Pana Pelipa Pinquana 
+ Pocahontas Quanah Sahyko Sakari Sakima Salali Satinka Sequoia Shada Shako Shania Shaniya Shasta 
+ Shima Shysie Sihu Snana Sokanon Sora Soyala Taa Tabitha Taborri Tacincala Tadewi Tadita Taima 
+ Taini Tainn Takoda Tala Tama Tamsyn Tareva-Chine' Tarsha Tate Tawana Tayen Tazanna Tehya Tiva 
+ Tolinka Topanga Tuwa Unega Urika Usdi Utina Wachiwi Waneta Wapeka Wapin Wasula Wateka Wawetseka 
+ Weayaya Weetamoo Winema Wyanet Wynonah Wyome Yalika Yanaha Yoki Yona Zabana Zaltana Zonta Kaija 
+ Kalle Louhi Preita Senja Tarja Terhi
+			}
+			regnal_second_names = {
+ Brenes Bugarin Buitron Busto Bustos Caamano Cabral Cadavid Caira Caldas Cales Calo Camba Cambra 
+ Campa Campoverde Cancio Candia Canedo Canlas Canosa Canton Carballo Cardosa Cardoso Carreira 
+ Carreiro Casares Castano Castelan Castrillon Castro Cea Cerna Cerne Cervantes Cervino Chan Chao 
+ Chaves Coello Colan Cora Corado Cordeiro Cortina Corzo Cota Coto Cova Cruce Cuba Cueto Curbelo 
+ Curro Da Costa Dantes Da Ponte Da Rocha Davila Demato Deus Dorta Encinas Escalera Estacio 
+ Fajardo Farina Ferreira Ferreiro Ferreyra Fiallo Fidel Figueira Figueiredo Figueredo Figueroa 
+ Fontan Fontes Formosa Formoso Fragoso Fraijo Freire Freitas Gandara Garduno Gironda Godoy Gordon 
+ Goris Goy Goya Grana Granda Guerreiro Junco Lage Lagos Lapa Lata Laza Lazo Ledo Lemos Lemus 
+ Lence Leyton Lista Lois Lomba Loureiro Louro Lua Lucio Lugo Macedo Maciel Madeiros Magalhaes Mar 
+ Marcelin Marcial Marin Marinez Marino Marte Martis Matey Mato Mazo Mazon Meda Medal Medeiros 
+ Medin Melendrez Mella Melle Mendez Mera Mero Migues Miguez Millan Millian Mira Miramontes Mones 
+ Montecalvo Monteiro Montelongo Monterroso Monteverde Moreira Morquecho Moscoso Moura Muniz Naron 
+ Naves Navia Neira Neto Netto Neve Neves Nicolau Noboa Nogueira Noia Nova Novo Novoa Noya Nunes 
+ Nuno Ocampo Ogas Oliveira Orta Ortega Ovalle Padin Padron Pais Palla Pallares Palma Pando Parada 
+ Paramo Paredes Parga Parra Pastor Patino Paulino Pazos Pecina Pedro Pedrosa Pedroso Peixoto Pena 
+ Pereda Peredo Pereira Perera Pereyra Pero Perrino Pesqueira Pico Picon Pineiro Pino Pinon Pinta 
+ Pintor Pombo Ponte Pontes Porras Porta Portal Portales Portanova Portela Pose Pozo Pozos Prada 
+ Prado Prados Puga Pulido Quintana Quintela Quiroga Rafael Rama Ramo Rana Rapa Raso Ravelo Rosales 
+ Sardina Sardinas Savedra Sedor Seoane Sequeira Silva Silvas Silveira Silvestre Sion Siqueiros 
+ Sisto Solar Somoza Sotolongo Sousa Souto Souza Taboada Tapia Teixeira Tella Tenorio Testa Texeira 
+ Toca Toran Torre Torres Triana Troche Troncoso Ulloa Valcarcel Valdovinos Vale Valente Vales 
+ Valladares Vallin Vara Varela Varon Vasco Vasquez Vazquez Vea Veiga Vela Velo Veloso Vento 
+ Verdugo Viana Vieira Vielma Viera Vieyra Vigo Vila Vilar Vilas Vina Vinal Vinas Viveiros Zapata 
+ Zea
+			}
+		}
+		
+		
+	}
+}

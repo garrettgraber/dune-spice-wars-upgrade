@@ -1,0 +1,17 @@
+
+
+component_set = {
+	key = "space_folder"
+	icon = "GFX_ship_part_jump_drive_1"
+	icon_frame = 1
+	required_component_set = no
+}
+
+
+component_set = {
+	key = "navigator_hab"
+	icon = "GFX_navigator_hab"
+	icon_frame = 1
+	required_component_set = no
+}
+

@@ -1,0 +1,10 @@
+####### PLANET AMBIENT ############
+sound =
+{
+	name = "pc_arrakis_01"
+	file = "ambient/desert_planet_01.wav"
+	always_load = no
+}
+
+
+

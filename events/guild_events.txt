@@ -1,0 +1,210 @@
+### Ship Events for Guild Heighliners
+
+namespace = call_heighliner
+
+@heighliner_storage_distance = 0
+@heighliner_exit_distance = 0.1
+@heighliner_ship_radius_distance = 1
+
+
+### Dispatches a Guild Heighliner to a Country's Homeworld
+country_event = {
+	id = call_heighliner.1
+	title = "call_heighliner.1.name"
+	desc = "call_heighliner.1.desc"
+	picture = GFX_evt_great_convention
+	is_triggered_only = yes
+
+	option = {
+		name = call_heighliner.1.a
+		custom_tooltip = call_heighliner.1.a.tooltip
+
+		create_fleet = {
+			effect = {
+				set_owner = root.owner
+				create_ship = {
+					name = "Heighliner"
+					design = "Guild Heighliner Military"
+					upgradable = no
+				}
+				set_location = {
+					target = root.capital_scope.star
+					distance = 100
+					angle = random
+				}
+			}
+		}
+
+		hidden_effect = {
+			country_event = { id = call_heighliner.1 days = 30 }
+		}
+	}
+
+	option = {
+		name = call_heighliner.1.b
+		custom_tooltip = call_heighliner.1.b.tooltip
+
+		create_fleet = {
+			effect = {
+				set_owner = root.owner
+				create_ship = {
+					name = "Heighliner"
+					design = "Guild Heighliner Science"
+					upgradable = no
+				}
+				set_location = {
+					target = owner.capital_scope.star
+					distance = 100
+					angle = random 
+				}
+			}
+		}
+
+		hidden_effect = {
+			country_event = { id = call_heighliner.1 days = 30 }
+		}
+	}
+
+	option = {
+		name = call_heighliner.1.c
+		custom_tooltip = call_heighliner.1.c.tooltip
+
+		create_fleet = {
+			effect = {
+				set_owner = root.owner
+				create_ship = {
+					name = "Heighliner"
+					design = "Guild Heighliner Massive"
+					upgradable = no
+				}
+				set_location = {
+					target = owner.capital_scope.star
+					distance = 100
+					angle = random 
+				}
+			}
+		}
+
+		hidden_effect = {
+			country_event = { id = call_heighliner.1 days = 30 }
+		}
+	}
+
+	option = {
+		name = call_heighliner.1.d
+
+		hidden_effect = {
+			country_event = { id = call_heighliner.1 days = 30 }
+		}
+	}
+
+	option = {
+		name = call_heighliner.1.e
+
+		hidden_effect = {
+			country_event = { id = call_heighliner.1 days = 90 }
+		}
+	}
+}
+
+
+### Logs Data for a Jumping Guild Heighliner
+ship_event = {
+	id = call_heighliner.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					is_ship_size = guild_heighliner_massive
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+				}
+				has_ship_flag = dune_ship_heighliner_folding_space
+			}
+			log = "Lion, Guild Heighliner has Jump Flag"
+		}
+		if = {
+			limit = {
+				has_ship_flag = dune_ship_stored_heighliner
+				has_ship_flag = dune_ship_stored_in_heighliner_folding_space
+				ship_is_not_heighliner = yes
+			}
+			log = "Lion, ship in Guild Heighliner is inside and jumping. Flags Set."
+		}
+		if = {
+			limit = {
+				has_ship_flag = dune_ship_stored_heighliner
+				has_fleet_order = move_to_system_point_order
+				ship_is_not_heighliner = yes
+			}
+			log = "Lion, ship in Guild Heighliner has fleet order to move to system/point"
+		}
+		if = {
+			limit = {
+				has_ship_flag = dune_ship_stored_heighliner
+				NOT = { has_ship_flag = dune_ship_stored_in_heighliner_folding_space }
+				has_fleet_order = move_to_system_point_order
+				ship_is_not_heighliner = yes
+			}
+			log = "Lion, ship in Guild Heighliner moving while Jumping in a non-jumping heighliner! Danger!"
+		}
+		if = {
+			limit = { 
+				has_ship_flag = dune_ship_stored_heighliner
+				has_auto_move_target = yes
+				ship_is_not_heighliner = yes
+			}
+			log = "Lion, ship in Guild Heighliner has has_auto_move_target"
+		}
+	}
+}
+
+
+### Removes the Jump Flag from a Guild Heighliner
+ship_event = {
+	id = call_heighliner.3
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			is_ship_size = guild_heighliner_massive
+			is_ship_size = guild_heighliner_science
+			is_ship_size = guild_heighliner
+		}
+		has_ship_flag = dune_ship_heighliner_folding_space
+	}
+
+	immediate = {
+		log = "Lion, removing flag for folding space from Guild Heighliner"
+		remove_ship_flag = dune_ship_heighliner_folding_space
+	}
+}
+
+
+### Sets the The Jump Flag on a Guild Heighliner when it starts folding space
+ship_event = {
+	id = call_heighliner.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_ship_flag = dune_ship_heighliner_folding_space }
+		OR = {
+			is_ship_size = guild_heighliner_massive
+			is_ship_size = guild_heighliner_science
+			is_ship_size = guild_heighliner
+		}
+	}
+
+	immediate = {
+		set_ship_flag = dune_ship_is_guild_heighliner
+		set_ship_flag = dune_ship_heighliner_folding_space
+		hidden_effect = { ship_event = { id = call_heighliner.3 days = 14 } }
+		log = "Lion, Guild Heighliner is Jumping"
+	}
+}
+

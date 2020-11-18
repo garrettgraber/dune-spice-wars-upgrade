@@ -1,0 +1,379 @@
+
+
+## Guild Bribes 1-10 Spice Barrels
+guild_bribes_1 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_3 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_4 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_5 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_6 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_7 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_8 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_9 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_10 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 11-20 Spice Barrels
+guild_bribes_11 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_12 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_13 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_14 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_15 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_16 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_17 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_18 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_19 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_20 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 21-30 Spice Barrels
+guild_bribes_21 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_22 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_23 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_24 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_25 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_26 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_27 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_28 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_29 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_30 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 31-40 Spice Barrels
+guild_bribes_31 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_32 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_33 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_34 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_35 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_36 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_37 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_38 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_39 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_40 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 41-50 Spice Barrels
+guild_bribes_41 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_42 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_43 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_44 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_45 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_46 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_47 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_48 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_49 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_50 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 41-50 Spice Barrels
+guild_bribes_41 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_42 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_43 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_44 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_45 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_46 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_47 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_48 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_49 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_50 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 51-60 Spice Barrels
+guild_bribes_51 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_52 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_53 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_54 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_55 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_56 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_57 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_58 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_59 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_60 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 61-70 Spice Barrels
+guild_bribes_61 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_62 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_63 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_64 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_65 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_66 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_67 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_68 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_69 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_70 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+
+## Guild Bribes 71-80 Spice Barrels
+guild_bribes_71 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_72 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_73 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_74 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_75 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_76 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_77 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_78 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_79 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}
+guild_bribes_80 = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+}

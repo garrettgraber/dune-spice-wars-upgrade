@@ -1,0 +1,528 @@
+building_spice_harvester = {
+	base_buildtime = 120
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 1
+        }
+        produces = {
+            sr_spice = 50
+        }
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+
+building_fremen_seitch = {
+	base_buildtime = 120
+
+	resources = {
+		cost = {
+			minerals = 400
+			energy = 100
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            food = 3
+        }
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+
+    country_modifier = { 
+		pop_happiness = 0.1
+	}
+}
+
+building_ixian_factory = {
+	allow = {
+		always = no
+	}
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_ixian = 4
+        }
+	}
+
+	country_modifier = { 
+		pop_happiness = 0.1
+	}
+}
+
+building_guild_hq = {
+	category = government
+	allow = {
+		always = no
+	}
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_guild = 1
+        }
+	}
+
+	planet_modifier = {
+		planet_stability_add = 15
+		planet_sensor_range_add = 10
+	}
+	
+	country_modifier = { 
+		#country_resource_influence_mult = 0.2
+		#ship_interstellar_speed_mult = 0.2
+		#ship_sensor_range_mult = 0.2
+	}
+
+}
+
+building_tleilaxu_tanks = {
+
+	allow = {
+		always = no
+	}
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_tleilaxu = 4
+        }
+	}
+
+	country_modifier = { 
+		pop_happiness = 0.1
+	}
+}
+
+building_mentat_school = {
+	allow = {
+		always = no
+	}
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_mentats = 4
+        }
+	}
+}
+
+building_truthsayer_school = {
+	allow = {
+		always = no
+	}
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_truthsayers = 4
+        }
+	}
+}
+
+building_navigator_college = {
+	allow = {
+		always = no
+	}
+	
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_guild = 4
+        }
+	}
+}
+
+building_suk_school = {
+	allow = {
+		always = no
+	}
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_suk = 4
+        }
+	}
+}
+
+building_sardaukar_academy = {
+	allow = {
+		always = no
+	}
+	
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_sardaukar = 4
+        }
+	}
+}
+
+building_swordmasters_school = {
+	allow = {
+		always = no
+	}
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_swordmasters = 4
+        }
+	}
+}
+
+building_elacca_refinery = {
+	allow = {
+		always = no
+	}
+
+	resources = {
+		cost = {
+			minerals = 100
+			energy = 250
+		}
+		upkeep = {
+            energy = 2
+        }
+        produces = {
+            sr_elacca = 4
+        }
+	}
+}
+
+building_spice_exchange = {
+	base_buildtime = 0
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+			energy = 2
+        }
+        produces = {
+            sr_spice = 2
+        }
+	}
+	
+	country_modifier = {
+		#country_resource_influence_mult = 0.1
+		#country_trade_attractiveness = 0.1
+		#tile_resource_energy_mult = 0.1
+	}
+}
+
+building_tleilaxu_market = {
+	base_buildtime = 360
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_tleilaxu = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		pop_happiness = -0.1
+		#country_leader_cap = 1
+		#leader_influence_cost = -0.10
+		#country_leader_pool_size = 1
+	}
+}
+
+building_ixian_market = {
+	base_buildtime = 360
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_ixian = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		pop_happiness = -0.1
+		#science_ship_survey_speed = 0.10
+		#ship_upkeep_mult = -0.10
+		#country_ship_upgrade_cost_mult = -0.10
+	}
+}
+
+building_truthsayer_embassy = {
+	base_buildtime = 360
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_truthsayers = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		leader_skill_levels = 1
+		max_rivalries = 1
+		max_embassies = 1
+	}
+}
+
+building_sardaukar_barracks = {
+	base_buildtime = 360
+	
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_sardaukar = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		army_attack_damage_mult = 0.1
+		army_attack_morale_mult = 0.1
+		army_health = 0.1
+	}
+}
+
+building_suk_clinic = {
+	base_buildtime = 360	
+	
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_suk = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		country_resettlement_cost_mult = -0.1
+		#army_upkeep_mult = -0.05
+		pop_happiness = 0.05
+	}
+}
+
+building_semuta_den = {
+	base_buildtime = 360
+	
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_elacca = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		pop_government_ethic_attraction = 0.1
+		edict_length_mult = 0.1
+		#edict_influence_cost = -0.1
+	}
+}
+
+building_swordmasters_barracks = {
+	base_buildtime = 360
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_swordmasters = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		army_defense_damage_mult = 0.1
+		army_defense_morale_mult = 0.1
+		army_health = 0.1
+	}
+}
+
+building_navigator_bureau = {
+	base_buildtime = 360
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_guild = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+	
+	country_modifier = {
+		ship_interstellar_speed_mult = 0.1
+		ship_emergency_ftl_mult = -0.1
+		#ship_sensor_range_mult = 0.1
+	}
+}
+
+building_mentat_council = {
+	base_buildtime = 360
+
+	resources = {
+		cost = {
+			minerals = 450
+			influence = 35
+		}
+		upkeep = {
+            energy = 1
+			sr_mentats = 1
+        }
+        produces = {
+            energy = 20
+        }
+	}
+
+	country_modifier = {
+		all_technology_research_speed = 0.10
+		num_tech_alternatives_add = 1
+		#country_sector_cap_add = 1
+	}
+
+}
+
+#building_guild_hq_2 = {
+#	base_buildtime = 360
+#
+#	resources = {
+#		cost = {
+#			minerals = 450
+#			influence = 35
+#		}
+#		upkeep = {
+#            energy = 1
+#			sr_guild = 1
+#        }
+#        produces = {
+#            energy = 20
+#        }
+#	}
+#	
+#	country_modifier = {
+#		#ship_ftl_speed_mult = -0.5
+#		#ship_ftl_range_mult = 20.0
+#	}
+#}

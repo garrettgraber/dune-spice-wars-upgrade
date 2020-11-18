@@ -1,0 +1,1038 @@
+
+namespace = spice
+
+
+@guild_tax_percentage = 5.0
+@number_of_choam_members = 17
+
+
+# Monthly Spice Analysis
+event = {
+    id = spice.1
+    #title = spice.1.name
+    #desc = spice.1.desc
+	
+	hide_window = yes
+
+    is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			if = {
+	           	limit = { has_country_flag = spice_mining }
+
+	            if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value > 0 }
+						has_monthly_income = { resource = sr_spice value < 10 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 0 }
+					set_variable = { which = arrakis_spice_guild_tax value = 0 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 10 }
+						has_monthly_income = { resource = sr_spice value < 20 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 10 }
+					set_variable = { which = arrakis_spice_guild_tax value = 10 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 20 }
+						has_monthly_income = { resource = sr_spice value < 30 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 20 }
+					set_variable = { which = arrakis_spice_guild_tax value = 20 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 30 }
+						has_monthly_income = { resource = sr_spice value < 40 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 30 }
+					set_variable = { which = arrakis_spice_guild_tax value = 30 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 40 }
+						has_monthly_income = { resource = sr_spice value < 50 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 40 }
+					set_variable = { which = arrakis_spice_guild_tax value = 40 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 50 }
+						has_monthly_income = { resource = sr_spice value < 60 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 50 }
+					set_variable = { which = arrakis_spice_guild_tax value = 50 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 60 }
+						has_monthly_income = { resource = sr_spice value < 70 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 60 }
+					set_variable = { which = arrakis_spice_guild_tax value = 60 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 70 }
+						has_monthly_income = { resource = sr_spice value < 80 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 70 }
+					set_variable = { which = arrakis_spice_guild_tax value = 70 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 80 }
+						has_monthly_income = { resource = sr_spice value < 90 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 80 }
+					set_variable = { which = arrakis_spice_guild_tax value = 80 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 90 }
+						has_monthly_income = { resource = sr_spice value < 100 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 90 }
+					set_variable = { which = arrakis_spice_guild_tax value = 90 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 100 }
+						has_monthly_income = { resource = sr_spice value < 110 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 100 }
+					set_variable = { which = arrakis_spice_guild_tax value = 100 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 110 }
+						has_monthly_income = { resource = sr_spice value < 120 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 110 }
+					set_variable = { which = arrakis_spice_guild_tax value = 110 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 120 }
+						has_monthly_income = { resource = sr_spice value < 130 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 120 }
+					set_variable = { which = arrakis_spice_guild_tax value = 120 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 130 }
+						has_monthly_income = { resource = sr_spice value < 140 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 130 }
+					set_variable = { which = arrakis_spice_guild_tax value = 130 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 140 }
+						has_monthly_income = { resource = sr_spice value < 150 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 140 }
+					set_variable = { which = arrakis_spice_guild_tax value = 140 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 150 }
+						has_monthly_income = { resource = sr_spice value < 160 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 150 }
+					set_variable = { which = arrakis_spice_guild_tax value = 150 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 160 }
+						has_monthly_income = { resource = sr_spice value < 170 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 160 }
+					set_variable = { which = arrakis_spice_guild_tax value = 160 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 170 }
+						has_monthly_income = { resource = sr_spice value < 180 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 170 }
+					set_variable = { which = arrakis_spice_guild_tax value = 170 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 180 }
+						has_monthly_income = { resource = sr_spice value < 190 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 180 }
+					set_variable = { which = arrakis_spice_guild_tax value = 180 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 190 }
+						has_monthly_income = { resource = sr_spice value < 200 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 190 }
+					set_variable = { which = arrakis_spice_guild_tax value = 190 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 200 }
+						has_monthly_income = { resource = sr_spice value < 210 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 200 }
+					set_variable = { which = arrakis_spice_guild_tax value = 200 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 210 }
+						has_monthly_income = { resource = sr_spice value < 220 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 210 }
+					set_variable = { which = arrakis_spice_guild_tax value = 210 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 220 }
+						has_monthly_income = { resource = sr_spice value < 230 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 220 }
+					set_variable = { which = arrakis_spice_guild_tax value = 220 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 230 }
+						has_monthly_income = { resource = sr_spice value < 240 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 230 }
+					set_variable = { which = arrakis_spice_guild_tax value = 230 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = { resource = sr_spice value >= 240 }
+						has_monthly_income = { resource = sr_spice value < 250 }
+					}
+					set_variable = { which = current_arrakis_spice_value value = 240 }
+					set_variable = { which = arrakis_spice_guild_tax value = 250 }
+			    }
+			    else = {
+			    	set_variable = { which = current_arrakis_spice_value value = 250 }
+			    	set_variable = { which = arrakis_spice_guild_tax value = 250 }
+			    }
+			    log = "Current Arrakis Spice Value: [This.current_arrakis_spice_value]"
+			    set_variable = { which = arrakis_total_spice_produced_raw value = current_arrakis_spice_value }
+
+
+                multiply_variable = { which = arrakis_spice_guild_tax value = @guild_tax_percentage }
+                divide_variable = { which = arrakis_spice_guild_tax value = 100 }
+                log = "Guild Spice Bribe Owed: [This.arrakis_spice_guild_tax]"
+
+                subtract_variable = { which = current_arrakis_spice_value value = arrakis_spice_guild_tax }
+                log = "Spice Value after Guild Tax: [This.current_arrakis_spice_value]"
+
+	            every_owned_planet = {
+	            	if = {
+		                limit = { is_planet_class = pc_arrakis }
+		                log = "Planet Found: [This.GetName]"
+
+		                set_variable = { which = arrakis_spice_guild_tax value = PREV }
+		                set_variable = { which = current_arrakis_spice_value value = PREV }
+		                set_variable = { which = arrakis_total_spice_produced_raw value = PREV }
+		                log = "Arrakis Spice Value after Fremen Guild Bribes: [This.current_arrakis_spice_value]"
+
+
+		                if = {
+							limit = { planet_stability > 0 planet_stability <= 10 }
+							set_variable = { which = current_arrakis_stability_value value = 0.1 }
+						}
+						else_if = {
+							limit = { planet_stability > 10 planet_stability <= 20 }
+							set_variable = { which = current_arrakis_stability_value value = 0.2 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 20 planet_stability <= 30 }
+							set_variable = { which = current_arrakis_stability_value value = 0.3 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 30 planet_stability <= 40 }
+							set_variable = { which = current_arrakis_stability_value value = 0.4 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 40 planet_stability <= 50 }
+							set_variable = { which = current_arrakis_stability_value value = 0.5 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 50 planet_stability <= 60 }
+							set_variable = { which = current_arrakis_stability_value value = 0.6 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 60 planet_stability <= 70 }
+							set_variable = { which = current_arrakis_stability_value value = 0.7 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 70 planet_stability <= 80 }
+							set_variable = { which = current_arrakis_stability_value value = 0.8 }
+					    }
+					    else_if = {
+							limit = { planet_stability > 80 planet_stability <= 90 }
+							set_variable = { which = current_arrakis_stability_value value = 0.9 }
+					    }
+					    else = {
+					    	set_variable = { which = current_arrakis_stability_value value = 1.0 }
+					    }
+					    log = "Current Arrakis Stability Value: [This.current_arrakis_stability_value]"
+					    multiply_variable = { which = current_arrakis_spice_value value = current_arrakis_stability_value }
+					    log = "Spice Value available based on Planet Stability: [This.current_arrakis_spice_value]"
+
+
+		                if = {
+							limit = { planet_crime > 0 planet_crime <= 1 }
+							set_variable = { which = current_arrakis_crime_value value = 0.01 }
+						}
+						else_if = {
+							limit = { planet_crime > 1 planet_crime <= 2 }
+							set_variable = { which = current_arrakis_crime_value value = 0.02 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 2 planet_crime <= 3 }
+							set_variable = { which = current_arrakis_crime_value value = 0.03 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 3 planet_crime <= 4 }
+							set_variable = { which = current_arrakis_crime_value value = 0.04 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 4 planet_crime <= 5 }
+							set_variable = { which = current_arrakis_crime_value value = 0.05 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 5 planet_crime <= 6 }
+							set_variable = { which = current_arrakis_crime_value value = 0.06 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 6 planet_crime <= 7 }
+							set_variable = { which = current_arrakis_crime_value value = 0.07 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 7 planet_crime <= 8 }
+							set_variable = { which = current_arrakis_crime_value value = 0.08 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 8 planet_crime <= 9 }
+							set_variable = { which = current_arrakis_crime_value value = 0.09 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 9 planet_crime <= 10 }
+							set_variable = { which = current_arrakis_crime_value value = 0.10 }
+						}
+					    else_if = {
+							limit = { planet_crime > 10 planet_crime <= 11 }
+							set_variable = { which = current_arrakis_crime_value value = 0.11 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 11 planet_crime <= 12 }
+							set_variable = { which = current_arrakis_crime_value value = 0.12 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 12 planet_crime <= 13 }
+							set_variable = { which = current_arrakis_crime_value value = 0.13 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 13 planet_crime <= 14 }
+							set_variable = { which = current_arrakis_crime_value value = 0.14 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 14 planet_crime <= 15 }
+							set_variable = { which = current_arrakis_crime_value value = 0.15 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 15 planet_crime <= 16 }
+							set_variable = { which = current_arrakis_crime_value value = 0.16 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 16 planet_crime <= 17 }
+							set_variable = { which = current_arrakis_crime_value value = 0.17 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 17 planet_crime <= 18 }
+							set_variable = { which = current_arrakis_crime_value value = 0.18 }
+					    }
+					    else_if = {
+							limit = { planet_crime > 18 planet_crime <= 19 }
+							set_variable = { which = current_arrakis_crime_value value = 0.19 }
+					    }
+					    else = {
+					    	set_variable = { which = current_arrakis_crime_value value = 0.20 }
+					    }
+					    log = "Current Arrakis Crime Value: [This.current_arrakis_crime_value]"
+					    set_variable = { which = arrakis_spice_crime_value value = current_arrakis_spice_value }
+						log = "Arrakis Spice Value available for Criminal Exploitation: [This.arrakis_spice_crime_value]"
+					    multiply_variable = { which = arrakis_spice_crime_value value = current_arrakis_crime_value }
+					    subtract_variable = { which = current_arrakis_spice_value value = arrakis_spice_crime_value }
+					    log = "Spice Value after Criminal Operations: [This.current_arrakis_spice_value]"
+
+
+					    if = {	limit = { owner = { is_fremen = yes } }
+		                	log = "Arrakis is held by the Fremen."
+
+		                	if = { limit = { owner = { has_country_flag = choam_active } }
+		                		log = "CHOAM is active on Arrakis."
+		                		set_variable = { which = arrakis_choam_percentage value = 60 }
+		                	}
+		                	else = {
+		                		log = "CHOAM is not active on Arrakis."
+		                		set_variable = { which = arrakis_choam_percentage value = 30 }
+		                	}
+		            	}
+						else_if = { limit = { owner = { is_major_house = yes is_corrino = no } }
+							log = "Arrakis is held in Fief by a Major House"
+							set_variable = { which = arrakis_choam_percentage value = 90 }
+					    }		            	
+					    else_if = { limit = {  owner = { is_corrino = yes } }
+							log = "Arrakis is held by the Corrino Emperor"
+							set_variable = { which = arrakis_choam_percentage value = 80 }
+					    }
+					    else_if = {
+					    	limit = {
+					    		owner = {
+					    			is_choam_member = yes
+					    			is_major_house = no
+					    			is_corrino = no
+					    		}
+					    	}
+							log = "Arrakis is held by a CHOAM Member, who is not the Emperor or a Major House."
+							set_variable = { which = arrakis_choam_percentage value = 70 }
+					    }
+					    else = {
+							log = "Arrakis is held by a non-CHOAM Member nor the Fremen"
+							set_variable = { which = arrakis_choam_percentage value = 10 }
+					    }
+					    set_variable = { which = arrakis_choam_value value = current_arrakis_spice_value }
+		                log = "Arrakis Spice Value available to CHOAM: [This.arrakis_choam_value]"
+					    multiply_variable = { which = arrakis_choam_value value = arrakis_choam_percentage }
+                		divide_variable = { which = arrakis_choam_value value = 100 }
+                		subtract_variable = { which = current_arrakis_spice_value value = arrakis_choam_value }
+
+
+                		log = "Arrakis CHOAM Value: [This.arrakis_choam_value]"
+                		log = "Arrakis CHOAM Percentage: [This.arrakis_choam_percentage]"
+                		log = "Raw Spice available after Guild Bribes: [Prev.current_arrakis_spice_value]"
+                		log = "Spice Value after Stability Check, Guild Bribe, Criminal and CHOAM Operations: [This.current_arrakis_spice_value]"
+
+                		set_variable = { which = country_choam_contract value = arrakis_choam_value }
+                		divide_variable = { which = country_choam_contract value = @number_of_choam_members }
+
+                		set_variable = { which = arrakis_spice_off_world value = arrakis_total_spice_produced_raw }
+                		set_variable = { which = arrakis_spice_world_holder value = arrakis_total_spice_produced_raw }
+                		subtract_variable = { which = arrakis_spice_off_world value = current_arrakis_spice_value }
+                		subtract_variable = { which = arrakis_spice_world_holder value = arrakis_spice_off_world }
+
+                		log = "Arrakis Spice Going Off World: [This.arrakis_spice_off_world]"
+                		log = "Arrakis Spice Staying on Planet: [This.arrakis_spice_world_holder]"
+
+                		owner = {
+                			set_variable = { which = arrakis_spice_off_world value = PREV }
+                			if = { limit = { check_variable = { which = arrakis_spice_off_world value <= 10 } }
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -10 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 10 }
+            						check_variable = { which = arrakis_spice_off_world value <= 20 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -20 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 20 }
+            						check_variable = { which = arrakis_spice_off_world value <= 30 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -30 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 30 }
+            						check_variable = { which = arrakis_spice_off_world value <= 40 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -40 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 40 }
+            						check_variable = { which = arrakis_spice_off_world value <= 50 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -50 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 50 }
+            						check_variable = { which = arrakis_spice_off_world value <= 60 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -60 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 60 }
+            						check_variable = { which = arrakis_spice_off_world value <= 70 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -70 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 70 }
+            						check_variable = { which = arrakis_spice_off_world value <= 80 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -80 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 80 }
+            						check_variable = { which = arrakis_spice_off_world value <= 90 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -90 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 90 }
+            						check_variable = { which = arrakis_spice_off_world value <= 100 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -100 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 100 }
+            						check_variable = { which = arrakis_spice_off_world value <= 110 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -110 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 110 }
+            						check_variable = { which = arrakis_spice_off_world value <= 120 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -120 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 120 }
+            						check_variable = { which = arrakis_spice_off_world value <= 130 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -130 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 130 }
+            						check_variable = { which = arrakis_spice_off_world value <= 140 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -140 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 140 }
+            						check_variable = { which = arrakis_spice_off_world value <= 150 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -150 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 150 }
+            						check_variable = { which = arrakis_spice_off_world value <= 160 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -160 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 160 }
+            						check_variable = { which = arrakis_spice_off_world value <= 170 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -170 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 170 }
+            						check_variable = { which = arrakis_spice_off_world value <= 180 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -180 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 180 }
+            						check_variable = { which = arrakis_spice_off_world value <= 190 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -190 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 190 }
+            						check_variable = { which = arrakis_spice_off_world value <= 200 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -200 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 200 }
+            						check_variable = { which = arrakis_spice_off_world value <= 210 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -210 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 210 }
+            						check_variable = { which = arrakis_spice_off_world value <= 220 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -220 }
+            				}
+            				else_if = {
+            					limit = {
+            						check_variable = { which = arrakis_spice_off_world value > 220 }
+            						check_variable = { which = arrakis_spice_off_world value <= 230 }
+            					}
+            					log = "Spice Going Off World: [This.arrakis_spice_off_world]"
+            					add_resource = { sr_spice = -230 }
+            				}
+
+                		}
+
+                		every_playable_country = {
+                			if = { limit = { is_guild = yes }
+                				set_variable = { which = arrakis_spice_guild_tax value = PREV }
+
+                				capital_scope = {
+                					remove_all_guild_bribes = yes
+                				}
+
+                				if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 1 } }
+                					add_resource = { sr_spice = 1 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_1 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 2 } }
+                					add_resource = { sr_spice = 2 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_2 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 3 } }
+                					add_resource = { sr_spice = 3 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_3 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 4 } }
+                					add_resource = { sr_spice = 4 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_4 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 5 } }
+                					add_resource = { sr_spice = 5 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_5 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 6 } }
+                					add_resource = { sr_spice = 6 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_6 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 7 } }
+                					add_resource = { sr_spice = 7 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_7 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 8 } }
+                					add_resource = { sr_spice = 8 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_8 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 9 } }
+                					add_resource = { sr_spice = 9 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_9 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 10 } }
+                					add_resource = { sr_spice = 10 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_10 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 11 } }
+                					add_resource = { sr_spice = 11 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_11 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 12 } }
+                					add_resource = { sr_spice = 12 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_12 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 13 } }
+                					add_resource = { sr_spice = 13 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_13 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 14 } }
+                					add_resource = { sr_spice = 14 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_14 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 15 } }
+                					add_resource = { sr_spice = 15 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_15 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 16 } }
+                					add_resource = { sr_spice = 16 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_16 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 17 } }
+                					add_resource = { sr_spice = 17 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_17 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 18 } }
+                					add_resource = { sr_spice = 18 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_18 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 19 } }
+                					add_resource = { sr_spice = 19 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_19 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 20 } }
+                					add_resource = { sr_spice = 20 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_20 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 21 } }
+                					add_resource = { sr_spice = 21 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_21 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 22 } }
+                					add_resource = { sr_spice = 22 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_22 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 23 } }
+                					add_resource = { sr_spice = 23 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_23 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 24 } }
+                					add_resource = { sr_spice = 24 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_24 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 25 } }
+                					add_resource = { sr_spice = 25 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_25 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 26 } }
+                					add_resource = { sr_spice = 26 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_26 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 27 } }
+                					add_resource = { sr_spice = 27 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_27 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 28 } }
+                					add_resource = { sr_spice = 28 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_28 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 29 } }
+                					add_resource = { sr_spice = 29 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_29 }
+	            					}
+                				}
+                				else_if = { limit = { check_variable = { which = arrakis_spice_guild_tax value <= 30 } }
+                					add_resource = { sr_spice = 30 }
+                					capital_scope = {
+	            						add_modifier = { modifier = guild_bribes_30 }
+	            					}
+                				}
+
+
+                				#remove_notification_modifier = mod_guild_spice_bribes
+                				#add_notification_modifier = mod_guild_spice_bribes
+                			}
+
+                			if = { limit = { is_choam_member = yes }
+                				set_variable = { which = country_choam_contract value = PREV }
+                				log = "CHOAM Spice Contract for [This.GetName]: [This.country_choam_contract]"
+
+                				capital_scope = {
+                					remove_all_choam_contracts = yes
+                				}
+
+                				if = { limit = { check_variable = { which = country_choam_contract value <= 1 } }
+                					add_resource = { sr_spice = 1 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_1 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 1 }
+                						check_variable = { which = country_choam_contract value <= 2 }
+                					}
+                					add_resource = { sr_spice = 2 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_2 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 2 }
+                						check_variable = { which = country_choam_contract value <= 3 }
+                					}
+                					add_resource = { sr_spice = 3 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_3 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 3 }
+                						check_variable = { which = country_choam_contract value <= 4 }
+                					}
+                					add_resource = { sr_spice = 4 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_4 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 4 }
+                						check_variable = { which = country_choam_contract value <= 5 }
+                					}
+                					add_resource = { sr_spice = 5 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_5 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 5 }
+                						check_variable = { which = country_choam_contract value <= 6 }
+                					}
+                					add_resource = { sr_spice = 6 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_6 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 6 }
+                						check_variable = { which = country_choam_contract value <= 7 }
+                					}
+                					add_resource = { sr_spice = 7 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_7 }
+	            					}
+                				}
+
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 7 }
+                						check_variable = { which = country_choam_contract value <= 8 }
+                					}
+                					add_resource = { sr_spice = 8 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_8 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 8 }
+                						check_variable = { which = country_choam_contract value <= 9 }
+                					}
+                					add_resource = { sr_spice = 9 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_9 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 9 }
+                						check_variable = { which = country_choam_contract value <= 10 }
+                					}
+                					add_resource = { sr_spice = 10 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_10 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 10 }
+                						check_variable = { which = country_choam_contract value <= 11 }
+                					}
+                					add_resource = { sr_spice = 11 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_11 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 11 }
+                						check_variable = { which = country_choam_contract value <= 12 }
+                					}
+                					add_resource = { sr_spice = 12 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_12 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 12 }
+                						check_variable = { which = country_choam_contract value <= 13 }
+                					}
+                					add_resource = { sr_spice = 13 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_13 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 13 }
+                						check_variable = { which = country_choam_contract value <= 14 }
+                					}
+                					add_resource = { sr_spice = 14 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_14 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 14 }
+                						check_variable = { which = country_choam_contract value <= 15 }
+                					}
+                					add_resource = { sr_spice = 15 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_15 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 15 }
+                						check_variable = { which = country_choam_contract value <= 16 }
+                					}
+                					add_resource = { sr_spice = 16 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_16 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 16 }
+                						check_variable = { which = country_choam_contract value <= 17 }
+                					}
+                					add_resource = { sr_spice = 17 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_17 }
+	            					}
+                				}
+                				
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 17 }
+                						check_variable = { which = country_choam_contract value <= 18 }
+                					}
+                					add_resource = { sr_spice = 18 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_18 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 18 }
+                						check_variable = { which = country_choam_contract value <= 19 }
+                					}
+                					add_resource = { sr_spice = 19 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_19 }
+	            					}
+                				}
+                				else_if = {
+                					limit = {
+                						check_variable = { which = country_choam_contract value > 19 }
+                						check_variable = { which = country_choam_contract value <= 20 }
+                					}
+                					add_resource = { sr_spice = 20 }
+                					capital_scope = {
+	            						add_modifier = { modifier = choam_contracts_20 }
+	            					}
+                				}
+                				else = {
+                					log = "CHOAM Contract greater then 20: [This.country_choam_contract]"
+                				}
+
+                				#remove_notification_modifier = mod_choam_spice_mining
+                				#add_notification_modifier = mod_choam_spice_mining
+
+                			}
+                		}
+					}
+	            }
+			}
+		}
+	}
+}

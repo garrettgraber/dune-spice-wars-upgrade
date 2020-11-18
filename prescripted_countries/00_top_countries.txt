@@ -1,0 +1,1289 @@
+# Bene Gesserit
+benegesserit = {
+	name = "Bene Gesserit Sisterhood"
+	spawn_enabled = always
+
+	name_list = "benegesserit"
+	ship_prefix = "Sisterhood"
+
+	species_name="Bene Gesserit"
+	species_plural="Bene Gesserit"
+	species_class="DUNE"
+	species_adjective="Bene Gesserit"
+
+	trait = "trait_quick_learners"
+	trait = "trait_intelligent"
+	trait = "trait_solitary"
+	portrait = "bene_gesserit"
+	adjective = "Bene Gesserit"
+
+    species_bio = "The Bene Gesserit Sisterhood have existed since shortly after the fall of the machines, during the Butlerian Jihad these women developed advanced telekenetic abilties and began a selective breeding program to enhance those abilities. In the following ten thousand years the Sisterhood grew it's power base through the accumulation of genetic stock and the development of supernatural abilities, they now operate in the Empire as an almost shadow government with operatives inside all the main houses, including the Imperial House Corrino."
+
+	authority = "auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	civics = { "civic_exalted_priesthood" "civic_efficient_bureaucracy" }
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_spiritualist"
+	flags = { benegesserit dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Wallach IX"
+	planet_class="pc_tundra"
+	system_name="Laoujin"
+	initializer="laoujin_system_initializer"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="benegesserit.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Gaius Helen Mohiam"
+		portrait="bene_gesserit_female_04"
+		texture=0
+		hair=4
+		clothes=3
+		ruler_title="Reverend Mother"
+		heir_title="Sister"
+		ruler_title_female="Reverend Mother"
+		heir_title_female="Sister"
+	}
+}
+
+# Bene Tleilaxu
+bene_tleilaxu ={
+	name_list="bene_tleilaxu"
+	ship_prefix="Tleilaxu"
+	spawn_enabled=always
+	spawn_as_fallen=no
+	species_name="Bene Tleilaxu"
+	species_plural="Tleilaxu"
+	species_class="DUNE"
+	species_adjective="Bene Tleilaxu"
+	species_bio=""
+	portrait="bene_tleilaxu"
+	name="Bene Tleilaxu"
+	adjective="Bene Tleilaxu"
+	authority = "auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	civics = { "civic_shadow_council" "civic_police_state" }
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_fanatic_xenophobe"
+	flags = { house_thalim bene_tleilaxu dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Tleilax"
+	planet_class="pc_gaia"
+	system_name="Thalim"
+	initializer="thalim_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="benetleilaxu.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"dark_grey"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Bijaz"
+		portrait="bene_tleilaxu_male_02"
+		texture=0
+		hair=5
+		clothes=4
+		ruler_title="Masheikh"
+		heir_title="Tleilaxu Master"
+		ruler_title_female="Masheikh"
+		heir_title_female="Tleilaxu Master"
+	}
+	trait="trait_rapid_breeders"
+	trait="trait_conformists"
+	trait="trait_repugnant"
+}
+
+# Fremen
+fremen = {
+	name = "Fremen"
+	spawn_enabled = always
+
+	name_list="fremen"
+	ship_prefix="Mahdi"
+	species_name="Fremen"
+	species_plural="Fremen"
+	species_class="DUNE"
+	species_adjective="Fremen"
+	species_bio="The Fremen live in caves known as Sietches on their home planet Arrakis. Each Sietch is ruled by a Naib; each Naib works together in a council to coordinate their rule of Arrakis.
+
+The Fremen are friends with House Atreides, but they also are constantly attacked by House Harkonnen and House Ordos, who disrupt the trade of valuable spice found naturally on Arrakis."
+	portrait="fremen"
+	
+	adjective="Fremen"
+	authority = "auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	civics = { "civic_environmentalist" "civic_warrior_culture" }
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_militarist"
+	flags = { fremen dune spice_mining choam_active custom_start_screen }
+	weapon="tech_mass_drivers_1"
+	planet_name="Arrakis"
+	planet_class="pc_arrakis"
+	system_name="Canopus"
+	initializer="canopus_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="fremen.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_brown"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Stilgar"
+		portrait="fremen_male_01"
+		texture=0
+		hair=10
+		clothes=0
+		ruler_title="Naib"
+		heir_title="Emir"
+		ruler_title_female="Malika"
+		heir_title_female="Amir"
+	}
+	
+	trait="trait_nomadic"
+	trait="trait_communal"
+}
+
+# Atreides
+atreides = {
+	name = "House Atreides"
+	spawn_enabled = always
+	
+	name_list = "atreides"
+	ship_prefix = "Atreides"
+	
+	species_name = "House Atreides"
+	species_plural = "Atreides"	#we should localize the names!
+	species_adjective = "Atreides"
+	species_class = "DUNE"
+	trait = "trait_charismatic"
+	trait = "trait_resilient"
+	trait = "trait_sedentary"
+	portrait = "atreides"
+	adjective = "Atreides"
+	
+	authority = "auth_imperial"
+	government="gov_enlightened_monarchy"
+	civics = { "civic_philosopher_king" "civic_distinguished_admiralty" }
+	ethic = "ethic_xenophile"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	weapon = "tech_mass_drivers_1"
+	
+	planet_name = "Caladan"
+	planet_class = "pc_ocean"
+	system_name = "Delta Pavonis"
+	initializer = "delta_pavonis_system_initializer"
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="atreides.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_green"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+
+	flags = { house_atreides atreides custom_start_screen dune has_guild_transport choam_member }
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Leto Atreides"
+		gender = male
+		portrait = "atreides_male_04"
+		texture = 0
+		hair = 5
+		clothes = 1
+		ruler_title="Duke"
+		heir_title="Marquess"
+		ruler_title_female="Duchess"
+		heir_title_female="Lady"
+	}	
+}
+
+# Corrino
+corrino = {
+	name_list="corrino"
+	ship_prefix="Imperial"
+	species_name="House Corrino"
+	species_plural="Corrinos"
+	species_class="DUNE"
+	species_adjective="Corrino"
+	species_bio=""
+	portrait="corrino"
+	name="House Corrino"
+	adjective="Corrino"
+	authority = "auth_imperial"
+	government="gov_star_empire"
+	civics = { "civic_cutthroat_politics" "civic_distinguished_admiralty" }
+	ethic = "ethic_militarist"
+	ethic = "ethic_fanatic_authoritarian"
+	flags={ house_corrino custom_start_screen dune has_guild_transport choam_member }
+	weapon="tech_missiles_1"
+	planet_name="Kaitain"
+	planet_class="pc_continental"
+	system_name="Gamma Waiping"
+	initializer="gamma_waiping_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="corrino.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Shaddam IV"
+		portrait="corrino_male_04"
+		texture=0
+		hair=5
+		clothes=4
+		ruler_title="Padishah Emperor"
+		heir_title="Duke"
+		ruler_title_female="Padishah Empress"
+		heir_title_female="Lady"
+	}
+	spawn_enabled=always
+	trait="trait_strong"
+	trait="trait_talented"
+}
+
+# Ecaz
+ecaz = {
+	name = "House Ecaz"
+	spawn_enabled = always
+	
+	name_list = "ecaz"
+	ship_prefix = "Ecaz"
+	
+	species_name = "House Ecaz"
+	species_plural = "Ecazi"	#we should localize the names!
+	species_adjective = "Ecaz"
+	species_class = "DUNE"
+	trait = "trait_conservational"
+	trait = "trait_communal"
+	portrait = "ecaz"
+	adjective = "Ecaz"
+	
+	authority = "auth_imperial"
+	government="gov_theocratic_monarchy"
+	civics = { "civic_environmentalist" "civic_free_haven" }
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_spiritualist"
+	weapon = "tech_mass_drivers_1"
+	flags = { house_ecaz dune has_guild_transport choam_member }
+	
+	planet_name = "Ecaz"
+	planet_class = "pc_tropical"
+	system_name = "Alpha Centauri b"
+	initializer="alpha_centauri_b_system_initializer"
+
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="ecaz.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"dark_blue"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Armand Ecaz"
+		gender = male
+		portrait = "ecaz_male_05"
+		texture = 0
+		hair = 5
+		clothes = 1
+		ruler_title="Archduke"
+		heir_title="Marquess"
+		ruler_title_female="Duchess"
+		heir_title_female="Lady"
+	}	
+}
+
+# Ezharian
+ezharian = {
+	name = "House Ezharian"
+	spawn_enabled = always
+	
+	name_list = "ezharian"
+	ship_prefix = "Ezharian"
+	
+	species_name = "House Ezharian"
+	species_plural = "Ezharians"	#we should localize the names!
+	species_adjective = "Ezharian"
+	species_class = "DUNE"
+	#trait = "trait_charismatic"
+	#trait = "trait_natural_sociologists"
+	portrait = "ezharian"
+	adjective = "Ezharian"
+	
+	authority = "auth_imperial"
+	government="gov_theocratic_monarchy"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	ethic = "ethic_xenophile"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_pacifist"
+	weapon = "tech_mass_drivers_1"
+	
+	planet_name = "Enif IV"
+	planet_class = "pc_alpine"
+	system_name = "Enif"
+	initializer = "enif_system_initializer"
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="ezharian.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"red"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+
+	flags = { house_ezharian atreides custom_start_screen dune has_guild_transport choam_member }
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Anto Ezharian"
+		gender = male
+		portrait = "ezharian_male_03"
+		texture = 0
+		hair = 5
+		clothes = 1
+		ruler_title="Duke"
+		heir_title="Marquess"
+		ruler_title_female="Duchess"
+		heir_title_female="Lady"
+	}	
+}
+
+# Ginaz
+ginaz ={
+	name_list="ginaz"
+	ship_prefix="Ginaz"
+	species_name="House Ginaz"
+	species_plural="Ginazi"
+	species_class="DUNE"
+	species_adjective="Ginaz"
+	species_bio=""
+	portrait="ginaz"
+	name="House Ginaz"
+	adjective="House Ginaz"
+	authority = "auth_democratic"
+	government="gov_citizen_republic"
+	civics = { "civic_citizen_service" "civic_warrior_culture" }
+	ethic = "ethic_xenophile"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_militarist"
+	flags = { house_ginaz dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Ginaz"
+	planet_class="pc_continental"
+	system_name="Junagadh"
+	initializer="junagadh_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="ginaz.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"blue"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Camillo Ginaz"
+		portrait="ginaz_male_01"
+		texture=0
+		hair=3
+		clothes=2
+		ruler_title="Duke"
+		heir_title="Marquess"
+		ruler_title_female="Duchess"
+		heir_title_female="Lady"
+	}
+	spawn_enabled=always
+	trait="trait_strong"
+	trait="trait_natural_engineers"
+}
+
+# Harkonnen
+harkonnen ={
+	name_list="harkonnen"
+	ship_prefix="Harkonnen"
+	species_name="House Harkonnen"
+	species_plural="Harkonnens"
+	species_class="DUNE"
+	species_adjective="Harkonnen"
+	species_bio=""
+	portrait="harkonnen"
+	name="House Harkonnen"
+	adjective="Harkonnen"
+	authority = "auth_imperial"
+	government="gov_martial_empire"
+	civics = { "civic_slaver_guilds" "civic_warrior_culture" }
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	flags = { house_harkonnen dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Giedi Prime"
+	planet_class="pc_giedi_prime"
+	system_name="Opiuchi b"
+	initializer="ophiuchi_b_system_initializer"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="harkonnen.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"red_orange"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Vladimir Harkonnen"
+		portrait="harkonnen_male_02"
+		texture=0
+		hair=29
+		clothes=1
+		ruler_title="Baron"
+		heir_title="Baronet"
+		ruler_title_female="Baroness"
+		heir_title_female="Baronetess"
+	}
+	spawn_enabled=always
+	trait="trait_strong"
+	trait="trait_decadent"
+	trait="trait_repugnant"
+	trait="trait_resilient"
+}
+
+# Khumali
+khumali ={
+	name_list="khumali"
+	ship_prefix="Khumali"
+	species_name="House Khumali"
+	species_plural="Khumali"
+	species_class="DUNE"
+	species_adjective="Khumali"
+	species_bio=""
+	portrait="khumali"
+	name="House Khumali"
+	adjective="Khumali"
+	authority = "auth_imperial"
+	government="gov_despotic_hegemony"
+	civics = { "civic_functional_architecture" "civic_cutthroat_politics" }
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_xenophile"
+	flags = { house_khumali dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Khumali"
+	planet_class="pc_desert"
+	system_name="Beta Apteri"
+	initializer="beta_apteri_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="khumali.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"brown"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Aya Khumali"
+		portrait="khumali_female_03"
+		texture=0
+		hair=2
+		clothes=1
+		ruler_title="Shah"
+		heir_title="Jagir"
+		ruler_title_female="Shahbanu"
+		heir_title_female="Sultana"
+	}
+	spawn_enabled=always
+	#trait="trait_charismatic"
+	#trait="trait_talented"
+}
+
+# Moritani
+moritani ={
+	name_list="moritani"
+	ship_prefix="Moritani"
+	species_name="House Moritani"
+	species_plural="Moritani"
+	species_class="DUNE"
+	species_adjective="Moritani"
+	species_bio=""
+	portrait="moritani"
+	name="House Moritani"
+	adjective="House Moritani"
+	authority = "auth_imperial"
+	government="gov_martial_empire"
+	civics = { "civic_police_state" "civic_warrior_culture" }
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { house_moritani dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Grumman"
+	planet_class="pc_continental"
+	system_name="Psi Draconis"
+	initializer="psi_draconis_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="moritani.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"dark_grey"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Aldo Moritani"
+		portrait="moritani_male_04"
+		texture=0
+		hair=1
+		clothes=3
+		ruler_title="Viscount"
+		heir_title="The Honourable"
+		ruler_title_female="Viscountess"
+		heir_title_female="Lady"
+	}
+	spawn_enabled=always
+	#trait="trait_strong"
+	#trait="trait_rapid_breeders"
+}
+
+# Ordos
+ordos = {
+	name = "House Ordos"
+	spawn_enabled = always
+	
+	name_list = "ordos"
+	ship_prefix = "Ordos"
+	
+	species_name = "House Ordos"
+	species_plural = "Ordos"	#we should localize the names!
+	species_adjective = "Ordos"
+	species_class = "DUNE"
+	trait = "trait_hive_mind"
+	trait = "trait_quick_learners"
+	trait = "trait_talented"
+	portrait = "ordos"
+	adjective = "Ordos"
+	
+	authority = "auth_hive_mind"
+	government="gov_hive_mind"
+	civics = { "civic_hive_one_mind" "civic_hive_pooled_knowledge" }
+
+	ethic="ethic_xenophobe"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_materialist"
+	weapon = "tech_mass_drivers_1"
+	flags = { house_ordos dune atreides custom_start_screen has_guild_transport choam_member }
+	
+	planet_name = "Sigma Draconis IV"
+	planet_class = "pc_arctic"
+	system_name = "Sigma Draconis"
+	initializer = "sigma_draconis_system_initializer"
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="ordos.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Executrix"
+		gender = male
+		portrait = "executrix_01"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title="Director"
+		heir_title="Assistant Director"
+		ruler_title_female="Director"
+		heir_title_female="Assistant Director"
+	}	
+}
+
+# Rayki
+rayki = {
+	name = "House Rayki"
+	spawn_enabled = always
+	spawn_as_fallen = no
+	
+	name_list = "HUM3"
+	ship_prefix = "H.R.S."
+	
+	species_name = "House Rayki"
+	species_plural = "Raykians"	#we should localize the names!
+	species_adjective = "Raykian"
+	species_class = "DUNE"
+	trait="trait_slow_breeders"
+	trait="trait_adaptive"
+	trait="trait_strong"
+	portrait = "rayki"
+	adjective = "Raykian"
+	
+	authority = "auth_imperial"
+	government="gov_star_empire"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_environmentalist"
+	}
+	weapon= "tech_lasers_1"
+	flags = { house_rayki dune has_guild_transport choam_member }
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	planet_name="Mars"
+	planet_class="pc_tundra"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="rayki.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"green"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler={
+		gender=male
+		name="Azrael Rayki"
+		portrait="rayki_male_04"
+		texture=0
+		hair=18
+		clothes=0
+	}	
+}
+
+# Richese
+richese ={
+	name_list="richese"
+	ship_prefix="Richese"
+	species_name="House Richese"
+	species_plural="Richesian"
+	species_class="DUNE"
+	species_adjective="Richese"
+	species_bio=""
+	portrait="richese"
+	name="House Richese"
+	adjective="House Richese"
+	authority = "auth_imperial"
+	government="gov_theocratic_monarchy"
+	civics = { "civic_mining_guilds" "civic_aristocratic_elite" }
+	ethic = "ethic_pacifist"
+	ethic = "ethic_fanatic_spiritualist"
+	flags = { house_richese dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Richese"
+	planet_class="pc_tropical"
+	system_name="Epsilon Eridani"
+	initializer="epsilon_eridani_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="richese.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"indigo"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Helena Richese"
+		portrait="richese_female_04"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Count"
+		heir_title="Lord"
+		ruler_title_female="Countess"
+		heir_title_female="Lady"
+	}
+	spawn_enabled=always
+	trait="trait_intelligent"
+	trait="trait_talented"
+	trait="trait_weak"
+}
+
+# Tantor 
+tantor = {
+	name = "House Tantor"
+	spawn_enabled = always
+	
+	name_list = "tantor"
+	ship_prefix = "Tantor"
+	
+	species_name = "House Tantor"
+	species_plural = "Tantor"	#we should localize the names!
+	species_adjective = "Tantor"
+	species_class = "DUNE"
+	trait = "trait_resilient"
+	trait = "trait_enduring"
+	portrait = "tantor"
+	adjective = "Tantor"
+	
+	authority = "auth_imperial"
+	government="gov_divine_empire"
+	civics = { "civic_imperial_cult" "civic_slaver_guilds" }
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_authoritarian"
+	weapon = "tech_mass_drivers_1"
+	
+	planet_name = "Tantor"
+	planet_class = "pc_tundra"
+	system_name = "Tau Omicron"
+	initializer = "tau_omicron_system_initializer"
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="tantor.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"turquoise"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+
+	flags = { house_tantor tantor custom_start_screen dune has_guild_transport choam_member }
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Emil Tantor"
+		gender = male
+		portrait = "tantor_male_04"
+		texture = 0
+		hair = 12
+		clothes = 1
+		ruler_title="Earl"
+		heir_title="Viscount"
+		ruler_title_female="Countess"
+		heir_title_female="Viscountess"
+	}	
+}
+
+# Vernius
+vernius ={
+	name_list="vernius"
+	ship_prefix="Ixian"
+	species_name="House Vernius"
+	species_plural="Ixians"
+	species_class="DUNE"
+	species_adjective="Vernius"
+	species_bio=""
+	portrait="vernius"
+	name="House Vernius"
+	adjective="Ixian"
+	authority = "auth_imperial"
+	government="gov_illuminated_autocracy"
+	civics = { "civic_technocracy" "civic_functional_architecture" }
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_materialist"
+	flags = { house_vernius dune has_guild_transport choam_member }
+	weapon="tech_mass_drivers_1"
+	planet_name="Ix"
+	planet_class="pc_ix"
+	system_name="Alkalurops"
+	initializer="alkalurops_system_initializer"
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="vernius.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_blue"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rhombur Vernius"
+		portrait="vernius_male_01"
+		texture=0
+		hair=1
+		clothes=3
+		ruler_title="Earl"
+		heir_title="Viscount"
+		ruler_title_female="Countess"
+		heir_title_female="Viscountess"
+	}
+	spawn_enabled=always
+	trait="trait_natural_engineers"
+	trait="trait_quick_learners"
+}
+
+# Waiku (was Nebiro)
+nebiro = {
+	name = "House Wayku"
+	spawn_enabled = always
+	
+	name_list = "nebiro"
+	ship_prefix = "Wayku"
+	
+	species_name = "House Wayku"
+	species_plural = "Wayku"	#we should localize the names!
+	species_adjective = "Wayku"
+	species_class = "DUNE"
+	trait = "trait_communal"
+	trait = "trait_quick_learners"
+	portrait = "nebiro"
+	adjective = "Wayku"
+	
+	authority = "auth_oligarchic"
+	government="gov_irenic_bureaucracy"
+	civics = { "civic_free_haven" "civic_agrarian_idyll" }
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_pacifist"	
+	weapon = "tech_mass_drivers_1"
+	flags = { house_wayku dune has_guild_transport choam_member }
+	
+	planet_name = "New Wayku"
+	planet_class = "pc_nuked"
+	system_name = "Gamma Kulon"
+	initializer = "gamma_kulon_system_initializer"
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="waiku.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_teal"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Yuri Wayku"
+		gender = male
+		portrait = "nebiro_male_01"
+		texture = 0
+		hair = 3
+		clothes = 1
+		ruler_title="Father"
+		heir_title="Brother"
+		ruler_title_female="Mother"
+		heir_title_female="Sister"
+	}	
+}
+
+# Albans
+albans = {
+	name = "Order of Mentats"
+	spawn_enabled = always
+	
+	name_list = "albans"
+	ship_prefix = "Mentat"
+	
+	species_name = "Mentat"
+	species_plural = "Mentats"	#we should localize the names!
+	species_adjective = "Mentats"
+	species_class = "DUNE"
+	trait = "trait_quick_learners"
+	trait = "trait_talented"
+	portrait = "albans"
+	adjective = "Mentats"
+	
+	authority = "auth_oligarchic"
+	government="gov_executive_committee"
+	civics = { "civic_meritocracy" "civic_efficient_bureaucracy" }
+	ethic = "ethic_pacifist"
+	ethic = "ethic_fanatic_materialist"
+	weapon = "tech_mass_drivers_1"
+	flags = { mentat_order dune has_guild_transport choam_member }
+	
+	planet_name = "Septimus"
+	planet_class = "pc_continental"
+	system_name = "Erasmus"
+	initializer="erasmus_system_initializer"
+
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="emblems"
+			file="albans.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 0
+	#}
+	ruler = {
+		name = "Gilbertus Albans"
+		gender = male
+		portrait = "albans_male_03"
+		texture = 0
+		hair = 5
+		clothes = 1
+		ruler_title="Mentat"
+		heir_title="Mentat"
+		ruler_title_female="Mentat"
+		heir_title_female="Mentat"
+	}	
+}
+
+# Guild
+guild ={
+	name_list="guild"
+	ship_prefix="Guild"
+	species_name="Spacing Guild"
+	species_plural="Spacing Guild"
+	species_class="DUNE"
+	species_adjective="Spacing Guild"
+	species_bio="After the Bene Gesserit, the Spacing Guild was the second mental-physical training school established following the Butlerian Jihad. The genesis of the Guild's eventual monopoly on space travel, transport and upon international banking is taken as the beginning point of the Imperial Calendar. Details of the Guild's emergence are contentious, although it is believed they emerged as a serious political and economic force around the time of The Great Convention."
+	portrait="guild"
+	name="Spacing Guild"
+	adjective="Spacing Guild"
+	authority = "auth_democratic"
+	government="gov_moral_democracy"
+	civics = { "civic_inwards_perfection" "civic_efficient_bureaucracy" }
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_pacifist"
+	flags = { spacing_guild guild dune has_guild_transport }
+	weapon="tech_mass_drivers_1"
+	planet_name="Junction"
+	planet_class="pc_ocean"
+	system_name="Junction"
+	initializer="junction_system_initializer"
+	graphical_culture="avian_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="guild.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Oberon"
+		portrait="guild_navigator_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Master"
+		heir_title="Apprentice"
+		ruler_title_female="Master"
+		heir_title_female="Apprentice"
+	}
+	spawn_enabled=always
+	trait="trait_thrifty"
+	trait="trait_enduring"
+	trait="trait_repugnant"
+}
+
+# Synchronized Worlds
+omnius ={
+	name_list="omnius"
+	ship_prefix="Machine"
+	species_name="Synchronized Worlds"
+	species_plural="Thinking Machines"
+	species_class="DUNE_MACHINE"
+	species_adjective="Thinking Machine"
+	species_bio=""
+	portrait="omnius"
+	name="Synchronized Worlds"
+	adjective="Synchronized World"
+
+    authority="auth_dictatorial"
+    government="gov_technocratic_dictatorship"
+#    civics = { "civic_droid_uprising" "civic_ota_updates" }
+	civics = { "civic_technocracy" "civic_efficient_bureaucracy" }
+
+#	trait="trait_hive_mind"
+
+#	authority ="auth_hive_mind"
+#	playable = has_utopia
+#	government="gov_hive_mind"
+#	civics ={ "civic_hive_one_mind" "civic_hive_strength_of_legions" }
+
+#	 authority="auth_hive_mind"
+# 	  playable = has_utopia
+#     civics={ "civic_hive_subsumed_will" "civic_hive_one_mind" }
+#     government="gov_hive_mind"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_militarist"
+
+	flags ={ synchronised_worlds dune }
+	weapon="tech_lasers_1"
+	planet_name="Synchrony"
+	planet_class="pc_continental"
+	system_name="Root"
+	initializer="synchrony_system_initializer"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="emblems"
+			file="omnius.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"purple"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Omnius"
+		portrait="omnius_01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Executor"
+		heir_title="Variable"
+		ruler_title_female="Executor"
+		heir_title_female="Variable"
+	}
+	spawn_enabled=always
+	#trait="trait_machine"
+	#trait="trait_power_drills"
+	#trait="trait_intelligent"
+	#trait="trait_repugnant"
+}

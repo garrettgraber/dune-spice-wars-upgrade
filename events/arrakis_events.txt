@@ -1,0 +1,17 @@
+
+namespace = arrakis_events
+
+planet_event = {
+	id = arrakis_events.1	
+	hide_window = yes
+    is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_arrakis
+	}
+
+	immediate = {
+
+	}
+
+}

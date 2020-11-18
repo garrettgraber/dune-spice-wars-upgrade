@@ -1,0 +1,318 @@
+## Arrakis modifiers
+choam = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+	planet_amenities_add = 20
+	planet_crime_mult = 2.0
+}
+choam_contracts = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_inactive = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 3
+	planet_amenities_add = -10
+	planet_crime_mult = 4.0
+}
+desert_power = {
+	icon = "gfx/interface/icons/planet_modifiers/desert_power.dds"
+	icon_frame = 1
+	army_damage_mult = 2.0
+	planet_army_build_speed_mult = 2.0
+	damage_vs_country_type_faction_mult = 1.00
+}
+fierce_planet = {
+	icon = "gfx/interface/icons/planet_modifiers/fierce_planet.dds"
+	icon_frame = 3
+	bio_pop_growth_from_immigration = -1.0
+	planet_orbital_bombardment_damage = -1.0
+	bio_pop_growth_speed = 0.25
+}
+guild_bribes = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_bribes.dds"
+	icon_frame = 1
+	bio_pop_growth_speed = 1.25
+	pop_defense_armies_add = 5
+}
+worm_attack = {
+	icon = "gfx/interface/icons/planet_modifiers/worm_attack.dds"
+	icon_frame = 3
+}
+calling_worms = {
+	icon = "gfx/interface/icons/planet_modifiers/calling_worms.dds"
+	icon_frame = 3
+}
+worm_at_night = {
+	icon = "gfx/interface/icons/planet_modifiers/worm_at_night.dds"
+	icon_frame = 3
+}
+
+## House Corrino
+imperial_capital = {
+	icon = "gfx/interface/icons/planet_modifiers/kaitain.dds"
+	icon_frame = 1
+	armies_upkeep_mult = -0.5
+	armies_cost_mult = -0.25
+}
+golden_lion_throne = {
+	icon = "gfx/interface/icons/planet_modifiers/golden_lion_throne.dds"
+	icon_frame = 1
+	biological_pop_happiness = 1.0
+	#country_admin_cap_mult = 0.5
+	#country_base_influence_produces_add = 1
+	#country_command_limit_add = 10
+}
+salusa_secundus = {
+	icon = "gfx/interface/icons/planet_modifiers/salusa_secundus.dds"
+	icon_frame = 3
+	pc_nuked_habitability = 0.6
+	planet_orbital_bombardment_damage = -1.5
+}
+sardaukar_command = {
+	icon = "gfx/interface/icons/planet_modifiers/sardaukar_command.dds"
+	icon_frame = 1
+	#country_sr_sardaukar_produces_mult = 1.0
+	general_skill_levels = 2.0
+	#country_resource_max_sr_sardaukar_add = 2000
+	#pop_defense_armies_add = 5
+}
+sardaukar_training = {
+	icon = "gfx/interface/icons/planet_modifiers/sardaukar_training.dds"
+	icon_frame = 1
+	planet_army_build_speed_mult = 0.5
+	#country_base_sr_sardaukar_produces_add = 5.0
+}
+
+## House Harkonnen 
+giedi_prime = {
+	icon = "gfx/interface/icons/planet_modifiers/giedi_prime.dds"
+	icon_frame = 3
+	pc_giedi_prime_habitability = 0.4
+}
+giedi_prime_city = {
+	icon = "gfx/interface/icons/planet_modifiers/giedi_prime_city.dds"
+	icon_frame = 1
+}
+harkonnen_palace =  {
+	icon = "gfx/interface/icons/planet_modifiers/harkonnen_palace.dds"
+	icon_frame = 1
+}
+
+## House Atreides
+caladan_air_and_sea = {
+	icon = "gfx/interface/icons/planet_modifiers/caladan_air_and_sea.dds"
+	icon_frame = 1
+	country_naval_cap_mult = 0.4
+	country_resettlement_cost_mult = -0.25
+	admiral_skill_levels = 2.0
+}
+castle_caladan = {
+	icon = "gfx/interface/icons/planet_modifiers/castle_caladan.dds"
+	icon_frame = 1
+	pop_ethic_xenophile_attraction_mult = 0.5
+	army_attack_morale_mult = 0.25
+	army_defense_health_mult = 0.15
+}
+fjords_of_caladan = {
+	icon = "gfx/interface/icons/planet_modifiers/fjords_of_caladan.dds"
+	icon_frame = 1
+	district_farming_max = 4
+	planet_amenities_add = 20
+}
+
+## Bene Gesserit
+bene_gesserit_homeworld = {
+	icon = "gfx/interface/icons/planet_modifiers/bene_gesserit.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -2.0
+}
+bene_gesserit_school = {
+	icon = "gfx/interface/icons/planet_modifiers/bene_gesserit_school.dds"
+	icon_frame = 1
+}
+bene_gesserit_reverend_mother = {
+	icon = "gfx/interface/icons/planet_modifiers/bene_gesserit.dds"
+	icon_frame = 1
+	pop_ethic_spiritualist_attraction_mult = 0.25
+}
+
+## Bene Tleilaxu
+bene_tleilaxu_master = {
+	icon = "gfx/interface/icons/planet_modifiers/bene_tleilaxu_master.dds"
+	icon_frame = 1
+	planet_researchers_society_research_produces_mult = 0.2
+}
+bene_tleilaxu_bandalong = {
+	icon = "gfx/interface/icons/planet_modifiers/bene_tleilaxu_bandalong.dds"
+	icon_frame = 1
+}
+
+## Ginaz
+ginaz_swordmasters = {
+	icon = "gfx/interface/icons/planet_modifiers/ginaz_swordmasters.dds"
+	icon_frame = 1
+	armies_cost_mult = -0.25
+}
+ginaz_city = {
+	icon = "gfx/interface/icons/planet_modifiers/ginaz_city.dds"
+	icon_frame = 1
+}
+
+## Ordos
+house_of_the_snake = {
+	icon = "gfx/interface/icons/planet_modifiers/house_of_the_snake.dds"
+	icon_frame = 1
+	planet_crime_mult = 0.1
+	trade_value_mult = 0.2
+}
+ordos_deep_mining = {
+	icon = "gfx/interface/icons/planet_modifiers/ordos_deep_mining.dds"
+	icon_frame = 1
+}
+ordos_palace = {
+	icon = "gfx/interface/icons/planet_modifiers/ordos_palace.dds"
+	icon_frame = 1
+}
+
+## Ecaz
+elacca_wood = {
+	icon = "gfx/interface/icons/planet_modifiers/elacca_wood.dds"
+	icon_frame = 1
+	pop_happiness = 0.1
+}
+house_ecaz_homestead = {
+	icon = "gfx/interface/icons/planet_modifiers/house_ecaz_homestead.dds"
+	icon_frame = 1
+}
+
+## Guild
+guild_shipping = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_shipping.dds"
+	icon_frame = 1
+	trade_value_mult = 0.1
+}
+guild_shipyards = {
+	icon = "gfx/interface/icons/planet_modifiers/guild_shipyards.dds"
+	icon_frame = 1
+}
+
+## Mentats
+mentats = {
+	icon = "gfx/interface/icons/planet_modifiers/mentats.dds"
+	icon_frame = 1
+	planet_researchers_physics_research_produces_mult = 0.2
+}
+order_of_mentats = {
+	icon = "gfx/interface/icons/planet_modifiers/order_of_mentats.dds"
+	icon_frame = 1
+}
+
+## Ixians
+ixian_ships = {
+	icon = "gfx/interface/icons/planet_modifiers/ixian_ships.dds"
+	icon_frame = 1
+	planet_researchers_engineering_research_produces_mult = 0.2
+}
+garden_paradise = {
+	icon = "gfx/interface/icons/planet_modifiers/garden_paradise.dds"
+	icon_frame = 1
+}
+
+## Ezharians
+ezharian_flower_power = {
+	icon = "gfx/interface/icons/planet_modifiers/ezharian_flower_power.dds"
+	icon_frame = 1
+	pop_ethic_pacifist_attraction_mult = 0.2
+}
+house_ezharian_fortress = {
+	icon = "gfx/interface/icons/planet_modifiers/house_ezharian_fortress.dds"
+	icon_frame = 1
+}
+
+## Moritani
+moritani_warriors = {
+	icon = "gfx/interface/icons/planet_modifiers/moritani_warriors.dds"
+	icon_frame = 1
+	army_damage_mult = 1.0
+}
+moritani_military =  {
+	icon = "gfx/interface/icons/planet_modifiers/moritani_military.dds"
+	icon_frame = 1
+}
+
+## Thinking Machines
+thinking_machines = {
+	icon = "gfx/interface/icons/planet_modifiers/thinking_machines.dds"
+	icon_frame = 1
+	pc_machine_habitability = 1.0
+}
+cymeks = {
+	icon = "gfx/interface/icons/planet_modifiers/cymeks.dds"
+	icon_frame = 1
+}
+titans = {
+	icon = "gfx/interface/icons/planet_modifiers/titans.dds"
+	icon_frame = 1
+}
+
+## House Rayki
+garden_earth = {
+	icon = "gfx/interface/icons/planet_modifiers/garden_earth.dds"
+	icon_frame = 1
+}
+mars_colonization = {
+	icon = "gfx/interface/icons/planet_modifiers/mars_colonization.dds"
+	icon_frame = 1
+}
+mars_urbanization = {
+	icon = "gfx/interface/icons/planet_modifiers/mars_urbanization.dds"
+	icon_frame = 1
+	pop_housing_usage_mult = -0.15
+}
+
+## House Waiku
+dark_world = {
+	icon = "gfx/interface/icons/planet_modifiers/dark_world.dds"
+	icon_frame = 1
+}
+travel_the_stars = {
+	icon = "gfx/interface/icons/planet_modifiers/travel_the_stars.dds"
+	icon_frame = 1
+	planet_pops_consumer_goods_upkeep_mult = -0.15
+}
+
+## House Richese
+richese_castle  = {
+	icon = "gfx/interface/icons/planet_modifiers/richese_castle.dds"
+	icon_frame = 1
+}
+jungles_of_richese  = {
+	icon = "gfx/interface/icons/planet_modifiers/jungles_of_richese.dds"
+	icon_frame = 1
+	planet_researchers_physics_research_produces_mult = 0.10
+	planet_researchers_society_research_produces_mult = 0.10
+	planet_researchers_engineering_research_produces_mult = 0.10
+}
+
+## House Tantor
+exiles = {
+	icon = "gfx/interface/icons/planet_modifiers/exiles.dds"
+	icon_frame = 1
+	pop_resettlement_cost_mult = -0.5
+}
+urban_environment = {
+	icon = "gfx/interface/icons/planet_modifiers/urban_environment.dds"
+	icon_frame = 1
+}
+
+## House Khumali
+major_house = {
+	icon = "gfx/interface/icons/planet_modifiers/major_house.dds"
+	icon_frame = 1
+	army_attack_damage_mult = 0.25
+}
+desert_city = {
+	icon = "gfx/interface/icons/planet_modifiers/desert_city.dds"
+	icon_frame = 1
+}

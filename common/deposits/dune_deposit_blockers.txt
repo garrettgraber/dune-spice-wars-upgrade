@@ -1,0 +1,62 @@
+# Possible Tile Blocker Variables
+# spawn_chance, tile scope, value will compete with the spawn chance of every other item and there's a constant 100 for no blocker to spawn.
+# cost, resource table, the cost to clear this tile blocker
+# time, amount of days it takes to clear this tile blocker.
+# picture = tb_active_volcano #Use art from tb_active_volcano
+
+tb_shai_hulud = {
+	category = deposit_cat_blockers
+   	can_be_cleared = { always = yes }
+   	icon = tb_shai_hulud_01
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+			minerals = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+
+    on_cleared = {
+    	add_deposit = d_vast_spice_deposit
+    }
+
+	#prerequisites = { "tech_tb_dangerous_wildlife" }
+}
+
+tb_sand_dune = {
+	category = deposit_cat_blockers
+   	can_be_cleared = { always = no }
+   	icon = tb_sand_dune_1
+	resources = {}
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+
+tb_drum_sand = {
+	category = deposit_cat_blockers
+   	can_be_cleared = { always = no }
+   	icon = tb_drum_sand_1
+	resources = {}
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}

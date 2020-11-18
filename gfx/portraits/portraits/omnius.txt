@@ -1,0 +1,96 @@
+portraits = {
+	# omnius
+	omnius_01 = {	entity = "gfx/models/portraits/dune/omnius.dds"	clothes_selector = "no_texture" 	hair_selector = "no_texture"	greeting_sound = "human_male_greetings_03"
+		texturefile = "gfx/models/portraits/dune/omnius.dds"}
+	omnius_02 = {	entity = "portrait_ai_01_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"	greeting_sound = "human_male_greetings_03"}
+}
+
+portrait_groups = {
+	omnius = {
+		default = omnius_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					omnius_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					omnius_01
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					omnius_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					omnius_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					omnius_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					omnius_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					omnius_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					omnius_01
+				}
+			}
+		}
+	}		
+		
+		
+		

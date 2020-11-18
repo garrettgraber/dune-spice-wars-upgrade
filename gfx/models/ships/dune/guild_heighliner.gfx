@@ -1,0 +1,29 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "guild_heighliner_mesh"
+		file = "gfx/models/ships/dune/guild_heighliner.mesh"
+		scale = 3.0
+
+		meshsettings = {
+			#name = "DUNE"
+			index = 0
+			texture_diffuse = "guild_heighliner_diffuse.dds"
+			texture_normal = "guild_heighliner_normal.dds"
+			texture_specular = "guild_heighliner_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "guild_heighliner_frame_mesh"
+		file = "gfx/models/ships/dune/doomsday_frame.mesh"
+		scale = 3.0
+
+		meshsettings = {
+			#name = "DUNE"
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+}

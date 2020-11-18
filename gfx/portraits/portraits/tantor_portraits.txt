@@ -1,0 +1,185 @@
+portraits = {
+	# tantor
+	tantor_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_tantor_female_clothes_01" 	hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_01.dds"
+		}
+	}
+	tantor_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_tantor_female_clothes_01" 	hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_02.dds"
+		}
+	}
+	tantor_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "mammalian_tantor_female_clothes_01" 	hair_selector = "human_female_hair_03"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_03.dds"
+		}
+	}	
+	tantor_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_tantor_female_clothes_01" 	hair_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_04.dds"
+		}
+	}
+	tantor_female_05 = {	entity = "portrait_human_female_05_entity"	clothes_selector = "mammalian_tantor_female_clothes_01" 	hair_selector = "human_female_hair_05"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_05.dds"
+		}
+	}
+	tantor_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_tantor_male_clothes_01" 	hair_selector = "human_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_01.dds"
+		}
+	}	
+	tantor_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_tantor_male_clothes_01" 	hair_selector = "human_male_hair_02"		greeting_sound = "human_male_greetings_04" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_02.dds"
+		}
+	}	
+	tantor_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_tantor_male_clothes_01" 	hair_selector = "human_male_hair_03"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_03.dds"
+		}
+	}
+	tantor_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_tantor_male_clothes_01" 	hair_selector = "human_male_hair_04"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_04.dds"
+		}
+	}
+	tantor_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "mammalian_tantor_male_clothes_01" 	hair_selector = "human_male_hair_05"	greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_05.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	tantor = {
+		default = tantor_male_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					tantor_male_01
+					tantor_male_02
+					tantor_male_03
+					tantor_male_04
+					tantor_male_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					tantor_female_01
+					tantor_female_02
+					tantor_female_03
+					tantor_female_04
+					tantor_female_05
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					tantor_female_01
+					tantor_female_02
+					tantor_female_03
+					tantor_female_04
+					tantor_female_05
+					tantor_male_01
+					tantor_male_02
+					tantor_male_03
+					tantor_male_04
+					tantor_male_05
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					tantor_female_01
+					tantor_female_02
+					tantor_female_03
+					tantor_female_04
+					tantor_female_05
+					tantor_male_01
+					tantor_male_02
+					tantor_male_03
+					tantor_male_04
+					tantor_male_05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					tantor_female_01
+					tantor_female_02
+					tantor_female_03
+					tantor_female_04
+					tantor_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					tantor_male_01
+					tantor_male_02
+					tantor_male_03
+					tantor_male_04
+					tantor_male_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					tantor_female_01
+					tantor_female_02
+					tantor_female_03
+					tantor_female_04
+					tantor_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					tantor_male_01
+					tantor_male_02
+					tantor_male_03
+					tantor_male_04
+					tantor_male_05
+				}
+			}
+		}
+	}		
+		
+		
+		

@@ -1,0 +1,24 @@
+
+
+generate_arrakis_pops = {
+	#set_owner = event_target:fremen
+    create_pop = {
+        species = event_target:fremen
+        ethos = owner
+    }
+	
+#	create_pop = { species = owner_main_species }
+#	create_pop = { species = owner_main_species }
+
+#	while = {
+#	   count = 16
+#	   create_pop = { species = fremen }
+#	}
+#	while = {
+#	   count = 3
+#	   generate_misc_pop = yes
+#	}
+
+#	every_owned_pop = { set_pop_flag = init_spawn }
+}
+ 

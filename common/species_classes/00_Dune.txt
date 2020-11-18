@@ -1,0 +1,39 @@
+DUNE = {
+	archetype = BIOLOGICAL
+    portraits = {
+    	"albans"
+        "atreides"
+		"bene_gesserit"
+		"bene_tleilaxu"
+		"corrino"
+		"ecaz"
+		"ezharian"
+		"fremen"
+		"ginaz"
+		"guild"
+		"harkonnen"
+		"khumali"
+		"moritani"
+		"nebiro"
+		"ordos"
+		"richese"
+		"tantor"
+		"vernius"
+		"rayki"
+    }
+
+    graphical_culture = mammalian_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+DUNE_MACHINE = {
+	archetype = MACHINE
+    portraits = {
+		"omnius"
+    }
+
+    graphical_culture = mammalian_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+
+	trait="trait_machine"
+}

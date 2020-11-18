@@ -1,0 +1,323 @@
+
+
+
+
+get_arrakis_details = {
+	every_country = {
+       limit = {
+       		has_country_flag = spice_mining      
+        }
+        every_owned_planet = {
+
+        	if = {
+
+                limit = {
+                    is_planet_class = pc_arrakis
+                }
+                log = "Planet is SPICE WORLD"
+
+                if = {
+					limit = { planet_stability > 0 planet_stability <= 10 }
+					set_variable = { which = current_arrakis_stability_value value = 1 }
+				}
+				else_if = {
+					limit = { planet_stability > 10 planet_stability <= 20 }
+					set_variable = { which = current_arrakis_stability_value value = 2 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 20 planet_stability <= 30 }
+					set_variable = { which = current_arrakis_stability_value value = 3 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 30 planet_stability <= 40 }
+					set_variable = { which = current_arrakis_stability_value value = 4 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 40 planet_stability <= 50 }
+					set_variable = { which = current_arrakis_stability_value value = 5 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 50 planet_stability <= 60 }
+					set_variable = { which = current_arrakis_stability_value value = 6 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 60 planet_stability <= 70 }
+					set_variable = { which = current_arrakis_stability_value value = 7 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 70 planet_stability <= 80 }
+					set_variable = { which = current_arrakis_stability_value value = 8 }
+			    }
+			    else_if = {
+					limit = { planet_stability > 80 planet_stability <= 90 }
+					set_variable = { which = current_arrakis_stability_value value = 9 }
+			    }
+			    else = {
+			    	set_variable = { which = current_arrakis_stability_value value = 10 }
+			    }
+			    log = "Current Arrakis Stability Value: [This.current_arrakis_stability_value]"
+			    set_variable = { which = global_arrakis_stability_rate value = @arrakis_stability_rate  }
+			    log = "Global Arrakis Stability Rate: [This.global_arrakis_stability_rate]"
+
+
+                if = {
+					limit = { planet_crime > 0 planet_crime <= 10 }
+					set_variable = { which = current_arrakis_crime_value value = 1 }
+				}
+				else_if = {
+					limit = { planet_crime > 10 planet_crime <= 20 }
+					set_variable = { which = current_arrakis_crime_value value = 2 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 20 planet_crime <= 30 }
+					set_variable = { which = current_arrakis_crime_value value = 3 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 30 planet_crime <= 40 }
+					set_variable = { which = current_arrakis_crime_value value = 4 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 40 planet_crime <= 50 }
+					set_variable = { which = current_arrakis_crime_value value = 5 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 50 planet_crime <= 60 }
+					set_variable = { which = current_arrakis_crime_value value = 6 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 60 planet_crime <= 70 }
+					set_variable = { which = current_arrakis_crime_value value = 7 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 70 planet_crime <= 80 }
+					set_variable = { which = current_arrakis_crime_value value = 8 }
+			    }
+			    else_if = {
+					limit = { planet_crime > 80 planet_crime <= 90 }
+					set_variable = { which = current_arrakis_crime_value value = 9 }
+			    }
+			    else = {
+			    	set_variable = { which = current_arrakis_crime_value value = 10 }
+			    }
+			    log = "Current Arrakis Crime Value: [This.current_arrakis_crime_value]"
+			    set_variable = { which = global_arrakis_crime_rate value = @arrakis_crime_rate }
+			    log = "Global Arrakis Crime Rate: [This.global_arrakis_crime_rate]"
+			    set_variable = { which = "@arrakis_crime_rate" value = 0.5 }
+			    set_variable = { which = global_arrakis_crime_rate_new value = @arrakis_crime_rate }
+			    log = "Global Arrakis Crime Rate New: [This.global_arrakis_crime_rate_new]"
+
+
+			    while = {
+			    	count = 100
+			    	if = {
+				    	limit = { 
+				    		has_monthly_income = {
+								resource = sr_spice
+								value >= count
+							}
+							has_monthly_income = {
+								resource = sr_spice
+								value < count
+							}
+						}
+						set_variable = { which = current_arrakis_spice_value value = count }
+				    }
+			    }
+
+			    if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 0
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 1
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 0 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 1
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 2
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 1 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 2
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 3
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 2 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 3
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 4
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 3 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 4
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 5
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 4 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 5
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 6
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 5 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 6
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 7
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 6 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 7
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 8
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 7 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 8
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 9
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 8 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 9
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 10
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 9 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 10
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 11
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 10 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 8
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 9
+						}
+					}
+					set_variable = { which = current_arrakis_spice_value value = 8 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 8
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 9
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 8 }
+			    }
+			    else_if = {
+			    	limit = { 
+			    		has_monthly_income = {
+							resource = sr_spice
+							value >= 8
+						}
+						has_monthly_income = {
+							resource = sr_spice
+							value < 9
+						}
+					}
+					#set_variable = { which = current_arrakis_spice_value value = 8 }
+			    }
+			    else = {
+			    	#set_variable = { which = current_arrakis_spice_value value = 10 }
+			    }
+
+
+
+			    log = "Current Arrakis Spice Value: [This.current_arrakis_spice_value]"
+
+			}
+        }
+	}
+}
+
+
+

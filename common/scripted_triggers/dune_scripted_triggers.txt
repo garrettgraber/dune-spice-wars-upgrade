@@ -1,0 +1,58 @@
+
+
+@heighliner_storage_distance = 0
+@heighliner_exit_distance = 0.1
+@heighliner_ship_radius_distance = 1
+
+
+#uninhabitable_regular_planet = {
+#	OR = {
+#		is_planet_class = pc_molten
+#		is_planet_class = pc_barren
+#		is_planet_class = pc_barren_cold
+#		is_planet_class = pc_toxic
+#		is_planet_class = pc_frozen
+#		is_planet_class = pc_garden
+#	}
+#}
+#
+#habitable_planet = {
+#	OR = {
+#		is_planet_class = pc_desert
+#		is_planet_class = pc_tropical
+#		is_planet_class = pc_arid
+#		is_planet_class = pc_continental
+#		is_planet_class = pc_ocean
+#		is_planet_class = pc_tundra
+#		is_planet_class = pc_arctic
+#		is_planet_class = pc_alpine
+#		is_planet_class = pc_savannah
+#		is_planet_class = pc_gaia
+#		is_planet_class = pc_arrakis
+#	}
+#}
+
+
+
+ship_is_heighliner = {
+	OR = {
+		is_ship_size = guild_heighliner_massive
+		is_ship_size = guild_heighliner_science
+		is_ship_size = guild_heighliner
+	}
+}
+
+
+ship_is_not_heighliner = {
+	NOT = { is_ship_size = guild_heighliner_massive }
+	NOT = { is_ship_size = guild_heighliner_science }
+	NOT = { is_ship_size = guild_heighliner }
+}
+
+
+country_has_guild_transport = {
+	OR = {
+		has_country_flag = has_guild_transport
+	}
+}
+

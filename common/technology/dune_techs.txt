@@ -1,0 +1,101 @@
+
+
+tech_holtzman_effect_1 = {
+   cost = 1000
+   area = physics
+   category = { particles }
+   is_rare = yes
+   is_dangerous = yes
+   tier = 1
+   weight = 0
+   weight_modifier = {
+      modifier = {
+         factor = 1.25
+         research_leader = {
+             area = physics
+            has_trait = "leader_trait_expertise_particles"
+         }
+      }
+   }
+   ai_weight = {
+      modifier = {
+         factor = 1.25
+         research_leader = {
+             area = physics
+            has_trait = "leader_trait_expertise_particles"
+         }
+      }
+   }
+}
+
+
+
+tech_space_folder_drive_1 = {
+   cost = 1000
+   area = physics
+   category = { field_manipulation }
+   tier = 1
+   weight = 0
+   is_dangerous = yes
+   prerequisites = { "tech_holtzman_effect_1" }
+   weight_modifier = {
+      modifier = {
+         factor = 1.25
+         research_leader = {
+             area = physics
+            has_trait = "leader_trait_expertise_field_manipulation"
+         }
+      }
+   }
+   ai_weight = {
+      modifier = {
+         factor = 1.25
+         research_leader = {
+             area = physics
+            has_trait = "leader_trait_expertise_field_manipulation"
+         }
+      }
+   }
+   prereqfor_desc = {
+      component = {
+         title = "TECH_UNLOCK_SPACE_FOLDER_DRIVE_1_TITLE"
+         desc = "TECH_UNLOCK_SPACE_FOLDER_DRIVE_1_DESC"
+      }
+   }
+}
+
+
+
+tech_navigator_prescience_1 = {
+   cost = 1000
+   area = society
+   category = { psionics }
+   is_rare = yes
+   is_dangerous = yes
+   tier = 1
+   weight = 0
+   weight_modifier = {
+      modifier = {
+         factor = 1.25
+         research_leader = {
+             area = society
+            has_trait = "leader_trait_expertise_psionics"
+         }
+      }
+   }
+   ai_weight = {
+      modifier = {
+         factor = 1.25
+         research_leader = {
+             area = society
+            has_trait = "leader_trait_expertise_psionics"
+         }
+      }
+   }
+   prereqfor_desc = {
+      component = {
+         title = "TECH_UNLOCK_NAVIGATOR_SECTION_TITLE"
+         desc = "TECH_UNLOCK_NAVIGATOR_SECTION_DESC"
+      }
+   }
+}

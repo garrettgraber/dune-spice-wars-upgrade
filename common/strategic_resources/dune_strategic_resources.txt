@@ -1,0 +1,79 @@
+# Spice Melange
+sr_spice = {
+	tradable = yes
+
+	#deficit_modifier = {
+		#biological_pop_happiness = -0.10
+		#leader_age = 1.00
+	#}
+
+	prerequisites = { "null" }
+	visibility_prerequisite = { always = yes }
+
+	tradable = yes
+	market_amount = 25
+	market_price = 100
+	max = 10000
+	
+	#modifier = {
+		#leader_age = 250
+	#}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# Ixian Technology
+sr_ixian = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Mentats
+sr_mentats = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Truthsayers
+sr_truthsayers = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Tleilaxu Technology
+sr_tleilaxu = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Guild Technology
+sr_guild = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Sardaukar
+sr_sardaukar = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Swordmasters
+sr_swordmasters = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Elacca Wood
+sr_elacca = {
+	prerequisites = { "null" }
+	tradable = yes
+}
+
+# Suk School
+sr_suk = {
+	prerequisites = { "null" }
+	tradable = yes
+}

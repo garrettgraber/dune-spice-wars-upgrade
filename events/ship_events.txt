@@ -1,0 +1,715 @@
+### NON-Guild Ship Events for Guild Transportation
+
+namespace = dune_ship_ftl
+
+@heighliner_storage_distance = 0.01
+@heighliner_exit_distance = 0.01
+@heighliner_ship_radius_distance = 1
+
+
+### Ship Distances from Heighliner
+ship_event = {
+	id = dune_ship_ftl.16
+	hide_window = yes
+
+	trigger = {
+		owner = { has_country_flag = has_guild_transport }
+		has_fleet_order = follow_order
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		OR = {
+			is_ship_class = shipclass_military
+			is_ship_class = shipclass_transport
+			is_ship_class = shipclass_science_ship
+			is_ship_class = shipclass_constructor
+			is_ship_class = shipclass_colonizer
+			is_ship_class =	shipclass_military_special
+		}
+		NOT = { has_ship_flag = dune_ship_stored_heighliner }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							max_distance <= @heighliner_storage_distance
+						}
+					}
+				}
+			}
+			log = "Ship is inside Heighliner storage distance"
+		}
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							max_distance <= @heighliner_ship_radius_distance
+							min_distance > @heighliner_exit_distance
+						}
+					}
+				}
+			}
+			log = "Ship is inside Heighliner exit distance"
+		}
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							min_distance > 10
+							max_distance <= 40
+						}
+					}
+				}
+			}
+			log = "Ship is betwen 10 and 40 from Heighliner"
+		}
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							min_distance > 40
+							max_distance <= 80
+						}
+					}
+				}
+			}
+			log = "Ship is betwen 40 and 80 from Heighliner"
+		}
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							min_distance > 80
+							max_distance < 100
+						}
+					}
+				}
+			}
+			log = "Ship is further then 80 from Heighliner"
+		}
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							min_distance >= 100
+						}
+					}
+				}
+			}
+			log = "Ship is further then 100 from Heighliner"
+		}
+		if = {
+			limit = {
+				solar_system = {
+					any_ship_in_system = {
+						OR = {
+							is_ship_size = guild_heighliner_science
+							is_ship_size = guild_heighliner
+							is_ship_size = guild_heighliner_massive
+						}
+						distance = {
+							source = root
+							min_distance >= 1
+						}
+					}
+				}
+			}
+			log = "Ship is further then the Heighliner ship radius"
+		}
+	}
+}
+
+### Exiting Heighliner
+ship_event = {
+	id = dune_ship_ftl.17
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		OR = {
+			is_ship_class = shipclass_military
+			is_ship_class = shipclass_transport
+			is_ship_class = shipclass_science_ship
+			is_ship_class = shipclass_constructor
+			is_ship_class = shipclass_colonizer
+			is_ship_class =	shipclass_military_special
+		}
+		has_ship_flag = dune_ship_stored_heighliner
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					min_distance > @heighliner_ship_radius_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Ship is outside Heighliner!"
+		remove_ship_flag = dune_ship_stored_heighliner
+		remove_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		remove_modifier = heighliner_stored
+	}
+}
+
+### Stored in Heighliner
+ship_event = {
+	id = dune_ship_ftl.1
+	hide_window = yes
+
+	trigger = {
+		owner = { has_country_flag = has_guild_transport }
+		has_fleet_order = follow_order
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		OR = {
+			is_ship_class = shipclass_military
+			is_ship_class = shipclass_transport
+			is_ship_class = shipclass_science_ship
+			is_ship_class = shipclass_constructor
+			is_ship_class = shipclass_colonizer
+			is_ship_class =	shipclass_military_special
+		}
+		NOT = { has_ship_flag = dune_ship_stored_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Ship has been stored in Heighliner!"
+		set_ship_flag = dune_ship_stored_heighliner
+		add_modifier = { modifier = heighliner_stored }
+		remove_ship_flag = dune_ship_exited_heighliner
+	}
+}
+
+### Exiting Heighliner
+ship_event = {
+	id = dune_ship_ftl.2
+	hide_window = yes
+
+	trigger = {
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		OR = {
+			is_ship_class = shipclass_military
+			is_ship_class = shipclass_transport
+			is_ship_class = shipclass_science_ship
+			is_ship_class = shipclass_constructor
+			is_ship_class = shipclass_colonizer
+			is_ship_class =	shipclass_military_special
+		}
+		has_ship_flag = dune_ship_stored_heighliner
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_ship_radius_distance
+					min_distance > @heighliner_exit_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Ship has exited Heighliner!"
+		remove_ship_flag = dune_ship_stored_heighliner
+		remove_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		remove_modifier = heighliner_stored
+	}
+}
+
+### Ship not following Heighliner it is stored in
+ship_event = {
+	id = dune_ship_ftl.3
+	hide_window = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_stored_heighliner
+		OR = {
+			is_fleet_idle = yes
+			has_fleet_order = return_fleet_order
+			has_fleet_order = repair_ship_fleet_order
+		}
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		OR = {
+			is_ship_class = shipclass_military
+			is_ship_class = shipclass_transport
+			is_ship_class = shipclass_science_ship
+			is_ship_class = shipclass_constructor
+			is_ship_class = shipclass_colonizer
+			is_ship_class =	shipclass_military_special
+		}
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Ship is idle in Heighliner it is stored in, Exiting and Disabling!"
+		remove_ship_flag = dune_ship_stored_heighliner
+		remove_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		remove_modifier = heighliner_stored
+		set_ship_flag = dune_ship_exited_heighliner
+		#set_disabled = yes
+		#hidden_effect = { ship_event = { id = dune_ship_ftl.4 days = 1 } }
+	}
+}
+
+### Disabled Ship is now Re-Enabled after exiting Heighliner
+ship_event = {
+	id = dune_ship_ftl.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		log = "Falcon, Disabled Ship is now Re-Enabled after exiting Heighliner"
+		remove_ship_flag = dune_ship_exited_heighliner
+		remove_ship_flag = dune_ship_stored_heighliner
+		remove_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		#set_disabled = no
+	}
+}
+
+### Disabled Ship is now Re-Enabled in the Heighliner after storage and jumping // NOT GOOD!
+ship_event = {
+	id = dune_ship_ftl.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_ship_flag = dune_ship_stored_heighliner }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		owner = { has_country_flag = has_guild_transport }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, ship jumping in a Guild Heighliner that is not stored has Exploded!"
+		hidden_effect = { ship_event = { id = dune_ship_ftl.9 } }
+	}
+}
+
+### Ship jumping in a Guild Heighliner that is in Storage!
+ship_event = {
+	id = dune_ship_ftl.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_stored_heighliner
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, ship jumping in a Guild Heighliner that is in Storage!"
+	}
+}
+
+### Ship jumping in a Guild Heighliner that is in Storage and is Folding Space!
+ship_event = {
+	id = dune_ship_ftl.7
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		has_ship_flag = dune_ship_stored_heighliner
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, ship jumping in a Guild Heighline in Storage and and is Folding Space!"
+	}
+}
+
+### Exited Ship is now attempting an illegal jump in a jumping Heighliner!
+ship_event = {
+	id = dune_ship_ftl.8
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_ship_flag = dune_ship_stored_heighliner }
+		NOT = { has_ship_flag = dune_ship_stored_in_heighliner_folding_space }
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		OR = {
+			is_ship_class = shipclass_military
+			is_ship_class = shipclass_transport
+			is_ship_class = shipclass_science_ship
+			is_ship_class = shipclass_constructor
+			is_ship_class = shipclass_colonizer
+			is_ship_class =	shipclass_military_special
+		}
+		solar_system = {
+			any_ship_in_system = {
+				has_ship_flag = dune_ship_heighliner_folding_space
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Exited Ship is now attempting an illegal jump in a jumping Heighliner!"
+		set_ship_flag = dune_ship_illegal_jump_in_heighliner
+		#set_disabled = yes
+		hidden_effect = { ship_event = { id = dune_ship_ftl.9 } }
+	}
+}
+
+### Destory illegally jumping ship in Heighliner
+ship_event = {
+	id = dune_ship_ftl.9
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		log = "***Falcon, Destorying illegally jumping ship in Heighliner!***"
+		remove_ship_flag = dune_ship_illegal_jump_in_heighliner
+		delete_ship = root
+	}
+}
+
+### Ship has exited the Heighliner
+ship_event = {
+	id = dune_ship_ftl.10
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_exited_heighliner
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Ship has exited storage in the Heighliner and is jumping in its Hold!"
+	}
+}
+
+### Ship jumping in a Guild Heighliner. Checks its Status.
+ship_event = {
+	id = dune_ship_ftl.11
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_exited_heighliner
+		NOT = { has_ship_flag = dune_ship_stored_heighliner }
+		NOT = { has_ship_flag = dune_ship_stored_in_heighliner_folding_space }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		log = "Falcon, Attempting to Jump to another location, will end up in Oblivion!"
+		hidden_effect = { ship_event = { id = dune_ship_ftl.9 } }
+	}
+}
+
+### Ship flags while jumping
+ship_event = {
+	id = dune_ship_ftl.12
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = { has_ship_flag = dune_ship_stored_heighliner }
+			log = "--->Dragon, ship is stored in Heighliner.<---"
+		}
+		if = {
+			limit = { has_ship_flag = dune_ship_stored_in_heighliner_folding_space }
+			log = "--->Dragon, ship is stored and folding space in Heighliner.<---"
+		}
+		if = {
+			limit = { has_ship_flag = dune_ship_exited_heighliner }
+			log = "--->Dragon, ship has exited Heighliner.<---"
+		}
+		if = {
+			limit = { has_ship_flag = dune_ship_illegal_jump_in_heighliner }
+			log = "--->Dragon, ship is making illegal jump in Heighliner.<---"
+		}
+
+		if = {
+			limit = {
+				NOT = {
+					has_ship_flag = dune_ship_stored_heighliner
+				}
+				NOT = {
+					has_ship_flag = dune_ship_stored_in_heighliner_folding_space
+				}
+				NOT = {
+					has_ship_flag = dune_ship_exited_heighliner
+				}
+				NOT = {
+					has_ship_flag = dune_ship_illegal_jump_in_heighliner
+				}
+			}
+			log = "--->Dragon, ship has NO flags set while jumping in Heighliner.<---"
+		}
+	}
+}
+
+### Ship has exited the Heighliner and is now Jumping
+ship_event = {
+	id = dune_ship_ftl.13
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_exited_heighliner
+	}
+
+	immediate = {
+		log = "Falcon, RED ALERT!! Ship has Exited Storage in the Heighliner and is Jumping!"
+		hidden_effect = { ship_event = { id = dune_ship_ftl.9 } }
+	}
+}
+
+### Ship is jumping in a Guild Heighliner that is also jumping
+ship_event = {
+	id = dune_ship_ftl.14
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_stored_heighliner
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+		solar_system = {
+			any_ship_in_system = {
+				has_ship_flag = dune_ship_heighliner_folding_space
+				OR = {
+					is_ship_size = guild_heighliner_science
+					is_ship_size = guild_heighliner
+					is_ship_size = guild_heighliner_massive
+				}
+				distance = {
+					source = root
+					max_distance <= @heighliner_storage_distance
+				}
+			}
+		}
+	}
+
+	immediate = {
+		set_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		hidden_effect = { ship_event = { id = dune_ship_ftl.15 days = 14 } }
+		log = "Lion, ship is jumping in a Guild Heighliner that is also jumping"	
+	}
+}
+
+### Remove Ship Jump Flag after successful Jump
+ship_event = {
+	id = dune_ship_ftl.15
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_ship_flag = dune_ship_stored_heighliner
+		has_ship_flag = dune_ship_stored_in_heighliner_folding_space
+		owner = { has_country_flag = has_guild_transport }
+		NOT = { is_ship_size = guild_heighliner_massive }
+		NOT = { is_ship_size = guild_heighliner_science }
+		NOT = { is_ship_size = guild_heighliner }
+	}
+
+	immediate = {
+		log = "Lion, removing ship flag after folding space while stored in a Guild Heighliner. Jump Successful."
+		remove_ship_flag = dune_ship_stored_in_heighliner_folding_space
+	}
+}

@@ -1,0 +1,338 @@
+
+## CHOAM Contracts 1-10 Spice Barrels
+choam_contracts_1 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_3 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_4 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_5 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_6 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_7 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_8 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_9 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_10 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 11-20 Spice Barrels
+choam_contracts_11 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_12 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_13 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_14 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_15 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_16 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_17 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_18 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_19 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_20 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 21-30 Spice Barrels
+choam_contracts_21 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_22 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_23 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_24 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_25 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_26 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_27 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_28 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_29 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_30 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 31-40 Spice Barrels
+choam_contracts_31 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_32 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_33 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_34 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_35 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_36 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_37 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_38 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_39 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_40 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 41-50 Spice Barrels
+choam_contracts_41 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_42 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_43 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_44 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_45 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_46 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_47 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_48 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_49 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_50 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 51-60 Spice Barrels
+choam_contracts_51 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_52 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_53 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_54 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_55 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_56 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_57 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_58 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_59 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_60 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 61-70 Spice Barrels
+choam_contracts_61 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_62 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_63 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_64 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_65 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_66 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_67 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_68 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_69 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_70 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+## CHOAM Contracts 71-80 Spice Barrels
+choam_contracts_71 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_72 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_73 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_74 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_75 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_76 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_77 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_78 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_79 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+choam_contracts_80 = {
+	icon = "gfx/interface/icons/planet_modifiers/choam.dds"
+	icon_frame = 1
+}
+
+

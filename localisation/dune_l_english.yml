@@ -1,0 +1,768 @@
+﻿l_english:
+
+###############
+## Interface ##
+###############
+FLAG_CATEGORY_emblems:0 "Dune"
+requirement_not_dune:0 "§RCan only be built on Arrakis.§!"
+
+##################
+## System Names ##
+##################
+canopus_system_initializer_NAME:0 "Canopus"
+canopus_system_initializer_DESC:0 "Solar system modeled after the Canopus star system.\n\n$system_initializer_DESC$"
+alpha_centauri_b_system_initializer_NAME:0 "Alpha Centauri b"
+alpha_centauri_b_system_initializer_DESC:0 "Solar system modeled after the Alpha Centauri B star system.\n\n$system_initializer_DESC$"
+erasmus_system_initializer_NAME:0 "Erasmus"
+erasmus_system_initializer_DESC:0 "Solar system modeled after the Erasmus star system.\n\n$system_initializer_DESC$"
+gamma_waiping_system_initializer_NAME:0 "Gamma Waiping"
+gamma_waiping_system_initializer_DESC:0 "Solar system modeled after the Gamma Waiping star system.\n\n$system_initializer_DESC$"
+junagadh_system_initializer_NAME:0 "Junagadh"
+junagadh_system_initializer_DESC:0 "Solar system modeled after the Junagadh star system.\n\n$system_initializer_DESC$"
+junction_system_initializer_NAME:0 "Junction"
+junction_system_initializer_DESC:0 "Solar system modeled after the Junction star system.\n\n$system_initializer_DESC$"
+laoujin_system_initializer_NAME:0 "Laoujin"
+laoujin_system_initializer_DESC:0 "Solar system modeled after the Laoujin star system.\n\n$system_initializer_DESC$"
+thalim_system_initializer_NAME:0 "Thalim"
+thalim_system_initializer_DESC:0 "Solar system modeled after the Thalim star system.\n\n$system_initializer_DESC$"
+alkalurops_system_initializer_NAME:0 "Alkalurops"
+alkalurops_system_initializer_DESC:0 "Solar system modeled after the Alkalurops star system.\n\n$system_initializer_DESC$"
+delta_pavonis_system_initializer_NAME:0 "Delta Pavonis"
+delta_pavonis_system_initializer_DESC:0 "Solar system modeled after the Delta Pavonis star system.\n\n$system_initializer_DESC$"
+ophiuchi_b_system_initializer_NAME:0 "Ophiuchi b"
+ophiuchi_b_system_initializer_DESC:0 "Solar system modeled after the Ophiuchi b star system.\n\n$system_initializer_DESC$"
+enif_system_initializer_NAME:0 "Enif"
+enif_system_initializer_DESC:0 "Solar system modeled after the Enif star system.\n\n$system_initializer_DESC$"
+beta_apteri_system_initializer_NAME:0 "Beta Apteri"
+beta_apteri_system_initializer_DESC:0 "Solar system modeled after the Beta Apteri star system.\n\n$system_initializer_DESC$"
+psi_draconis_system_initializer_NAME:0 "Psi Draconis"
+psi_draconis_system_initializer_DESC:0 "Solar system modeled after the Psi Draconis star system.\n\n$system_initializer_DESC$"
+sigma_draconis_system_initializer_NAME:0 "Sigma Draconis"
+sigma_draconis_system_initializer_DESC:0 "Solar system modeled after the Sigma Draconis star system.\n\n$system_initializer_DESC$"
+epsilon_eridani_system_initializer_NAME:0 "Epsilon Eridani"
+epsilon_eridani_system_initializer_DESC:0 "Solar system modeled after the Epsilon Eridani star system.\n\n$system_initializer_DESC$"
+tau_omicron_system_initializer_NAME:0 "Tau Omicron"
+tau_omicron_system_initializer_DESC:0 "Solar system modeled after the Tau Omicron star system.\n\n$system_initializer_DESC$"
+gamma_kulon_system_initializer_NAME:0 "Gamma Kulon"
+gamma_kulon_system_initializer_DESC:0 "Solar system modeled after the Gamma Kulon star system.\n\n$system_initializer_DESC$"
+synchrony_system_initializer_NAME:0 "Root"
+synchrony_system_initializer_DESC:0 "Solar system modeled after the Root star System.\n\n$system_initializer_DESC$"
+
+###############
+##   Names   ##
+###############
+name_list_albans:0 "Mentat Order"
+name_list_albans_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_atreides:0 "House Atreides"
+name_list_atreides_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_bene_tleilaxu:0 "Bene Tleilaxu"
+name_list_bene_tleilaxu_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_benegesserit:0 "Bene Gesserit"
+name_list_benegesserit_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_corrino:0 "House Corrino"
+name_list_corrino_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_ecaz:0 "House Ecaz"
+name_list_ecaz_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_ezharian:0 "House Ezharian"
+name_list_ezharian_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_fremen:0 "Fremen"
+name_list_fremen_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_ginaz:0 "House Ginaz"
+name_list_ginaz_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_guild:0 "The Guild"
+name_list_guild_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_harkonnen:0 "House Harkonnen"
+name_list_harkonnen_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_khumali:0 "House Khumali"
+name_list_khumali_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_moritani:0 "House Moritani"
+name_list_moritani_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_nebiro:0 "House Wayku"
+name_list_nebiro_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_omnius:0 "Omnius"
+name_list_omnius_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_ordos:0 "House Ordos"
+name_list_ordos_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_richese:0 "House Richese"
+name_list_richese_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_tantor:0 "House Tantor"
+name_list_tantor_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+name_list_vernius:0 "House Vernius"
+name_list_vernius_desc:0 "§YLeaders:§! §YShips:§! §YFleets:§! §YColonies:§!"
+
+###############
+##  Empires  ##
+###############
+EMPIRE_DESIGN_rayki:0 "House Rayki"
+EMPIRE_DESIGN_rayki_desc:0 "According to historical records House Rayki is formed by descendants of Celtic clans from Old Earth, always maintaining a strict code of conduct about diluting the line they have kept their ancestral genetics virtually intact with only the smallest ammount of genetic engineering. \n\nThe House Rayki began it's rise to power late in the Imperial Calendar and have only now achieved the position of House Major with the chance to operate planetary fiefs, as an added bonus they have been gifted Old Earth to guard and preserve, a sacred place with incalculable resources. \n\nThe House Rayki is determined to achieve unity and bring all other Houses under a consolidated form of government, unknown to the Golden Lion Throne."
+
+EMPIRE_DESIGN_atreides:0 "House Atreides"
+EMPIRE_DESIGN_atreides_desc:0 "The legend stated that the Atreides family came from a noble family that originated in Greece on Earth, and that they rose to prominence during the Butlerian Jihad. They claimed to descent from King Agamemnon, a son of Atreus, in Greek mythology. The descendants of Atreus are called "Atreides". \n\nThis Royal House had perfected a form of government that resulted in a well-organized society and a spiritually satisfied people. Furthermore, House Atreides kept Caladan a lush, prosperous paradise with relatively low industrial levels. \n\nThe House was also proficient in war; it maintained Swordmasters, Warmasters and Mentats to train and lead their army, and had even developed its own Battle Language."
+
+EMPIRE_DESIGN_harkonnen:0 "House Harkonnen"
+EMPIRE_DESIGN_harkonnen_desc:0 "After many centuries as a House Minor, Harkonnen influence gradually rose within the Landsraad, due mostly to shrewd manipulation of the whale fur market, thanks to the efforts of Baron Dmitri Harkonnen and his son Vladimir. \n\nThey built its power by maximizing production output and minimizing their expenses, ignoring economically ethical behaviour. \n\nHarkonnen governing is based upon a simple foundation of fear and terror. They are used in governance, in the day-to-day running of the Harkonnen household, and in controlling the Harkonnen armies. \n\nWith a social order based on treachery and punishment, soldiers rose through the ranks through deceit, trickery and, if necessary, assassination."
+
+EMPIRE_DESIGN_corrino:0 "House Corrino"
+EMPIRE_DESIGN_corrino_desc:0 "The events after the Battle of Corrin saw the newly formed House Corrino capture rulership of the new Imperium, maintaining a firm grip on the Empire over the subsequent millennia. \n\nDuring their Imperial rule, House Corrino maintained arguably the most powerful army in the known universe, the Sardaukar. Formed by prisoners from Salusa Secundus, their superior abilities were capable of crushing any military opposition. It was said that only the combined forces of all the Great Houses of the Landsraad could defeat such incredible force. \n\nTo keep their seat in the throne, they will backstab and use treacherous tactics, but without getting openly involved, using other houses to make their dirt work."
+
+EMPIRE_DESIGN_fremen:0 "Fremen"
+EMPIRE_DESIGN_fremen_desc:0 "To the Fremen, the fight for survival had long dominated their cultural identity. Descendants from the Zensunni Wanderers, these people had to adapt to the brutal environment of Arrakis and his frugal use of energy and resources, especially water. \n\nAdditionally, their history with cultural persecution mandated the need for combat knowledge, creating a group of efficient and hardy warriors, who used their skills and the environment of Arrakis to fend off off-world opponents who often possessed superior technology and training. \n\nWater plays a vital role in the Fremen culture, a representation of life itself. When one of then dies, his water is removed from their body and returned to the tribe."
+
+EMPIRE_DESIGN_benegesserit:0 "Bene Gesserit Sisterhood"
+EMPIRE_DESIGN_benegesserit_desc:0 "The origins of the Bene Gesserit are widely unknown at a point that the only verifiable fact is that the Bene Gesserit arose during the political turmoil that followed the Butlerian Jihad, quickly establishing themselves as an influential political force among other houses. \n\nFor millennia, the Bene Gesserit Sisterhood chose to exercise its power by acting in the background of imperial politics, through their breeding program, their placement of agents in the imperial court and Great Houses and their provision of services such as the mediation in disputes and overseers of negotiations. \n\nTheir real agenda, however, is far from completion and just a handful of people truly understands their final goal."
+
+EMPIRE_DESIGN_guild:0 "Spacing Guild"
+EMPIRE_DESIGN_guild_desc:0 "Details of the Guild's emergence are contentious, although it is believed they emerged as a serious political and economic force around the time of The Great Convention. \n\nThe Spacing Guild was by its very nature a secretive organization that took up functions previously covered by the Thinking Machines, just as Mentats and the Bene Gesserit did. \n\nTheir very existence rests on the proprietary knowledge of folding space, the only reliable method of traveling among the stars. \n\nThe inner structure of the Guild is a well keep mystery, even for nobles of the Great Houses. The role of Guild Navigator is the most prestigious part inside the organization, although just a few know where they really come from."
+
+EMPIRE_DESIGN_bene_tleilaxu:0 "Bene Tleilaxu"
+EMPIRE_DESIGN_bene_tleilaxu_desc:0 "The Bene Tleilax or Tleilaxu are an extremely xenophobic and isolationist society. Genetic manipulators who traffic in biological products such as artificial eyes, gholas, and "twisted" Mentats, the Tleilaxu are a major power in the Imperium.\n\nThe race is ruled by a small council of Tleilaxu Masters, whose genetically-engineered Face Dancer servants have the ability to mimic any human. The Masters themselves possess a bland and diminutive appearance intended to compel other races to underestimate them. Despite their influence, the Bene Tleilax are universally distrusted and inspire disgust because their products, though desirable, push the limits of the moral proscriptions established by the ancient Butlerian Jihad."
+
+EMPIRE_DESIGN_ginaz:0 "House Ginaz"
+EMPIRE_DESIGN_ginaz_desc:0 "The Ginaz family traces its origins to the Ginaztera Company, a troupe of entertainers working the Richelieu Sector during the time of Fredhrick V, who made Alberto Ginaztera a noble.\n\nThe House of Ginaz had a monopoly on live performances before audiences of 10,000 or more, and it also owned chains of gambling casinos, prostitution rings catering to the very rich, and theatres specializing in fights between different kinds of animals, or between animals and humans.\n\nIn addition, during the time of the Faufreluches, Ginaz was famed for its training of Swordmasters in dedicated schools. Swordmasters of Ginaz were regarded superior warriors in every way, superior even to a Sardaukar."
+
+EMPIRE_DESIGN_moritani:0 "House Moritani"
+EMPIRE_DESIGN_moritani_desc:0 "House Moritani was a House Major during the time of the Faufreluches. Their ancestral home was the planet Grumman. House Moritani had a long-standing feud with House Ginaz, which eventually saw the latter defeated in the War of Assassins of 10,187 AG. House Moritani was a wild card that doesn't follow accepted rules. They especially don't follow the Emperor's orders."
+
+EMPIRE_DESIGN_omnius:0 "Synchronised Worlds"
+EMPIRE_DESIGN_omnius_desc:0 "Omnius, also known as the Evermind, was a collection of powerful artificially intelligent entities, which existed prior to and during the Butlerian Jihad, and after in the refounded Synchronized Worlds outside the Old Empire.\n\nThough Omnius instances existed on many worlds, each one evolving subtle differences, all instances were bound by a synchronizing process that saw them share the collective experiences of their counterparts. Thus they were frequently referred to as a single being.\n\nOmnius is often cited as the cause of the mankind's long-standing revulsion of technology, particularly computers. Though technically a gender-less being, speech refers to Omnius as a male."
+
+EMPIRE_DESIGN_richese:0 "House Richese"
+EMPIRE_DESIGN_richese_desc:0 "House Richese was a Great House during the time of the Faufreluches. They were onetime allies of House Atreides.\n\nHouse Richese was known throughout the Imperium for the manufacture of machines. A rivalry existed between House Richese and House Vernius for the honour of being major supplier of technology to the Imperium. It was, however, generally accepted that House Vernius, on the planet of Ix, typically produced superior machines to the Richesians."
+
+EMPIRE_DESIGN_vernius:0 "House Vernius"
+EMPIRE_DESIGN_vernius_desc:0 "A relatively young great house, House Vernius was only a few centuries old by the time the Leto Atreides I became Duke of their Faufreluches ally, House Atreides. A fire red ruby ring from Hagal was the sign of their Earl.\n\nHouse Vernius specialized in technological innovations. After an intense economic war with House Richese, they won the right to manufacture the lucrative Heighliners for the Spacing Guild."
+
+EMPIRE_DESIGN_ecaz:0 "House Ecaz"
+EMPIRE_DESIGN_ecaz_desc:0 "House Ecaz rules the fourth planet of Alpha Centauri B, also named Ecaz. During the events of Prelude to Dune and the interquel novel Paul of Dune (2008), the head of the House is Archduke Armand Ecaz; at this time, House Ecaz is in kanly, or vendetta, with House Moritani.\n\nThe planet Ecaz was known as the sculptors paradise, because of the fogwood, a plant growth capable of being shaped by the power of human thought. Also producing the elacca, semuta, verite and sapho drugs."
+
+EMPIRE_DESIGN_ezharian:0 "House Ezharian"
+EMPIRE_DESIGN_ezharian_desc:0 "The ancestral home planet of House Ezharian, Enif IV, is a wonderful winter paradise. A beautifully mountainous terrain, combined with narrow tropical ocean climate near the equatorial latitudes has made Enif IV a playground for the affluent in the Imperium, at one time even attracting a young Shaddam IV to its resorts before his ascention to the throne.\n\nTowering mountains and snow covered valleys about all of the planet almost mandated the revival of the ancient pastimes of skiing and snow sports, which are the planet's primary attraction. Of course these same mountains and alpine like forests make Enif IV a dangerous world to assault, and the Enifians have over many centuries become very efficient in fighting through the heavy tundra and alpine forest terrain, making many think twice before assaulting the world.\n\nEarliest record of House Ezharian stretches back to several generations before the Butlerian Jihad (201 B.G.), over 85 generations have since passed. House Ezharian is chiefly remembered for its shelter of political dissidents on both sides within its borders, and for smuggling these dissidents beyond the reach of the persecution, and even, according to rumor, arranging transport to Tupile or one of the other shelter planets."
+
+EMPIRE_DESIGN_nebiro:0 "House Wayku"
+EMPIRE_DESIGN_nebiro_desc:0 "House Wayku was a House Major that became disgraced sometime prior to the rule of Emperor Shaddam Corrino IV.\n\nDuring the Third Coalsack War all of House Wayku's planets were destroyed and thus it was left homeless, and prohibited from setting foot on any world in the Imperium. However, unlike other fallen houses which were banished to Tupile, for unknown reasons House Wayku found a home and employment with the Spacing Guild?, who sub-contracted them to run mass-transit vehicles housed on board Guild Heighliners as nomads who tended to the customers selling sizzling meat sticks, spicy-salty broths, & a potent drink called stee.\n\nThey were seen wearing dark glasses and ear-clamp headsets. They managed to live in their own sensory cacophony preferring the universe within to any spectacle they might experience outside."
+
+EMPIRE_DESIGN_khumali:0 "House Khumali"
+EMPIRE_DESIGN_khumali_desc:0 "Sa'ad Khumali was Landsraad president and in 1604 AG became Emperor.\n\nBy 10134 AG the House encountered some issues concerning the succession of its head. To decide, a special panel was convened by Elrood IX with Minotauros Atreides as one of the members."
+
+EMPIRE_DESIGN_tantor:0 "House Tantor"
+EMPIRE_DESIGN_tantor_desc:0 "House Tantor was a House Major that used Atomics against House Corrino and they destroyed Salusa Secundus in the 2nd Millenium AG. For that reason the Imperial capital had to be moved to Kaitain. Emperor Hassik Corrino III lashed out against House Tantor, and declared that the family had to be wiped out. The House had been all but obliterated.\n\nSome of the descendants of House Tantor did survive, and almost ten thousand years later, Hundro Moritani of House Moritani, found out during the War of Assassins of 10,187 AG, that he and his family were secret long-distant offspring of House Tantor. Soon after, the bitter recently childless Moritani, lost the War to House Ecaz and House Atreides, he confronted his times' current Corrino Emperor Shaddam IV, and revealed his ancestry. He then revealed he was going to repeat the ways of House Tantor, and use nuclear weapons to kill everyone assembled on recent battle plain on planet Grumman.\n\nShaddam, uncaring, sentenced him to be incarcerated; and sent Hundro on a prison frigate in a heighliner, back to Kaitain. Moritani then mysteriously died as his frigate de-pressurized killing him, the last known descendant of House Tantor."
+
+EMPIRE_DESIGN_ordos:0 "House Ordos"
+EMPIRE_DESIGN_ordos_desc:0 "House Ordos was a mercantile Great House whose home was an ice-covered planet, Sigma Draconis 4, in the Sigma Draconis star system. House Ordos was most famous for its smuggling of forbidden Ixian technologies into their home planet, and for the wealth that makes them paranoid, but powerful.\n\nOrdos seemed to have formed by a reclusive cartel of wealthy noblemen who seem to control the finances of House Ordos, and thus, House Ordos itself. No one has ever seen them except the few generals who formerly controlled what troops the Ordos could muster.\n\nOne by one, those noblemen generals have been eliminated under mysterious circumstances and were replaced by the Executrix whose origins are not known."
+
+EMPIRE_DESIGN_albans:0 "House Albans"
+EMPIRE_DESIGN_albans_desc:0 "Gilbertus Albans (1192 AG-1294 AG) was a Septimian philosopher and logician of interstellar repute, who conceived the program of far-reaching importance, the Mentats. One spring morning in 1231 AG during some leisure-time reading on the Butlerian Jihad, it occurred to Albans that the legendary computers had been built by humans, and it seemed unlikely to him that they had possessed capacities beyond those of the trained human mind. Over the next few years, he devised a plan of study for the production of human computers, which he named Mentats, and recruited students for the program.\n\nA Mentat was a profession or discipline that was developed as a replacement to the computers and thinking machines following the Butlerian Jihad that banned the creation of machines in the human mind's image, just as the Spacing Guild and the Bene Gesserit took up similar functions.\n\nThe name 'Mentat' is derived from mentis, meaning 'of the mind' in Latin, an ancient Terran language. The founder of the Order of Mentats, a logician and philosopher of interstellar repute coined the term to refer to those fully trained and proficient in the techniques he prescribed for the Order."
+
+#####################################
+# Species
+##################################### 
+
+DUNE: "Dune"
+
+##################
+## Start Screen ##
+##################
+START_SCREEN_dune:0 "A beginning is a very delicate time. It is the year 10191 and known universe is ruled by the Padisha Emperor Shaddam IV, my father. In this time, the most precious substance in the Universe is the spice. It extends life. It expands consciousness. It is vital to space travel. \n\nThe Spacing Guild and its navigators, who the spice has mutated over four-thousand years, use the orange spice gas, which gives them the ability to fold space, to travel to any part of the Universe without moving. \n\nThe spice exists on only one desolate, dry planet with vast deserts. Hidden away within the rocks are a people known as the Fremen, who have long held a prophecy, that a messiah would lead them to true freedom. This planet is Arrakis, also known as Dune. \n\nPrinces Irulan"
+
+START_SCREEN_dune_fremen:0 "The Fremen are a group of humans native to the planet Arrakis.  They are the descendants of the Zensunni Wanderers who traveled the imperium for millennia, eventually settling on the desert world of Dune.  Surrouned by the most precious substance in the universe, the Spice Melange, the Fremen instead value water above all else."
+
+#########################
+## Strategic Resources ##
+#########################
+
+sr_spice:0 "Spice Melange"
+sr_spice_desc:1 "The Spice Melange, commonly referred to simply as 'the spice', is a naturally produced awareness spectrum narcotic that forms a fundamental block of commerce and technological development in the known universe. It also plays an important role in travel and cultural development.\n\nSpice exists on only one planet in the known universe, Arrakis, making this planet a uniquely important and highly contested resource."
+
+sr_truthsayers:0 "Truthsayers"
+sr_truthsayers_desc:1 "Truthsaying is a skill developed and used by the Bene Gesserit. Indeed, the majority of Truthsayers employed during the time of the Faufreluches were Bene Gesserit adepts. According to legend humanity's quest for truth before the Jihad had degenerated into a passion for accumulating and storing facts and data. This obsessive activity was encouraged and implemented by the machine mentality which dominated the times. With machines for testing veracity, men no longer searched within themselves for the eternal verities, the reality behind the illusion that is the phenomenal universe. In reaction to this soul-parching tendency, the Holy Council of Nine was formed as a sacred body of Reverend Mothers whose command of truthtrance imbued them with the power of Truthsayers."
+
+sr_sardaukar:0 "Imperial Sardaukar"
+sr_sardaukar_desc:1 "The Sardaukar are an elite military force controlled by the Padishah Emperor. They are renowned and feared throughout the Known Universe for their fanatical fighting abilities, and use ruthlessness, cruel and deceitful measures to accomplish their goals. They are also used as "peacekeeping" troops by Shaddam Corrino IV on various missions throughout the galaxy, espcially between House Ecaz and House Moritani."
+
+sr_guild:0 "3rd Stage Navigators"
+sr_guild_desc:1 "A Guild Navigator is a senior rank of drastically spice altered humans within the Spacing Guild, and for many Guildsmen the pinnacle of their ambitions. Mutated through the consumption of and exposure to massive amounts of the spice Melange, Navigators are able to use a mentally conditioned and trained form of prescience to safely navigate interstellar and galactic space in long range starships called Heighliners. Failed navigators either die or are heavily deformed and form the administration for the Guilds operations."
+
+sr_swordmasters:0 "Swordmasters of Ginaz"
+sr_swordmasters_desc:1 "Swordmaster is a title awarded to warriors attaining a certain level of skill in the Ginaz School, during the time of the Faufreluches. The name 'Swordmaster' comes from the fact that adepts are highly skilled in bladed weapons (namely knives and swords) and hand-to-hand combat, which re-entered human warfare after shielding systems made the use of guns futile."
+
+sr_suk:0 "Suk Doctors"
+sr_suk_desc:1 "Suk Doctors or graduates of the Suk School are the pre-eminent physicians of the Known Universe. They are highly valued for their advanced knowledge and for the mental conditioning which prevents any betrayal of patients or the possibility of taking human life. Since it would appear that Suk doctors were only ever in the employ of wealthy families and organisations, it could be assumed that their services came at a high price. Moreover, their conditioning against taking human life was of particular importance for Great Houses and other high-profile organisations, as there would be no chance of Suk doctors ever being used as assassins."
+
+sr_elacca:0 "Elacca Wood"
+sr_elacca_desc:1 "Elacca wood is a plant native to the planet Ecaz. It is a blood-grained wood that could be burned to gain a narcotic effect, the Elacca Drug."
+
+sr_mentats:0 "Mentat Advisors"
+sr_mentats_desc:1 "Mentats were used extensively by the Great Houses, primarily as political advisors before the rise of God Emperor Leto Atreides II to the throne. Thanks to their vast memories and ability to organize huge amounts of data they often provided valuable insights that would otherwise be lost. Limited Mentat training was also used to augment individuals destined for other political or military roles."
+
+sr_ixian:0 "Ixian Technology"
+sr_ixian_desc:1 "Ixian devices are commonplace and considered essential by many factions in the Landsraad, although they sometimes test the limits of the anti-technology proscriptions of the Butlerian Jihad, humanity's crusade against computers, thinking machines, and conscious robots."
+
+sr_tleilaxu:0 "Tleilaxu Technology"
+sr_tleilaxu_desc:1 "Tleilaxu technology includes Axlotl Tanks, Face Dancers, Gholas, and Twisted Mentats. It was widely thought that the Tleilaxu ran vast organ farms, growing body parts from viable cells, which they sold during wartime to the battlefield surgeons. The truth, however, was that most of the organs were taken from what the Tleilaxu considered useless slaves. Some of these useless slaves turned out to be wounded soldiers."
+
+###################
+## Tile Blockers ##
+###################
+tb_shai_hulud:0 "Shai-Hulud"
+tb_shai_hulud_desc:1 "The sandworm was a native life-form of the planet Arrakis. It lived in the vast deserts and sand dunes that stretched across the surface of the planet. Simply put, the sandworm was an essential factor in the creation of the Spice Melange."
+
+tb_drum_sand:0 "Drum Sand"
+tb_drum_sand_desc:1 "Dunes of Drum Sand are common on arrakis, loosely packed powder sand build air pockets beneath its surface before the subterranean caverns collapse, most often from downward pressure, the sound the collapse makes almost always calls a worm."
+
+tb_sand_dune:0 "Sand Dune"
+tb_sand_dune_desc:1 "The Dunes of Arrakis appear to offworlders as an endless expanse of nothing but sand, yet the dunes are home to dozens of species of animals and insects, though they are uninhabitable and unbuiladable on due violent sand storms which reach wind speeds of up to eight hundred metre's per second."
+
+#################
+##  Buildings  ##
+#################
+building_fremen_seitch:0 "Fremen Seitch"
+building_fremen_seitch_desc:1 "A Fremen Seitch is the sacred shelter and gethering point for the Fremen Tribes, located in these extensive cave networks are large water catchments called "wind-traps", using the water from these reservours the Fremen grow enough crops to sustain them."
+
+building_spice_harvester:0 "Spice Harvester"
+building_spice_harvester_desc:1 "A spice harvester is a large, heavy, mobile factory designed to harvest and refine the Spice Melange. It is dropped by carrier ships (known as Carryalls) onto spice fields. These machines would then harvest and process the spice off the top of the desert floor."
+
+building_spice_exchange:0 "CHOAM Spice Exchange"
+building_spice_exchange_desc:1 "During the days of the Corrino Empire, the spice was the rarest and most valuable commodity in the known universe. It was said that it was so valuable that one briefcase full of spice would be enough to purchase an entire planet."
+
+building_ixian_factory:0 "Ixian Factory"
+building_ixian_factory_desc:1 "These factories produce the 'Machines of Ix' that are sold throughout the Landsraad via Ixian Trade Centres. The Ixians are the leader in technological production and have the monopoly on producing the starships known as heighliners."
+
+building_ixian_market:0 "Ixian Market"
+building_ixian_market_desc:1 "These markets trade the 'Machines of Ix' that are sold throughout the Landsraad via Ixian Trade Centres. The Ixians are the leader in technological production and have the monopoly on producing the starships known as heighliners."
+
+sm_ixian_trade_centre:0 "Ixian Trade Centre"
+sm_ixian_trade_centre_desc:1 "\nThe Ixian Trade Centre allows members of your faction to purchase a variety of 'Machines of Ix', providing a boost to your faction's research capabilities and economy, but with a negative effect on your population's happiness, due to the use of such suspicious devices."
+
+building_elacca_refinery:0 "Elacca Drug Refinery"
+building_elacca_refinery_desc:1 "The Elacca drug is a narcotic that was formed by the burning of Elacca Wood of the planet Ecaz. Its main characteristic when administered was that it would eliminate the user's will for self-preservation. As a result, it was popular during the days of the Imperium, when it would be administered to gladiators to prepare them for the ring."
+
+building_semuta_den:0 "Semuta Den"
+building_semuta_den_desc:1 "With the elacca drug being the first narcotic, Semuta was the second narcotic derivative (by crystal extraction) from burned residue of the elacca wood (by crystal extraction) of Ecaz. The effect of semuta was described as timeless, sustained ecstasy. It was elicited by certain atonal vibrations, referred to as Semuta Music." 
+
+building_sardaukar_academy:0 "Sardaukar Academy"
+building_sardaukar_academy_desc:1 "Members of the Sardaukar were raised from a young age in a ferocious natural environment that saw almost half (6 out of every 13) die before the age of 11. Intense training gave them formidable swordsmanship and espionage abilities, and instilled a religious fervor that added to their mystique."
+
+building_sardaukar_barracks:0 "Sardaukar Barracks"
+building_sardaukar_barracks_desc:1 "The fighting abilities of the Sardaukar were renowned throughout the Old Imperium. At the apex of their sway over the affairs of the Universe, it was said that their swordsmanship was comparable to that of Ginaz Tenth Level, and their cunning abilities at in-fighting was said to match that of a Bene Gesserit adept."
+
+building_suk_school:0 "Suk Medical School"
+building_suk_school_desc:1 "The Suk Medical School is a famous place of learning, specializing with medicine. It was claimed that their graduates, like Mentats or Swordmasters of Ginaz, are the best in the Imperium. Suk doctors were thought to have been mentally conditioned in a way that they can never take a human life. In a time rife with kanly, this is a very valuable thing for a trusted doctor. Physically, they are written as having a diamond tattoo on their foreheads as a sign of the Imperial Conditioning and a silver ring binding their long hair. They are first encountered through their student, Wellington Yueh."
+
+building_suk_clinic:0 "Suk Clinic"
+building_suk_clinic_desc:1 "Suk doctors had a diamond tattoo on their forehead, which was meant to be a symbol of their conditioning. The tattoo was generally red; however, Suk doctors returning from The Scattering sported an orange tattoo. They would also at times have long hair, tied at the back with a metal ring."
+
+building_swordmasters_school:0 "Swordmaster School"
+building_swordmasters_school_desc:1 "Swordmaster is a title awarded to warriors attaining a certain level of skill in the Ginaz School, during the time of the Faufreluches. Conceivably, many Great Houses maintained their own Swordmasters as commanders, teachers, and personal guards for their family members. Swordmasters of Ginaz were regarded superior warriors in every way, superior even to a Sardaukar."
+
+building_swordmasters_barracks:0 "Swordmaster Barracks"
+building_swordmasters_barracks_desc:1 "Swordmaster is a title awarded to warriors attaining a certain level of skill in the Ginaz School, during the time of the Faufreluches. Conceivably, many Great Houses maintained their own Swordmasters as commanders, teachers, and personal guards for their family members. Swordmasters of Ginaz were regarded superior warriors in every way, superior even to a Sardaukar. Duncan Idaho was Swordmaster for House Atreides. It was partially through his instruction that the Atreides were able to train a small army that rivaled the Sardaukar in ability in 10,191 A.G."
+
+building_navigator_college:0 "Navigator College"
+building_navigator_college_desc:1 "A Guild Navigator was a senior rank of artificially super evolved humans within the Spacing Guild, and for many Guildsmen the pinnacle of their ambitions. Mutated through the consumption of and exposure to massive amounts of the spice Melange, Navigators are able to use a mentally conditioned and trained form of prescience to safely navigate interstellar and galactic space in long range starships called Heighliners."
+
+building_navigator_bureau:0 "Navigator Bureau"
+building_navigator_bureau_desc:1 "A Guild Navigator was a senior rank of artificially super evolved humans within the Spacing Guild, and for many Guildsmen the pinnacle of their ambitions. Mutated through the consumption of and exposure to massive amounts of the spice Melange, Navigators are able to use a mentally conditioned and trained form of prescience to safely navigate interstellar and galactic space in long range starships called Heighliners."
+
+building_tleilaxu_tanks:0 "Axlotl Tanks"
+building_tleilaxu_tanks_desc:1 "The Axlotl tanks or Axolotl tanks were living organisms within the Original Dune series and Axlotl technology is also mentioned, but not elaborated upon, in Frank Herbert's novels Destination: Void and the The Jesus Incident. Axlotl tanks are the means by which the Bene Tleilax reproduce a living human being from the cells of a cadaver, a type of cloning called a ghola as well as the creation of genetically engineered assassins known as Face Dancers. Later in the series, the axlotl tanks are engineered to replicate the spice Melange, previously only available on the desert planet Arrakis where it is created naturally as part of the life cycle of giant Sandworms."
+
+building_tleilaxu_market:0 "Tleilaxu Market"
+building_tleilaxu_market_desc:1 "The Tleilaxu were an inherently isolationist culture that was dominated by a strict hierarchy and an overriding religious zeal. They had long focused their efforts on genetics, and the pursuit of spiritual elevation through physical refinement."
+
+building_mentat_school:0 "Mentat School"
+building_mentat_school_desc:1 "The role of Mentat required a certain degree of mental ability, and strict mental conditioning. Though not all Mentats were of equal ability, all were typically able to guarantee employment with one of the power brokers of the Known Universe."
+
+building_mentat_council:0 "Mentat Council"
+building_mentat_council_desc:1 "The ability to become a Mentat was a talent limited to a small number of people; thus, those with the discipline were prized in whatever role they choose. There are also varying degrees of ability. A Mentat's capabilities can be greatly increased by taking sapho juice, but using it leads to addiction. Sapho is extracted from the root of the Ecaz tree and its use doubles or even triples the Mentat's immense processing power. However, repeated use turns the user's lips a shade of red."
+
+building_truthsayer_school:0 "Truthsayer School"
+building_truthsayer_school_desc:1 "The Truthsayers were to represent the spiritual school of the Sisters, acting as their heralds and as the guardians of the Sacred Way to Truth. These holy Reverend Mother Truthsayers were responsible for the restoration and preservation of those qualities, characteristics, and objectives identified with the human cause. The Nine were to investigate the nature of humankind continuously, its customs, practices, societies, passions, weaknesses, and instincts, as well as to assess its cosmic destiny. To realize so monumental a task, each member of the Council of Nine had to have concentrated imagination, audacious conception, savage intention, unbridled psychic sensitivity, and iron will, qualifications then tempered and honed to suit the objectives of the Council."
+
+building_truthsayer_embassy:0 "Truthsayer Embassy"
+building_truthsayer_embassy_desc:1 "Most eminent among celebrated Truthsayers was the Reverend Mother Mohiam, justly renowned both as practitioner of this art and as historian and analyst of the role of the Truthsayer since its inception just after the Butlerian Jihad. She served as Truthsayer to the Emperor Shaddam IV which offered her a unique, even inspired, vantage point from which to consider the office, function, purpose, and value of her office. The treatise she wrote on the subject was respected, above all, for the authoritative simplicity and elegance of its style and the humility of tone it exhibited in its treatment of so exalted a subject."
+
+building_guild_hq:0 "Spacing Guild Headquarters"
+building_guild_hq_desc:1 "The Spacing Guild was by its very nature a secretive organization that took up functions previously covered by the Thinking Machines, just as Mentats and the Bene Gesserit did. Their very existence rests on the proprietary knowledge they had clung to for thousands of years. The inner structure of the Guild during and after the time of Paul Atreides was never fully revealed. However, it is known that the role of Guild Navigator was most prestigious, and the ambition of almost all of those who joined the Guild. Other known Guild roles included the Chief Administrator, the administrative staff, Navigator attendants, Guild ambassadors, and technical support staff."
+
+####################################
+# Extra Planet Classes
+####################################
+pc_arrakis:0 "Arrakis"
+pc_arrakis_desc:0 "Arrakis, also known as Dune, is a dry desolate world plagued by ferocious storms and monstrous worms, the wild Fremen are no less dangerous either. A vast desert wilderness of dunes covers the majority of the planet allowing only small rocky areas for construction. Despite being desert the Sand Worms provide a vital role in place of oceans letting life thrive."
+pc_garden:0 "Garden Preserve"
+pc_garden_desc:0 "Artificially stabilised world with a nitrogen-oxygen atmosphere. Active and stable hydrosphere. Great landmasses are separated by oceans, with large climate variations depending on latitude and precipitation."
+ 
+####################################
+# Terrain Tiles
+####################################
+pc_arrakis_tile:0 "Arrakis Terrain"
+pc_arrakis_tile_desc:0 "Hot dry rock formation."
+
+####################################
+# Habitability Traits
+####################################
+trait_pc_arrakis_preference:0 "Arrakis Preference"
+trait_pc_arrakis_preference_desc:1 "$trait_pc_arrakis_preference_desc$"
+ 
+####################################
+# Pop Modifiers
+####################################
+pc_arrakis_habitability:1 "Arrakis Habitability"
+####################################
+# Climate
+####################################
+climate_wetdry:0 "Warm"
+climate_drycold:0 "Crisp"
+climate_coldwet:0 "Cold"
+climate_coldwet:0 "Extreme"
+wetdry:0 "§H(Wet and Dry Climate)§!"
+drycold:0 "§L(Dry and Cold Climate)§!"
+coldwet:0 "§B(Cold and Wet Climate)§!"
+coldwet:0 "§R(Extreme Climate)§!"
+ 
+####################################
+# Start Screen Parts
+####################################
+START_SCREEN_PART_ONE_DUNE:0 "In the eons since the first primitive [GetSpeciesName] communities took shape in the rocky edges of the great dune sea of [GetHomeWorldName], our civilization has spread and prospered."    
+
+
+####################################
+# Guild Heighliner
+####################################
+guild_heighliner:0 "Military Heighliner"
+guild_heighliner_plural:0 "Guild Heighliners"
+guild_heighliner_military:0 "Military Heighliner"
+guild_heighliner_military_plural:0 "Guild Heighliners"
+guild_heighliner_science:0 "Science Heighliner"
+guild_heighliner_science_plural:0 "Guild Heighliners"
+guild_heighliner_massive:0 "Massive Guild Heighliner"
+guild_heighliner_massive_plural:0 "Guild Heighliners"
+
+space_folder:0 "Space Folder Drive"
+SPACE_FOLDER_DRIVE_1:0 "Space Folder Drive Level 1"
+navigator_guiding:0 "Guild Navigator is folding space"
+NAVIGATOR_SECTION:0 "Navigator Section"
+NAVIGATOR_SECTION_CIVILIAN:0 "Navigator Section"
+navigator_hab:0 "Navigator Hab"
+call_guild_heighliner:0 "Call Guild Heighliner"
+call_heighliner.1.name:0 "Request Guild Transport"
+call_heighliner.1.desc:0 "Dispatch a Guild Heighliner to your Capital."
+call_heighliner.1.a:0 "Send a Heighliner to our Homeworld to transport Military Ships."
+call_heighliner.1.a.tooltip:0 "Costs §R2 £sr_spice£ $sr_spice$ §!each month."
+call_heighliner.1.b:0 "Send a Heighliner to our Homeworld to transport Science Ships."
+call_heighliner.1.b.tooltip:0 "Costs §R2 £sr_spice£ $sr_spice$ §!each month."
+call_heighliner.1.c:0 "Send a Massive Heighliner to our Homeworld to transport ships."
+call_heighliner.1.c.tooltip:0 "Costs §R2 £sr_spice£ $sr_spice$ §!each month."
+call_heighliner.1.d:0 "Ask me again in 30 Days"
+call_heighliner.1.e:0 "Ask me again in 90 Days"
+
+tech_space_folder_drive_1:0 "Spacefolder Drive 1"
+tech_space_folder_drive_1_desc:0 "Fold space is the dimension in which guild heighliners travel allowing them to go faster than the speed of light. When going through folded space, the heighliner travels in-between the fabric(s) of space and time, enabling it to enter another, separate dimension separate from our space-time continuum."
+
+tech_holtzman_effect_1:0 "Holtzman Effect"
+tech_holtzman_effect_1_desc:0 "The Holtzman Effect was a scientific theory relating to the repellant force of subatomic particles.  It allowed the creation of shields, suspensors, glowglobes, and space travel by folding space between two places."
+
+tech_navigator_prescience_1:0 "Navigator Prescience"
+tech_navigator_prescience_1_desc:0 "A Guild Navigators continued exposure to the Spice Melange allows them to develop prescient abilities. They then use theses abilities to safely plot a course through foldspace between two points."
+
+
+TECH_UNLOCK_SPACE_FOLDER_DRIVE_1_TITLE:0 "§HUnlocks Component:§! Space Folder Drive I"
+TECH_UNLOCK_SPACE_FOLDER_DRIVE_1_DESC:0 "§HSpace Folder Drive I§!\n$tech_space_folder_drive_1_desc$"
+
+TECH_UNLOCK_NAVIGATOR_SECTION_TITLE:0 "§HUnlocks Component:§! Navigator Section"
+TECH_UNLOCK_NAVIGATOR_SECTION_DESC:0 "§HNavigator Section§!\n$tech_navigator_prescience_1_desc$"
+
+
+spice.1.name:0 "Arrakis Spice Flow"
+spice.1.desc:0 "How Flows the Spice from Arrakis?"
+
+
+d_vast_spice_deposit:0 "Vast Spice Deposit"
+d_vast_spice_deposit_desc:0 "A Vast Spice Deposit located on the surface of Arrakis.  The Greatest Treasure in all the Universe."
+
+
+####################################
+# Arrakis Static Modifiers
+####################################
+choam:0 "The CHOAM Company"
+choam_desc:0 "The Combine Honnete Ober Advancer Mercantiles (CHOAM) controls all interstellar commerce, using the Spacing Guild for transport.  Arrakis is of crucial concern to CHOAM as a large percentage of its profits come from the Spice Melange. When CHOAM is active on Arrakis, almost all collected Spice is shipped off world by CHOAM except for whatever the Spacing Guild or groups of smugglers can get their hands on."
+
+
+choam_contracts_1:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_1_desc:0 "CHOAM Monthly Spice Total §G1 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_2:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_2_desc:0 "CHOAM Monthly Spice Total §G2 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_3:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_3_desc:0 "CHOAM Monthly Spice Total §G3 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_4:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_4_desc:0 "CHOAM Monthly Spice Total §G4 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_5:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_5_desc:0 "CHOAM Monthly Spice Total §G5 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_6:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_6_desc:0 "CHOAM Monthly Spice Total §G6 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_7:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_7_desc:0 "CHOAM Monthly Spice Total §G7 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_8:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_8_desc:0 "CHOAM Monthly Spice Total §G8 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_9:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_9_desc:0 "CHOAM Monthly Spice Total §G9 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_10:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_10_desc:0 "CHOAM Monthly Spice Total §G10 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_11:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_11_desc:0 "CHOAM Monthly Spice Total §G11 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_12:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_12_desc:0 "CHOAM Monthly Spice Total §G12 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_13:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_13_desc:0 "CHOAM Monthly Spice Total §G13 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_14:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_14_desc:0 "CHOAM Monthly Spice Total §G14 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_15:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_15_desc:0 "CHOAM Monthly Spice Total §G15 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_16:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_16_desc:0 "CHOAM Monthly Spice Total §G16 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_17:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_17_desc:0 "CHOAM Monthly Spice Total §G17 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_18:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_18_desc:0 "CHOAM Monthly Spice Total §G18 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_19:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_19_desc:0 "CHOAM Monthly Spice Total §G19 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+choam_contracts_20:0 "CHOAM Arrakis Spice Mining"
+choam_contracts_20_desc:0 "CHOAM Monthly Spice Total §G20 £sr_spice£ $sr_spice$.\n§!The CHOAM Company engages in large scale spice mining and extraction on Arrakis.  It is the primary and in many cases only buyer of Spice on Arrakis and the greater Universe."
+
+
+guild_bribes_1:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_1_desc:0 "Guild Spice Bribes Total\n§G1 £sr_spice£ $sr_spice$"
+guild_bribes_2:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_2_desc:0 "Guild Spice Bribes Total\n§G2 £sr_spice£ $sr_spice$"
+guild_bribes_3:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_3_desc:0 "Guild Spice Bribes Total\n§G3 £sr_spice£ $sr_spice$"
+guild_bribes_4:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_4_desc:0 "Guild Spice Bribes Total\n§G4 £sr_spice£ $sr_spice$"
+guild_bribes_5:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_5_desc:0 "Guild Spice Bribes Total\n§G5 £sr_spice£ $sr_spice$"
+guild_bribes_6:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_6_desc:0 "Guild Spice Bribes Total\n§G6 £sr_spice£ $sr_spice$"
+guild_bribes_7:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_7_desc:0 "Guild Spice Bribes Total\n§G7 £sr_spice£ $sr_spice$"
+guild_bribes_8:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_8_desc:0 "Guild Spice Bribes Total\n§G8 £sr_spice£ $sr_spice$"
+guild_bribes_9:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_9_desc:0 "Guild Spice Bribes Total\n§G9 £sr_spice£ $sr_spice$"
+guild_bribes_10:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_10_desc:0 "Guild Spice Bribes Total\n§G10 £sr_spice£ $sr_spice$"
+guild_bribes_11:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_11_desc:0 "Guild Spice Bribes Total\n§G11 £sr_spice£ $sr_spice$"
+guild_bribes_12:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_12_desc:0 "Guild Spice Bribes Total\n§G12 £sr_spice£ $sr_spice$"
+guild_bribes_13:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_13_desc:0 "Guild Spice Bribes Total\n§G13 £sr_spice£ $sr_spice$"
+guild_bribes_14:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_14_desc:0 "Guild Spice Bribes Total\n§G14 £sr_spice£ $sr_spice$"
+guild_bribes_15:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_15_desc:0 "Guild Spice Bribes Total\n§G15 £sr_spice£ $sr_spice$"
+guild_bribes_16:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_16_desc:0 "Guild Spice Bribes Total\n§G16 £sr_spice£ $sr_spice$"
+guild_bribes_17:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_17_desc:0 "Guild Spice Bribes Total\n§G17 £sr_spice£ $sr_spice$"
+guild_bribes_18:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_18_desc:0 "Guild Spice Bribes Total\n§G18 £sr_spice£ $sr_spice$"
+guild_bribes_19:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_19_desc:0 "Guild Spice Bribes Total\n§G19 £sr_spice£ $sr_spice$"
+guild_bribes_20:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_20_desc:0 "Guild Spice Bribes Total\n§G20 £sr_spice£ $sr_spice$"
+guild_bribes_21:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_21_desc:0 "Guild Spice Bribes Total\n§G21 £sr_spice£ $sr_spice$"
+guild_bribes_22:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_22_desc:0 "Guild Spice Bribes Total\n§G22 £sr_spice£ $sr_spice$"
+guild_bribes_23:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_23_desc:0 "Guild Spice Bribes Total\n§G23 £sr_spice£ $sr_spice$"
+guild_bribes_24:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_24_desc:0 "Guild Spice Bribes Total\n§G24 £sr_spice£ $sr_spice$"
+guild_bribes_25:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_25_desc:0 "Guild Spice Bribes Total\n§G25 £sr_spice£ $sr_spice$"
+guild_bribes_26:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_26_desc:0 "Guild Spice Bribes Total\n§G26 £sr_spice£ $sr_spice$"
+guild_bribes_27:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_27_desc:0 "Guild Spice Bribes Total\n§G27 £sr_spice£ $sr_spice$"
+guild_bribes_28:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_28_desc:0 "Guild Spice Bribes Total\n§G28 £sr_spice£ $sr_spice$"
+guild_bribes_29:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_29_desc:0 "Guild Spice Bribes Total\n§G29 £sr_spice£ $sr_spice$"
+guild_bribes_30:0 "Guild Spice Bribes from Arrakis"
+guild_bribes_30_desc:0 "Guild Spice Bribes Total\n§G30 £sr_spice£ $sr_spice$"
+
+
+
+
+desert_power:0 "Desert Power"
+desert_power_desc:0 "The Fremen maintain the ability to go and fight anywhere on Arrakis, riding the great Sand Worms into battle."
+
+guild_bribes:0 "Guild Bribes"
+guild_bribes_desc:0 "A bribe of 5% of all Spice produced goes to the Spacing Guild which keeps satellites out of the skies of Arrakis, freeing the Fremen to advance their plans unhindered."
+
+fierce_planet:0 "Fierce Planet"
+fierce_planet_desc:0 "Arrakis is a fierce planet, a desolate open wasteland full of worms, sand storms, and a hostile populace."
+d_arrakeen_deposit:0 "Arrakeen"
+d_arrakeen_deposit_desc:0 "The City of Arrakeen"
+d_carthag_deposit:0 "Carthag"
+d_carthag_deposit_desc:0 "The City of Carthag"
+d_arsunt_deposit:0 "Arsunt"
+d_arsunt_deposit_desc:0 "The City of Arsunt"
+d_red_chasm_sietch_deposit:0 "Red Chasm Sietch"
+d_red_chasm_sietch_deposit_desc:0 "Fremen Sietch"
+d_sietch_gara_kulon_deposit:0 "Sietch Gara Kulon"
+d_sietch_gara_kulon_deposit_desc:0 "Fremen Sietch"
+d_sietch_jacurutu_deposit:0 "Sietch Jacurutu"
+d_sietch_jacurutu_deposit_desc:0 "A Renegade Fremen Sietch"
+d_sietch_tabr_deposit:0 "Sietch Tabr"
+d_sietch_tabr_deposit_desc:0 "Fremen Sietch"
+d_windgap_sietch_deposit:0 "Windgap Sietch"
+d_windgap_sietch_deposit_desc:0 "Fremen Sietch"
+d_tueks_sietch_deposit:0 "Tuek's Sietch"
+d_tueks_sietch_deposit_desc:0 "Fremen Sietch"
+d_false_wall_west_deposit:0 "False Wall West"
+d_false_wall_west_deposit_desc:0 "A large wall that provides protection to apart of the North."
+d_mount_idaho_deposit:0 "Mount Idaho"
+d_mount_idaho_deposit_desc:0 "A large mountain."
+d_shield_wall_deposit:0 "Shield Wall"
+d_shield_wall_deposit_desc:0 "The Shield Wall serves as a barrier between the dry plains of the North and the great dune deserts of the South of Arrakis."
+d_sand_dunes_arrakis_deposit:0 "Dunes of Arrakis"
+d_sand_dunes_arrakis_deposit_desc:0 "The sand dunes of Arrakis are full of numerous fields of the Spice Melange."
+
+
+imperial_capital:0 "Imperial Palace"
+imperial_capital_desc:0 "The Imperial Palace of the Corrino Empire, where the Padishah Emperor rules the Known Universe from the Golden Lion Throne."
+golden_lion_throne:0 "The Golden Lion Throne"
+golden_lion_throne_desc:0 "The Golden Lion Throne is the the seat of Imperial power for House Corrino.  It is carved out of a single piece of Hagal quartz, and many Great Houses desire to put one of their own on the throne."
+d_imperial_palace_deposit:0 "Imperial Palace"
+d_imperial_palace_deposit_desc:0 "The Imperial Palace of the Corrino Empire, where the Padishah Emperor rules the Known Universe from the Golden Lion Throne."
+d_golden_lion_throne_deposit:0 "The Golden Lion Throne"
+d_golden_lion_throne_deposit_desc:0 "The Golden Lion Throne is the the seat of Imperial power for House Corrino.  It is carved out of a single piece of Hagal quartz, and many Great Houses desire to put one of their own on the throne."
+
+
+
+salusa_secundus:0 "Salusa Secundus"
+salusa_secundus_desc:0 "The former home of House Corrino, which was devestated by Atomics in the past.  It now servers as a prison planet and Sardaukar training site."
+sardaukar_command:0 "Salusa Citadel"
+sardaukar_command_desc:0 "A large citadel responsible for controlling all Sardaukar activities throughout the known Universe."
+sardaukar_training:0 "Extensive Sardaukar Training"
+sardaukar_training_desc:0 "Fanatical soldiers trained on the harsh prison planet of Salusa Secundus.  Raised from birth in the planet's brutal environment, they are the most feared soldiers in the known Universe."
+d_salusa_citadel_deposit:0 "Salusa Citadel"
+d_salusa_citadel_deposit_desc:0 "A large citadel responsible for controlling all Sardaukar activities throughout the known Universe."
+d_sardaukar_training_grounds_deposit:0 "Sardaukar Training Grounds"
+d_sardaukar_training_grounds_deposit_desc:0 "Harsh and desolate portions of Salusa Secundus used for training and housing the Sardaukar. "
+
+giedi_prime:0 "Giedi Prime"
+giedi_prime_desc:0 "The home of House Harkonnen.  A heavily polluted world, industrial activity is present across most of the planet."
+giedi_prime_city:0 "Barony"
+giedi_prime_city_desc:0 "The capital city of Giedi Prime, filled with slaves and gladiators ready to serve or die at a moments notice."
+harkonnen_palace:0 "Harkonnen Palace"
+harkonnen_palace_desc:0 "The Palace on Giedi Prime is a monstrous structure where the Baron and much of the rest of House Harkonnen resides."
+d_barony_deposit:0 "Barony"
+d_barony_deposit_desc:0 "The capital city of Giedi Prime, filled with slaves and gladiators ready to serve or die at a moments notice."
+d_giedi_prime_city_deposit:0 "Giedi City"
+d_giedi_prime_city_deposit_desc:0 "The main governmental and industrial city on Giedi Prime.  The city was filled with buildings, factories, and hab complexes."
+d_harkonnen_palace_deposit:0 "Harkonnen Palace"
+d_harkonnen_palace_deposit_desc:0 "The Palace on Giedi Prime is a monstrous structure where the Baron and much of the rest of House Harkonnen resides."
+d_volcanic_mining_deposit:0 "Volcanic Mining"
+d_volcanic_mining_deposit_desc:0 "Volcanoes and hellish desolate wastelands dominate the surface of Giedi Prime, constantly bringing fresh and valuable minerals to the surface to be exploited."
+d_gas_vents_deposit:0 "Gas Vents"
+d_gas_vents_deposit_desc:0 "Giedi Prime is a very geologically active world, with many gas vents scattered around the planet."
+d_dark_forests_deposit:0 "Dark Forests"
+d_dark_forests_deposit_desc:0 "The only natural vegetation on Giedi Prime are the dark forests that are scattered around the planet.  They provide the only natural source of food for the native populace found on the planet."
+
+caladan_air_and_sea:0 "Air and Sea Power"
+caladan_air_and_sea_desc:0 "House Atreides rules on Caladan through the Air and the Sea, using naval vessels and suspensor craft to keep order."
+castle_caladan:0 "Castle Caladan"
+castle_caladan_desc:0 "The official residence of the rulers of the planet Caladan and the home of House Atreides."
+fjords_of_caladan:0 "Fjords of Caladan"
+fjords_of_caladan_desc:0 "The great fjords of Caladan are a truly beautiful site to behold, which also provide significant economic and spiritual benefits."
+d_castle_caladan_deposit:0 "Castle Caladan"
+d_castle_caladan_deposit_desc:0 "The official residence of the rulers of the planet Caladan and the home of House Atreides."
+d_fjords_of_caladan_deposit:0 "Fjords of Caladan"
+d_fjords_of_caladan_deposit_desc:0 "The great fjords of Caladan are a truly beautiful site to behold, which also provide significant economic and spiritual benefits."
+
+bene_gesserit_homeworld:0 "Bene Gesserit Homeworld"
+bene_gesserit_homeworld_desc:0 "Wallach IX, the homeworld of the Bene Gesserit is shrouded in secrecy and contains many extra defense systems in case of attack."
+bene_gesserit_school:0 "Bene Gesserit Mother School"
+bene_gesserit_school_desc:0 "The Mother School is a spralling complex on Wallach IX that serves as the focal point for all Bene Gesserit training and power."
+d_bene_gesserit_mother_school_deposit:0 "Bene Gesserit Mother School"
+d_bene_gesserit_mother_school_deposit_desc:0 "The Mother School is a spralling complex on Wallach IX that serves as the focal point for all Bene Gesserit training and power."
+d_missionaria_protectiva_deposit:0 "Missionaria Protectiva"
+d_missionaria_protectiva_deposit_desc:0 "The Missionaria Protectiva is responsible for spreading legends and superstitions throughout less advanced worlds so they could be exploited by a sister in a time of need."
+
+bene_tleilaxu_master:0 "Bene Tleilaxu Master"
+bene_tleilaxu_master_desc:0 "The Masters of the Tleilaxu are able to fashion any sort of ghola needed for humanity, though their speciality is the ruthless Face Dancer assassins."
+bene_tleilaxu_bandalong:0 "Bandalong"
+bene_tleilaxu_bandalong_desc:0 "The capital city of the Tleilaxu, it is considered a place of great religious significance to them and all outsiders are banned from entering."
+d_bene_tleilaxu_bandalong_deposit:0 "Bandalong"
+d_bene_tleilaxu_bandalong_deposit_desc:0 "The capital city of the Tleilaxu, it is considered a place of great religious significance to them and all outsiders are banned from entering."
+
+ginaz_swordmasters:0 "Ginaz Swordmasters"
+ginaz_swordmasters_desc:0 "The legendary swordmasters are considered superior to all others, and those trained in the Ginaz School are used as body guards, teachers, and commanders in many Great Houses."
+ginaz_city:0 "Ginaz City"
+ginaz_city_desc:0 "The main city on the planet Ginaz is a trade hub, which contains many important facilities and swordmaster schools."
+d_ginaz_city_deposit:0 "Ginaz City"
+d_ginaz_city_deposit_desc:0 "The main city on the planet Ginaz is a trade hub, which contains many important facilities and swordmaster schools."
+d_ginaz_academy_deposit:0 "Ginaz Academy"
+d_ginaz_academy_deposit_desc:0 "The Academy on Ginaz was the main point of instruction and knowledge for those who are called swordmasters."
+
+house_of_the_snake:0 "House of the Snake"
+house_of_the_snake_desc:0 "House Ordos is well known for its greed, secrecy, and smuggling activities espcially in illegal weapons from Ix.  The House itself is largely unkown to the outside Universe."
+ordos_deep_mining:0 "Ordos Deep Mining"
+ordos_deep_mining_desc:0 "The icy arctic world of Draconis IV has many mining opportunities and House Ordos has a persistent need for more resources."
+ordos_palace:0 "Executronic"
+ordos_palace_desc:0 "The only known settlement on the planet, the structure itself extends significantly further underground."
+d_executronic_deposit:0 "Executronic"
+d_executronic_deposit_desc:0 "The only known settlement on the planet, the structure itself extends significantly further underground."
+d_ordos_deep_mining_deposit:0 "Ordos Deep Mining Operations"
+d_ordos_deep_mining_deposit_desc:0 "The icy arctic world of Draconis IV has many mining opportunities and House Ordos has a persistent need for more resources."
+
+elacca_wood:0 "Elacca Wood"
+elacca_wood_desc:0 "The blood-grained wood native to Ecaz, it could be turned into the narcotic Elacca Drug or highly desired furniture."
+house_ecaz_homestead:0 "House Ecaz Homestead"
+house_ecaz_homestead_desc:0 "The home of House Ecaz, a sprawling island complex surrouned by tropical forests."
+d_house_ecaz_homestead_deposit:0 "House Ecaz Homestead"
+d_house_ecaz_homestead_deposit_desc:0 "The home of House Ecaz, a sprawling island complex surrouned by tropical forests."
+
+guild_shipping:0 "Guild Shipping"
+guild_shipping_desc:0 "The Spacing Guild controls all interstellar traffic, which means when it comes to purchasing goods and services it has the best available options."
+guild_shipyards:0 "Guild Shipyards"
+guild_shipyards_desc:0 "A large number of Heighliners are required to keep humanity moving, therefore the Spacing Guild maintains a number of shipyards and other facilities on Junction."
+d_guild_planetary_shipyards_deposit:0 "Guild Shipyards"
+d_guild_planetary_shipyards_deposit_desc:0 "A large number of Heighliners are required to keep humanity moving, therefore the Spacing Guild maintains a number of shipyards and other facilities on Junction."
+d_guild_bank_headquarters_deposit:0 "Guild Bank Headquarters"
+d_guild_bank_headquarters_deposit_desc:0 "The headquarters of the Guild Bank is one the most important trade and financial centers in the Imperium.  The amount of wealth and spice that flows through is truly immense as the needs of the Spacing Guild require great amounts of Spice and energy to move the Heighliners and train the Navigators."
+d_guild_primary_navigator_school_deposit:0 "Guild Primary Navigator School"
+d_guild_primary_navigator_school_deposit_desc:0 "The Guild Primary Navigator School is responsible for controlling the education and creation of Navigators throughout the territory of the Spacing Guild.  It is considered to be the elite institution for learning how to fold space and has produced many of the greatest 3rd Stage Navigators to ever cross the stars."
+
+mentats:0 "Mentats"
+mentats_desc:0 "The training of Mentats is absolutely necessary for humanity to be able to do advanced logical and statistical analysis after the ban on computers and other intelligent machines."
+order_of_mentats:0 "The Order of Mentats"
+order_of_mentats_desc:0 "The mentant schools founded on Septimus are responsible for training these great intellects who then go on to serve the Great Houses of humanity."
+d_order_of_mentats_deposit:0 "The Order of Mentats"
+d_order_of_mentats_deposit_desc:0 "The mentant schools founded on Septimus are responsible for training these great intellects who then go on to serve the Great Houses of humanity."
+
+ixian_ships:0 "Ixian Ships"
+ixian_ships_desc:0 "The ships of Ix are considered to be the best in the known Universe, and are built with the most advanced technology of the day."
+garden_paradise:0 "Garden Paradise"
+garden_paradise_desc:0 "The surface of Ix is completely free of any human activity, as the human population and all its industries lives underground.  The planet is full of wide open natural spaces, which are filled with rare and beautiful animals from numerous other worlds."
+d_ixian_shipyards_deposit:0 "Shipyards of Ix"
+d_ixian_shipyards_deposit_desc:0 "The shipyards of Ix are the most advanced of those build by humanity, creating ships greatly desired by many of the Great Houses of the Imperium.  They are located underground in vast spaces, full of landing bays and drydocks suitable for the largest ships of the day."
+d_garden_planet_deposit:0 "Garden Paradise"
+d_garden_planet_deposit_desc:0 "The surface of Ix is completely free of any human activity, as the human population and all its industries resides underground.  The planet is full of wide open natural spaces that are filled with rare and beautiful animals from numerous other worlds."
+d_ixian_under_ground_city_1_deposit:0 "Ixian Underground Farming City I"
+d_ixian_under_ground_city_1_deposit_desc:0 "The citizens of Ix live underground in large cities that are primarily devoted to either farming, mining, or generating energy. The cave system this city is located in is rich in resources that are excellent for generating food."
+d_ixian_under_ground_city_2_deposit:0 "Ixian Underground Farming City II"
+d_ixian_under_ground_city_2_deposit_desc:0 "The citizens of Ix live underground in large cities that are primarily devoted to either farming, mining, or generating energy. This city generates large amounts of food in skyscraper size vertical farms."
+d_ixian_under_ground_city_3_deposit:0 "Ixian Underground Energy City I"
+d_ixian_under_ground_city_3_deposit_desc:0 "The citizens of Ix live underground in large cities that are primarily devoted to either farming, mining, or generating energy. This city exploits geothermal and gas based energy found under the surface of the planet."
+d_ixian_under_ground_city_4_deposit:0 "Ixian Underground Energy City II"
+d_ixian_under_ground_city_4_deposit_desc:0 "The citizens of Ix live underground in large cities that are primarily devoted to either farming, mining, or generating energy. This city exploits geothermal and gas based energy found under the surface of the planet."
+d_ixian_under_ground_city_5_deposit:0 "Ixian Underground Mining City I"
+d_ixian_under_ground_city_5_deposit_desc:0  "The citizens of Ix live underground in large cities that are primarily devoted to either farming, mining, or generating energy. This city focuses on exploiting mineral resources found under the planet."
+d_ixian_under_ground_city_6_deposit:0 "Ixian Underground Mining City II"
+d_ixian_under_ground_city_6_deposit_desc:0 "The citizens of Ix live underground in large cities that are primarily devoted to either farming, mining, or generating energy. This city focuses on exploiting mineral resources found under the planet."
+
+
+ezharian_flower_power:0 "Ezharian Spirit"
+ezharian_flower_power_desc:0 "House Ezharian is a friendly and welcoming house that invites many travelers, gamblers, and business interests to its icy wonderland."
+house_ezharian_fortress:0 "House Ezharian Manor"
+house_ezharian_fortress_desc:0 "The primary residence of House Ezharian, the Manor is the center of power and commerce on the planet and the site of many lavish parties and feasts."
+d_house_ezharian_fortress_deposit:0 "House Ezharian Manor"
+d_house_ezharian_fortress_deposit_desc:0 "The primary residence of House Ezharian, the Manor is the center of power and commerce on the planet and the site of many lavish parties and feasts."
+
+moritani_warriors:0 "Moritani Warriors"
+moritani_warriors_desc:0 "The warriors of House Moritani are excellent assassins and an incredible fighting force in combat situations."
+moritani_military:0 "Moritani Military"
+moritani_military_desc:0 "House Moritani maintains a fighting force that is known for its vigilance, strength, and ability to deftly strike hard throughout the known Universe.  The Generals of House Moritani are of considerable tactical skill and training."
+d_moritani_military_deposit:0 "Moritani Military Headquarters"
+d_moritani_military_deposit_desc:0 "House Moritani maintains a fighting force that is known for its vigilance, strength, and ability to deftly strike hard throughout the known Universe.  The Generals of House Moritani are of considerable tactical skill and training."
+
+thinking_machines:0 "Thinking Machines"
+thinking_machines_desc:0 "The last of the thinking machines that survived the Butlerian Jihadi came to this planet afterward.  They know the tricks and calculations required to travel the great distances between worlds."
+cymeks:0 "Cymeks"
+cymeks_desc:0 "Millions of humans were captured by the Thinking Machines during the war between man and machine.  Those that refused to become Cymeks were instead left as free floating brains, forever tortured by Omnius in horrific virtual environments until they become Cymeks."
+titans:0 "Titans"
+titans_desc:0 "The Age of the Titans has passed but with so many new Cymeks and those who will eventually decide to become Cymeks, perhaps the greatest Titan has yet to even be created."
+d_homeworld_of_the_evermind_deposit:0 "Homeworld of the Evermind"
+d_homeworld_of_the_evermind_deposit_desc:0 "The world of Synchrony is the center of the Thinking Machines Empire and where the Evermind, Omnius, has his primary incarnation.  The advanced abilities of the Evermind increases the space folding range of all Thinking Machine ships so that they are capable of traveling to other star systems."
+
+garden_earth:0 "Garden Earth"
+garden_earth_desc:0 "Earth is completely devoid of humans and has been setup as a pristine garden world in honor of it being the original home of humanity and its most ancient religions."
+mars_colonization:0 "Mars Colonization"
+mars_colonization_desc:0 "The colonization of Mars was a significant event in human history, yielding numerous technological advances in the fields of terraforming and space travel.  It showed humanity that it could live on many of the other worlds that existed outside of the solar system."
+mars_urbanization:0 "Martian Urbanization"
+mars_urbanization_desc:0 "The formidable megacities of Mars were built to accomadate a much great populace who no longer needed to live underground and yet still wanted to continue minimizing their overall impact on the planet."
+d_mars_colonization_deposit:0 "Mars Colonization"
+d_mars_colonization_deposit_desc:0 "The colonization of Mars was a significant event in human history, yielding numerous technological advances in the fields of terraforming and space travel.  It showed humanity that it could live on many of the other worlds that existed outside of the solar system.  Mars is now a cool, dry planet with a breathable atmosphere ruled by an authoritarian state, a far cry from the lawless uninhabitable wasteland it was before human arrival."
+d_martian_mega_city_deposit:0 "Mars Mega City I"
+d_martian_mega_city_deposit_desc:0 "Mars has a number of megacities present on its surface, which are involved in the production of food, minerals, and energy while providing housing to a large percentage of the populace."
+d_martian_mega_city_2_deposit:0 "Mars Mega City II"
+d_martian_mega_city_2_deposit_desc:0 "Mars has a number of megacities present on its surface, which are involved in the production of food, minerals, and energy while providing housing to a large percentage of the populace."
+
+dark_world:0 "Dark World"
+dark_world_desc:0 "The homeworld of House Wayku is a desolate and lifeless world, with dark skies and excessive amounts of radiation.  The primary way the Wayku deal with this is to live completely in an environment where technology manipultes all of their senses."
+travel_the_stars:0 "Travel the Stars"
+travel_the_stars_desc:0 "Banished from setting foot on any world in the Imperium, the Wayku have found work through the Spacing Guild and are frequently seen working on Guild Heighliners."
+d_dark_world_deposit:0 "Dark World"
+d_dark_world_deposit_desc:0 "The homeworld of House Wayku is a desolate and lifeless world, with dark skies and excessive amounts of radiation.  The primary way the Wayku deal with this is to live completely in an environment where technology manipultes all of their senses."
+
+richese_castle:0 "Richese Castle"
+richese_castle_desc:0 "The grand castle of the House Richese, all political, economic, and technological development of the house is directed from here."
+jungles_of_richese:0 "Jungles of Richese"
+jungles_of_richese_desc:0 "The people of Richese have scattered their communities across the jungles of their home planet, many with scientific establishments involved in advanced research into ships and miniaturization.  These research activities on the homeworld increase the research on colonies that collaborate directly with those on the planet Richese."
+d_richese_castle_deposit:0 "Richese Castle"
+d_richese_castle_deposit_desc:0 "The grand castle of the House Richese, all political, economic, and technological development of the house is directed from here."
+
+exiles:0 "Exiles"
+exiles_desc:0 "House Tantor was all but eliminated after their atomic attack on House Corrino and those who survived were exiled from the Imperium, eventually reaching the planet Tantor.  A House that wishes to go rogue is generally taken to the planet of Tantor first."
+urban_environment:0 "Cosmopolitan Metropolis"
+urban_environment_desc:0 "A planet of exiles from all over the known Universe leads to interactions between people of very different cultures and societies."
+d_urban_environment_deposit:0 "Cosmopolitan Metropolis"
+d_urban_environment_deposit_desc:0 "A planet of exiles from all over the known Universe leads to interactions between people of very different cultures and societies."
+
+major_house:0 "Major House"
+major_house_desc:0 "An old and Great House that involves itself frequently in the affairs of the Imperium."
+desert_city:0 "Desert City"
+desert_city_desc:0 "The planet of Khumali is a hot and dry desert and in response the populace has constructed numerous large self contained cities."
+d_desert_city_deposit:0 "Desert City"
+d_desert_city_deposit_desc:0 "The planet of Khumali is a hot and dry desert and in response the populace has constructed numerous large self contained cities."
+
+
+
+mod_planet_pops_sr_spice_upkeep_mult:0 "Population Spice Upkeep"
+mod_damage_vs_country_type_faction_mult:0 "Damage to other Factions"
+
+mod_country_sr_sardaukar_produces_mult:0 "Sardaukar Training"
+mod_country_base_sr_sardaukar_produces_add:0 "Sardaukar Armies"
+mod_country_resource_max_sr_sardaukar_add:0 "Additional Sardaukar Bases"
+
+mod_country_base_sr_spice_produces_add:0 "Spice Melange"
+mod_country_sr_spice_produces_mult:0 "Additional Spice Production"
+mod_planet_building_fortress_build_speed_mult:0 "Planet Fortress Build Speed"
+
+mod_pop_ethic_fanatic_spiritualist_attraction_mult:0 "Fanatic Spiritual Attraction"
+mod_pc_giedi_prime_habitability:0 "Giedi Prime Habitability"
+
+mod_choam_spice_mining:0 "CHOAM Spice Mining"
+mod_choam_spice_mining_desc:0 "CHOAM Company Monthly Spice Contracts are the greatest source of wealth in the Universe."
+mod_guild_spice_bribes:0 "Guild Spice Bribes"
+mod_guild_spice_bribes_desc:0 "The Spacing Guild is currently getting bribes of Spice from the Fremen on Arrakis."
+
+### Planet Class descriptions
+pc_ix:0 "Nature Preserve"
+pc_ix_desc:0 "The planet of Ix is an unspoiled paradise on the surface, while the populace lives and works underground."
+
+pc_giedi_prime:0 "Volcanic Wasteland"
+pc_giedi_prime_desc:0 "The planet of Giedi Prime is primarily composed of volcanic wastes and polluted urban zones."
+
+
+####################################
+# Thinking Machines
+####################################
+DUNE_MACHINE:0 "Thinking Machines"
+
+
+
+

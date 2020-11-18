@@ -1,0 +1,6 @@
+
+
+heighliner_stored = {
+	ship_ftl_jumpdrive_range_mult = 1.3
+}
+

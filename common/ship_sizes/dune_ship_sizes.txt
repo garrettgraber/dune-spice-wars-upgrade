@@ -1,0 +1,153 @@
+
+## Heighliner Static Values
+@heighliner_max_speed = 200
+@heighliner_acceleration = 0.91
+@heighliner_rotation_speed = 0.65
+@heighliner_collision_radius = 0
+
+
+## Guild Heighliner Military Vessel
+guild_heighliner = {
+	formation_priority = 20
+	max_speed = @heighliner_max_speed
+	acceleration = @heighliner_acceleration
+	rotation_speed = @heighliner_rotation_speed
+	collision_radius = @heighliner_collision_radius
+	max_hitpoints = 10000
+	size_multiplier = 0
+	fleet_slot_size = 3
+	modifier = {
+		ship_evasion_mult = -0.15
+	}
+	icon_frame = 10
+	base_buildtime = 20
+	is_designable = no
+	is_space_object = yes
+	is_space_station = no
+	is_listed = yes
+	num_target_locators = 2
+	graphical_culture = no
+	valid_target_aggressive_stance = no
+	can_be_inspected = yes
+
+	components_add_to_cost = no
+    #auto_upgrade = yes
+
+	default_behavior = orbit_default
+	prerequisites = { "tech_space_folder_drive_1" "tech_navigator_prescience_1" }
+	combat_disengage_chance = 0.99
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part2" } }
+	enable_default_design = no
+
+	resources = {
+		category = ships
+		upkeep = {
+			#alloys = 0.05
+			energy = 0.0
+			sr_spice = 2.0
+		}
+	}
+	#potential_country = { country_has_guild_transport = yes }
+}
+
+
+## Guild Heighliner Science Vessel
+guild_heighliner_science = {
+	formation_priority = 20
+	max_speed = @heighliner_max_speed
+	acceleration = @heighliner_acceleration
+	rotation_speed = @heighliner_rotation_speed
+	collision_radius = @heighliner_collision_radius
+	max_hitpoints = 10000
+	size_multiplier = 1
+	fleet_slot_size = 1
+	modifier = {
+		ship_evasion_mult = -0.15
+	}
+	icon_frame = 10
+	base_buildtime = 20
+	is_designable = no
+	is_space_object = yes
+	is_space_station = no
+	is_listed = yes
+	is_civilian = yes
+	num_target_locators = 2
+	graphical_culture = no
+	valid_target_aggressive_stance = no
+	can_be_inspected = yes
+
+	components_add_to_cost = no
+    #auto_upgrade = yes
+
+	default_behavior = orbit_default
+	prerequisites = { "tech_space_folder_drive_1" "tech_navigator_prescience_1" }
+	combat_disengage_chance = 0.99
+	class = shipclass_science_ship
+	construction_type = starbase_shipyard
+	
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part2" } }
+	enable_default_design = no
+
+	resources = {
+		category = ships
+		upkeep = {
+			#alloys = 0.05
+			energy = 0.0
+			sr_spice = 2.0
+		}
+	}
+	#potential_country = { country_has_guild_transport = yes }
+}
+
+
+## Massive Guild Heighliner (Titan Class ship)
+guild_heighliner_massive = {
+	formation_priority = 20
+	max_speed = @heighliner_max_speed
+	acceleration = @heighliner_acceleration
+	rotation_speed = @heighliner_rotation_speed
+	collision_radius = @heighliner_collision_radius
+	max_hitpoints = 20000
+	size_multiplier = 1
+	fleet_slot_size = 1
+	modifier = {
+	  ship_evasion_mult = -0.15
+	}
+	icon_frame = 10
+	base_buildtime = 20
+	is_designable = no
+	is_space_object = yes
+	is_space_station = no
+	is_listed = yes
+	num_target_locators = 2
+	graphical_culture = no
+	valid_target_aggressive_stance = no
+	can_be_inspected = yes
+
+	components_add_to_cost = no
+    #auto_upgrade = yes
+
+	default_behavior = orbit_default
+	prerequisites = { "tech_space_folder_drive_1" "tech_navigator_prescience_1" }
+	combat_disengage_chance = 0.99
+	class = shipclass_military_special
+	construction_type = starbase_shipyard
+	
+	section_slots = { "stern" = { locator = "part1" } "mid" = { locator = "part2" } }
+	enable_default_design = no
+
+	resources = {
+		category = ships
+		upkeep = {
+			#alloys = 0.05
+			energy = 0.0
+			sr_spice = 2.0
+		}
+	}
+	#potential_country = { country_has_guild_transport = yes }
+}
+
+
+

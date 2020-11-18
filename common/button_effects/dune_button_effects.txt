@@ -1,0 +1,32 @@
+
+#Scope type varies depending on what is selected
+# This = selected object or player country
+# From = player country
+
+call_guild_heighliner_button_effect = {
+	potential = {
+		exists = from
+		from = { NOT = { has_country_flag = synchronised_worlds has_country_flag = fremen } }
+	}
+	allow = {
+		always = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			from = {
+				country_event = {
+					id = call_heighliner.1
+					#set_location = owner.capital_scope.star
+					#create_ship = {
+					#	name = random
+					#	design = guild_heighliner_military
+					#	upgradable = no
+					#	prefix = "Heighliner"
+					#}
+				}
+			}
+		}
+		custom_tooltip = swp_menu.tooltip
+	}
+}

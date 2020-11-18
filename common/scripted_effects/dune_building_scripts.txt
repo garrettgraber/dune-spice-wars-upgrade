@@ -1,0 +1,205 @@
+
+generate_arrakis_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_building = building_colony_shelter
+    add_building = building_spice_harvester
+}
+
+generate_wallach_ix_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_truthsayer_school
+}
+
+generate_tupile_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_navigator_college
+}
+
+generate_kaitain_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_mining
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_sardaukar_academy
+}
+
+generate_ginaz_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_swordmasters_school
+}
+
+generate_ecaz_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_elacca_refinery
+}
+
+generate_ix_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_mining
+
+    add_building = building_colony_shelter
+    add_building = building_ixian_factory
+}
+
+generate_septimus_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_mentat_school
+}
+
+generate_tleilax_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+    add_building = building_tleilaxu_tanks
+}
+
+generate_giedi_prime_buildings = {
+    add_building = building_colony_shelter
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+}
+
+generate_richese_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_caladan_buildings = {
+	add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_khumali_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_new_wayku_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_mars_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_mining
+
+    add_building = building_colony_shelter
+}
+
+generate_grumman_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_sigma_draconis_iv_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_synchrony_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+
+generate_tantor_buildings = {
+    add_district = district_city
+
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_mining
+
+    add_building = building_colony_shelter
+}
+
+generate_enif_iv_buildings = {
+    add_district = district_city
+    
+    add_district = district_generator
+    add_district = district_generator
+    add_district = district_farming
+
+    add_building = building_colony_shelter
+}
+

@@ -1,0 +1,531 @@
+namespace = great_convention
+
+country_event = {
+	id = great_convention.1
+	title = great_convention.1.name
+	desc = great_convention.1.desc
+	picture = GFX_evt_great_convention
+	fire_only_once = yes
+
+	trigger = {
+		NOT = { has_country_flag = synchronised_worlds }
+		has_global_flag = great_convention_ratified
+	}
+	
+	immediate = {
+		owner = {
+			#country_naval_cap_add = 100
+			#country_command_limit_add = 40
+		}
+	}
+
+	option = {
+	    name = great_convention.1.a
+		owner = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = fremen
+						has_country_flag = guild
+						has_country_flag = benegesserit
+					}
+				}
+				give_technology = { tech = tech_holtzman_effect_1 }
+				give_technology = { tech = tech_space_folder_drive_1 }
+				give_technology = { tech = tech_navigator_prescience_1 }
+				set_default_starting_resources_major_house = yes
+			}
+			if = {
+				limit = { has_country_flag = guild }
+				give_technology = { tech = tech_holtzman_effect_1 }
+				give_technology = { tech = tech_space_folder_drive_1 }
+				set_default_starting_resources_guild = yes
+			}
+			if = {
+				limit = { has_country_flag = benegesserit }
+				give_technology = { tech = tech_holtzman_effect_1 }
+				give_technology = { tech = tech_space_folder_drive_1 }
+				give_technology = { tech = tech_psionic_theory }
+				set_default_starting_resources_benegesserit = yes
+			}
+			if = {
+				limit = { has_country_flag = fremen }
+				give_technology = { tech = tech_ground_defense_planning }
+				give_technology = { tech = tech_psionic_theory }
+				set_default_starting_resources_fremen = yes
+			}
+
+			hidden_effect = {
+				country_event = { id = call_heighliner.1 days = 30 }
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = great_convention.2
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+
+	trigger = {
+		NOT = { has_country_flag = synchronised_worlds }
+	}
+	
+	immediate = {
+		set_global_flag = great_convention_ratified
+	}
+}
+
+
+country_event = {
+	id = great_convention.3
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+
+	trigger = {
+		NOT = { has_country_flag = synchronised_worlds }
+	}
+	
+	immediate = {
+
+		if = { limit = { NOT = { is_fremen = yes } }
+			add_resource = {
+				energy = 100
+				sr_spice = 20
+			}
+		}
+
+
+		hidden_effect = {
+			country_event = { id = great_convention.2 days = 359 }
+		}
+	}
+
+}
+
+
+country_event = {
+	id = great_convention.4
+	fire_only_once = yes
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_playable_country = {
+			log = "[This.GetName] from [This.Capital.GetName]"
+			if = { limit = { has_country_flag = house_ecaz }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_ezharian }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_atreides }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_ginaz }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_harkonnen }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_khumali }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_moritani }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_ordos }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_vernius }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_richese }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_rayki }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = benegesserit }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_thalim }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = mentat_order }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_corrino }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = guild }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:ecaz
+			        establish_communications_no_message = event_target:ezharian
+			        establish_communications_no_message = event_target:atreides
+			        establish_communications_no_message = event_target:ginaz
+			        establish_communications_no_message = event_target:harkonnen
+			        establish_communications_no_message = event_target:khumali
+			        establish_communications_no_message = event_target:moritani
+			        establish_communications_no_message = event_target:ordos
+			        establish_communications_no_message = event_target:vernius
+			        establish_communications_no_message = event_target:richese
+			        establish_communications_no_message = event_target:rayki
+			        establish_communications_no_message = event_target:benegesserit
+			        establish_communications_no_message = event_target:bene_tleilaxu
+			        establish_communications_no_message = event_target:corrino
+			        establish_communications_no_message = event_target:albans
+			        establish_communications_no_message = event_target:tantor
+			        establish_communications_no_message = event_target:nebiro
+			        establish_communications_no_message = event_target:fremen
+			}
+			else_if = { limit = { has_country_flag = house_tantor }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = house_wayku }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:guild
+			}
+			else_if = { limit = { has_country_flag = fremen }
+				log = "Communications Established [This.GetName]"
+					establish_communications_no_message = event_target:guild
+			}
+			else = {
+				log = "No country flag found"
+			}
+		}
+	}
+}
+
+
+
+
+
+country_event = {
+	id = great_convention.5
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+	
+	immediate = {
+		every_playable_country = {
+			if = { limit = { has_country_flag = house_ecaz }
+				log = "ecaz country flag found"
+				save_event_target_as = ecaz
+			}
+			else_if = { limit = { has_country_flag = house_ezharian }
+				log = "ezharian country flag found"
+				save_event_target_as = ezharian
+			}
+			else_if = { limit = { has_country_flag = house_atreides }
+				log = "atreides country flag found"
+				save_event_target_as = atreides
+			}
+			else_if = { limit = { has_country_flag = house_ginaz }
+				log = "ginaz country flag found"
+				save_event_target_as = ginaz
+			}
+			else_if = { limit = { has_country_flag = house_harkonnen }
+				log = "harkonnen country flag found"
+				save_event_target_as = harkonnen
+			}
+			else_if = { limit = { has_country_flag = house_khumali }
+				log = "khumali country flag found"
+				save_event_target_as = khumali
+			}
+			else_if = { limit = { has_country_flag = house_moritani }
+				log = "moritani country flag found"
+				save_event_target_as = moritani
+			}
+			else_if = { limit = { has_country_flag = house_ordos }
+				log = "ordos country flag found"
+				save_event_target_as = ordos
+			}
+			else_if = { limit = { has_country_flag = house_vernius }
+				log = "vernius country flag found"
+				save_event_target_as = vernius
+			}
+			else_if = { limit = { has_country_flag = house_richese }
+				log = "richese country flag found"
+				save_event_target_as = richese
+			}
+			else_if = { limit = { has_country_flag = house_rayki }
+				log = "rayki country flag found"
+				save_event_target_as = rayki
+			}
+			else_if = { limit = { has_country_flag = benegesserit }
+				log = "benegesserit country flag found"
+				save_event_target_as = benegesserit
+			}
+			else_if = { limit = { has_country_flag = house_thalim }
+				log = "richese country flag found"
+				save_event_target_as = bene_tleilaxu
+			}
+			else_if = { limit = { has_country_flag = mentat_order }
+				log = "bene_tleilaxu country flag found"
+				save_event_target_as = albans
+			}
+			else_if = { limit = { has_country_flag = house_corrino }
+				log = "corrino country flag found"
+				save_event_target_as = corrino
+			}
+			else_if = { limit = { has_country_flag = guild }
+				log = "guild country flag found"
+				save_event_target_as = guild
+			}
+			else_if = { limit = { has_country_flag = house_tantor }
+				log = "tantor country flag found"
+				save_event_target_as = tantor
+			}
+			else_if = { limit = { has_country_flag = house_wayku }
+				log = "nebiro country flag found"
+				save_event_target_as = nebiro
+			}
+			else_if = { limit = { has_country_flag = fremen }
+				log = "fremen country flag found"
+				save_event_target_as = fremen
+			}
+			else_if = { limit = { has_country_flag = synchronised_worlds }
+				log = "omnius country flag found"
+				save_event_target_as = omnius
+			}
+			else = {
+				log = "No country flag found"
+			}
+		}
+
+		hidden_effect = {
+			log = "Firing great convention event in 360 days"
+			country_event = { id = great_convention.4 days = 360 }
+		}
+	}
+}

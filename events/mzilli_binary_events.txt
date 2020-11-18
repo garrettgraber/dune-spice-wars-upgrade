@@ -1,0 +1,32 @@
+namespace = mzilli_binary
+
+#This will rename all binary/trinary stars upon galaxy generation
+event = {
+	id = mzilli_binary.1
+	title = OK
+	desc = OK
+	hide_window = yes
+	#is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		every_planet = {
+			limit = {
+				has_planet_flag = mzilli_binary_a
+			}
+			set_name = "[This.GetName] A"
+		}
+		every_planet = {
+			limit = {
+				has_planet_flag = mzilli_binary_b
+			}
+			set_name = "[This.GetName] B"
+		}
+		every_planet = {
+			limit = {
+				has_planet_flag = mzilli_binary_c
+			}
+			set_name = "[This.GetName] C"
+		}
+	}
+}

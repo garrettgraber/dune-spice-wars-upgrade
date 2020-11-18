@@ -1,0 +1,239 @@
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = bene_gesserit
+		}
+	}
+	format = "Bene Gesserit"
+	noun = "Bene Gesserit"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_thalim
+		}
+	}
+	format = "Bene Tleilaxu"
+	noun = "Tleilaxu"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = fremen
+		}
+	}
+	format = "Fremen"
+	noun = "Fremen"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_atreides
+		}
+	}
+	format = "House Atreides"
+	noun = "Atreides"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_corrino
+		}
+	}
+	format = "House Corrino"
+	noun = "Corrino"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_ecaz
+		}
+	}
+	format = "House Ecaz"
+	noun = "Ecazi"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_ezharian
+		}
+	}
+	format = "House Ezharian"
+	noun = "Ezharian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_ginaz
+		}
+	}
+	format = "House Ginaz"
+	noun = "Ginazi"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_harkonnen
+		}
+	}
+	format = "House Harkonnen"
+	noun = "Harkonnen"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_khumali 
+		}
+	}
+	format = "House Khumali"
+	noun = "Khumali"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_moritani
+		}
+	}
+	format = "House Moritani"
+	noun = "Moritanian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_ordos
+		}
+	}
+	format = "House Ordos"
+	noun = "Ordos"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_rayki
+		}
+	}
+	format = "House Rayki"
+	noun = "Rayki"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_richese
+		}
+	}
+	format = "House Richese"
+	noun = "Richesian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_tantor 
+		}
+	}
+	format = "House Tantor"
+	noun = "Tantor"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_vernius
+		}
+	}
+	format = "House Vernius"
+	noun = "Ixian"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = house_wayku
+		}
+	}
+	format = "House Wayku"
+	noun = "Wayku"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = mentat_order
+		}
+	}
+	format = "Order of Mentats"
+	noun = "Mentat"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = spacing_guild
+		}
+	}
+	format = "The Spacing Guild"
+	noun = "Guild"	
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = synchronised_worlds
+		}
+	}
+	format = "Synchronized Worlds"
+	noun = "Thinking Machines"	
+}

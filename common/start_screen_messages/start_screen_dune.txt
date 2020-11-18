@@ -1,0 +1,69 @@
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_dune_atreides"
+	
+	trigger = {
+		has_country_flag = atreides
+	}
+}
+
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_dune"
+	
+	trigger = {
+		has_country_flag = harkonnen
+	}		
+}
+
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_dune"
+	
+	trigger = {
+		has_country_flag = corrino
+	}		
+}
+
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_dune_fremen"
+	
+	trigger = {
+		has_country_flag = fremen
+	}		
+}
+
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_dune"
+	
+	trigger = {
+		has_country_flag = benegesserit
+	}		
+}
+
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_dune"
+	
+	trigger = {
+		has_country_flag = guild
+	}		
+}
+# Dune
+part = {
+	location = 0
+	localization = "START_SCREEN_PART_ONE_DUNE"
+	
+	trigger = {
+		ideal_planet_class = pc_arrakis
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}

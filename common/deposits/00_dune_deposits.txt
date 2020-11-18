@@ -1,0 +1,1193 @@
+# Possible Deposit Variables
+# modifier - weight, will replace the weight value
+# modifier - factor, will multiply the weight value
+# resources, resource and amount
+# station = station class in orbit to gather
+# if you mix resources that are not supposed to be collected by an orbital station remember to put is_orbital_slot = no
+
+## Arrakis Deposits
+d_vast_spice_deposit = {
+	resources = {
+		produces = {
+			sr_spice = 20
+		}
+	}
+
+	icon = tb_shai_hulud_01
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+d_arrakeen_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 20
+		}
+	}
+	planet_modifier = {
+		planet_stability_add = 5.0
+		planet_housing_add = 5
+	}
+	#country_modifier = {
+	#	country_base_sr_spice_produces_add = 20.0
+	#}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = arrakeen
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+d_carthag_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 10
+		}
+	}
+	planet_modifier = {
+		planet_stability_add = 5.0
+		planet_housing_add = 5
+	}
+	#country_modifier = {
+	#	country_base_sr_spice_produces_add = 10.0
+	#}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = carthag
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+d_arsunt_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 5
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = 3
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = arsunt
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+d_red_chasm_sietch_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 2
+		}
+	}
+	planet_modifier = {
+		district_farming_max = 3
+		planet_housing_add = 5
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = red_chasm_sietch
+}
+d_sietch_gara_kulon_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 2
+		}
+	}
+	planet_modifier = {
+		district_farming_max = 3
+		planet_housing_add = 5
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = sietch_gara_kulon
+}
+d_sietch_jacurutu_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 2
+		}
+	}
+	planet_modifier = {
+		district_farming_max = 3
+		planet_housing_add = 5
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = sietch_jacurutu
+}
+d_sietch_tabr_deposit = {
+	resources = {
+		produces = {
+			sr_spice = 2
+		}
+	}
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_farming_max = 3
+		planet_housing_add = 5
+		pop_ethic_spiritualist_attraction_mult = 0.50
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = sietch_tabr
+}
+d_windgap_sietch_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 2
+		}
+	}
+	planet_modifier = {
+		district_farming_max = 3
+		planet_housing_add = 5
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = windgap_sietch
+}
+d_tueks_sietch_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 2
+		}
+	}
+	planet_modifier = {
+		district_farming_max = 3
+		planet_housing_add = 5
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = tueks_sietch
+}
+d_false_wall_west_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_building_fortress_build_speed_mult = 0.1
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_energy
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = false_wall_west
+}
+d_mount_idaho_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_mining_max = 4
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_minerals
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = mount_idaho
+}
+d_shield_wall_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_building_fortress_build_speed_mult = 0.3
+		district_generator_max = 9
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_energy
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = shield_wall
+}
+d_sand_dunes_arrakis_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_spice = 10
+		}
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = sand_dunes_arrakis
+
+	triggered_planet_modifier = {
+        potential = {
+	        planet = {
+	            is_planet_class = pc_arrakis
+	        }   
+	    }
+    }
+}
+
+## House Corrino Deposits
+d_imperial_palace_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		armies_upkeep_mult = -0.5
+	}
+	country_modifier = {
+		country_admin_cap_mult = 0.5
+		country_command_limit_add = 10
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = imperial_palace
+}
+d_golden_lion_throne_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		biological_pop_happiness = 1.0
+	}
+	country_modifier = {
+		country_base_influence_produces_add = 1
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = golden_lion_throne
+}
+d_salusa_citadel_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		armies_cost_mult = -0.25
+	}
+	country_modifier = {
+		armies_upkeep_mult = -0.25
+		general_skill_levels = 2.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = salusa_citadel
+}
+d_sardaukar_training_grounds_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_sardaukar = 10
+		}
+	}
+	country_modifier = {
+		country_resource_max_sr_sardaukar_add = 5000
+		army_attack_damage_mult = 1.25
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = sardaukar_training_grounds
+}
+
+## House Harkonnen Deposits
+d_giedi_prime_city_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		armies_upkeep_mult = -0.3
+		district_generator_max = 4
+		planet_housing_add = 10
+	}
+	country_modifier = {
+		ship_speed_mult = 0.25
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = giedi_prime_city
+}
+d_barony_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		armies_cost_mult = -0.55
+		district_farming_max = 4
+		planet_housing_add = 10
+	}
+	country_modifier = {
+		country_naval_cap_mult = 0.25
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = barony
+}
+d_harkonnen_palace_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_stability_add = 15
+	}
+	country_modifier = {
+		country_pop_enslaved_mult = 0.5
+		country_integration_cooldown_mult = 0.3
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = harkonnen_palace
+}
+d_volcanic_mining_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_mining_max = 10
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_minerals
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = volcanic_mining
+}
+d_gas_vents_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_generator_max = 8
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_energy
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = gas_vents
+}
+d_dark_forests_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_farming_max = 6
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = dark_forests
+}
+
+## House Atreides Deposits
+d_castle_caladan_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		army_attack_morale_mult = 0.25
+		army_defense_health_mult = 0.15
+		planet_crime_mult = -0.50
+		admiral_skill_levels = 2.0
+	}
+	country_modifier = {
+		pop_ethic_xenophile_attraction_mult = 0.5
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = castle_caladan
+}
+d_fjords_of_caladan_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_farming_max = 2
+		planet_amenities_add = 15
+	}
+	country_modifier = {
+		country_naval_cap_add = 10
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = fjords_of_caladan
+}
+
+## House Ordos Deposits
+d_executronic_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_generator_max = 4
+		planet_housing_add = 20
+	}
+	country_modifier = {
+		country_admin_cap_add = 20
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = executronic
+}
+d_ordos_deep_mining_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_mining_max = 6
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_minerals
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ordos_deep_mining
+}
+
+## Ixian Deposits
+d_garden_planet_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		pop_ethic_materialist_attraction_mult = 0.4
+		planet_pops_consumer_goods_upkeep_mult = -0.30
+		biological_pop_happiness = 0.15
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = garden_planet
+}
+d_ixian_shipyards_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_ixian = 10
+			engineering_research = 10
+		}
+	}
+	planet_modifier = {
+		planet_researchers_engineering_research_produces_mult = 0.25
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_shipyards
+}
+d_ixian_under_ground_city_1_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_farming_max = 6
+		planet_housing_add = 7
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_under_ground_city_1
+}
+d_ixian_under_ground_city_2_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_farming_max = 6
+		planet_housing_add = 7
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_food
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_under_ground_city_2
+}
+d_ixian_under_ground_city_3_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_generator_max = 6
+		building_betharian_power_plant_max = 1
+		planet_housing_add = 7
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_energy
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_under_ground_city_3
+}
+d_ixian_under_ground_city_4_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_generator_max = 6
+		building_betharian_power_plant_max = 1
+		planet_housing_add = 7
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_energy
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_under_ground_city_4
+}
+d_ixian_under_ground_city_5_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_mining_max = 6
+		planet_housing_add = 7
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_minerals
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_under_ground_city_5
+}
+d_ixian_under_ground_city_6_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_mining_max = 6
+		planet_housing_add = 7
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_minerals
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ixian_under_ground_city_6
+}
+
+## Spacing Guild Deposits
+d_guild_primary_navigator_school_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_guild = 10
+		}
+	}
+	planet_modifier = {
+		planet_researchers_physics_research_produces_mult = 0.1
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = guild_primary_navigator_school
+}
+d_guild_planetary_shipyards_deposit = {
+	is_for_colonizeable = yes
+	country_modifier = {
+		starbase_shipyard_build_speed_mult = 0.20
+		ship_hull_regen_add_perc = 10.0
+		ship_shield_regen_add_perc = 10.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = guild_planetary_shipyards
+}
+d_guild_bank_headquarters_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+		trade_value_add = 30
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = guild_bank_headquarters
+}
+
+## Bene Gesserit Deposits
+d_bene_gesserit_mother_school_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_truthsayers = 10
+			society_research = 10
+		}
+	}
+	planet_modifier = {
+		planet_researchers_society_research_produces_mult = 0.25
+	}
+	country_modifier = {
+		leader_skill_levels = 2.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = bene_gesserit_mother_school
+}
+d_missionaria_protectiva_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		pop_ethic_spiritualist_attraction_mult = 0.5
+	}
+	country_modifier = {
+		country_base_influence_produces_add = 2
+		country_trust_growth = 0.1
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = missionaria_protectiva
+}
+
+## Bene Tleilaxu Deposits
+d_bene_tleilaxu_bandalong_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_tleilaxu = 10
+			society_research = 10
+		}
+	}
+	planet_modifier = {
+		pop_ethic_spiritualist_attraction_mult = 0.10
+		pop_ethic_xenophobe_attraction_mult = 0.10
+		planet_housing_add = 8
+	}
+	country_modifier = {
+		ruler_skill_levels = 2.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = bene_tleilaxu_bandalong
+}
+
+## Order of Mentats Deposits
+d_order_of_mentats_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_mentats = 10
+			physics_research = 10
+		}
+	}
+	planet_modifier = {
+		planet_researchers_physics_research_produces_mult = 0.25
+	}
+	country_modifier = {
+		leader_skill_levels = 2.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = order_of_mentats
+}
+
+## Ginaz Deposits
+d_ginaz_city_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		trade_value_add = 30
+		planet_housing_add = 10
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ginaz_city
+}
+d_ginaz_academy_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_swordmasters = 10
+		}
+	}
+	country_modifier = {
+		general_skill_levels = 2.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = ginaz_academy
+}
+
+## House Ecaz Deposits
+d_house_ecaz_homestead_deposit = {
+	is_for_colonizeable = yes
+	resources = {
+		produces = {
+			sr_elacca = 10
+		}
+	}
+	planet_modifier = {
+		planet_stability_add = 15.0
+	}
+	country_modifier = {
+		pop_ethic_xenophile_attraction_mult = 0.15
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = house_ecaz_homestead
+}
+
+## House Ezharian Deposits
+d_house_ezharian_fortress_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_stability_add = 15.0
+		trade_value_add = 40
+		planet_housing_add = 8
+	}
+	country_modifier = {
+		pop_ethic_xenophile_attraction_mult = 0.15
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = house_ezharian_fortress
+}
+
+## House Moritani Deposits
+d_moritani_military_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_stability_add = 10.0
+	}
+	country_modifier = {
+		pop_ethic_militarist_attraction_mult = 0.15
+		general_skill_levels = 2.0
+		admiral_skill_levels = 2.0
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = moritani_military
+}
+
+## House Rayki Deposits
+d_mars_colonization_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		district_farming_max = 4
+	}
+	country_modifier = {
+		pop_ethic_authoritarian_attraction_mult = 0.15
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = mars_colonization
+}
+d_martian_mega_city_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_housing_add = 10
+		district_farming_max = 2
+		district_generator_max = 4
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = martian_mega_city
+}
+d_martian_mega_city_2_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_housing_add = 10
+		district_farming_max = 2
+		district_mining_max = 4
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = martian_mega_city_2
+}
+
+## House Waiku Deposits
+d_dark_world_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		biological_pop_happiness = 0.15
+	}
+	country_modifier = {
+		planet_amenities_mult = 0.20
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = dark_world
+}
+
+## House Richese Deposits
+d_richese_castle_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_crime_mult = -0.2
+		planet_amenities_mult = 0.2
+		planet_researchers_engineering_research_produces_mult = 0.10
+	}
+	country_modifier = {
+		pop_ethic_spiritualist_attraction_mult = 0.1
+		country_engineering_research_produces_mult = 0.15
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = richese_castle
+}
+
+## House Tantor Deposits
+d_urban_environment_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 30
+	}
+	country_modifier = {
+		pop_ethic_xenophile_attraction_mult = 0.2
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = urban_environment
+}
+
+## House Khumali
+d_desert_city_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_housing_add = 15
+		trade_value_add = 20
+	}
+	country_modifier = {
+		pop_ethic_materialist_attraction_mult = 0.2
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = desert_city
+}
+
+
+
+## Thinking Machines
+d_homeworld_of_the_evermind_deposit = {
+	is_for_colonizeable = yes
+	planet_modifier = {
+		planet_housing_add = 5
+	}
+	country_modifier = {
+		ship_ftl_jumpdrive_range_mult = 0.25
+	}
+	potential = {
+	     always = no
+	}
+	category = deposit_cat_rare
+
+	drop_weight = {
+	  weight = 0
+	}
+
+	icon = homeworld_of_the_evermind
+}

@@ -1,0 +1,95 @@
+
+
+#################################
+#          Factions             #
+#################################
+# Guild
+is_guild = {
+	or = {
+		has_country_flag = guild
+	}
+}
+
+
+# Corrino Emperor of the Known Universe
+is_corrino = {
+	or = {
+		has_country_flag = house_corrino
+	}
+}
+
+
+# Thinking Machines
+is_thinking_machines = {
+	or = {
+		has_country_flag = synchronised_worlds
+	}
+}
+
+
+# Fremen
+is_fremen = {
+	or = {
+		has_country_flag = fremen
+	}
+}
+
+
+# Renegade Houses
+is_renegade_house = {
+	or = {
+		has_country_flag = house_wayku
+		has_country_flag = house_tantor
+	}
+}
+
+
+# Bene Gesserit
+is_bene_gesserit = {
+	or = {
+		has_country_flag = benegesserit
+	}
+}
+
+
+# Order of Mentats
+is_mentats = {
+	or = {
+		has_country_flag = mentat_order
+	}
+}
+
+
+# Bene Gesserit
+is_bene_tleilaxu = {
+	or = {
+		has_country_flag = house_thalim
+	}
+}
+
+
+# Major Houses
+is_major_house = {
+	or = {
+		has_country_flag = house_ecaz
+		has_country_flag = house_ezharian
+		has_country_flag = house_atreides
+		has_country_flag = house_ginaz
+		has_country_flag = house_harkonnen
+		has_country_flag = house_khumali
+		has_country_flag = house_moritani
+		has_country_flag = house_ordos
+		has_country_flag = house_vernius
+		has_country_flag = house_richese
+		has_country_flag = house_rayki
+	}
+}
+
+
+# CHOAM Member
+is_choam_member = {
+	or = {
+		has_country_flag = choam_member
+	}
+}
+

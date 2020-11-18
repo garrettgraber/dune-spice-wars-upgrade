@@ -1,0 +1,23 @@
+
+
+entity = {
+	name = "guild_heighliner_frame_entity_massive"
+	pdxmesh = "guild_heighliner_frame_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		#start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } }
+	}
+	
+	#state = { name = "death" state_time = 2 looping = no
+	#	event = { time = 1.9 particle = "medium_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	#}
+
+	scale = 3.0
+}
+
+
+entity = {
+	name = "guild_heighliner_massive_entity"
+	pdxmesh = "guild_heighliner_mesh"
+}

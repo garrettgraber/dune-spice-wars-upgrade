@@ -1,0 +1,352 @@
+﻿### Dune Name List
+albans = {
+	randomized = yes
+
+	ship_names = {
+		generic = {
+		}
+		
+		corvette = {Wade
+		}
+		
+		constructor = {Crastor
+		}
+		
+		colonizer = {Falk
+		}
+		
+		science = {Skeet
+		}
+		
+		destroyer = {Glanville
+		}
+		
+		cruiser = {Bernstein
+		}
+		
+		battleship = {Schaffer
+		}
+		
+		mining_station = { }
+		research_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		
+		transport = {Garen
+			
+		}
+
+		military_station_small = { 
+			
+		}
+		
+		#military_station_small = { 
+		#	sequential_names = { 
+		#		"Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
+		#		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
+		#		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
+		#		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40"
+		#	}
+		#}
+		
+		military_station_medium = { 
+			 
+		}
+		
+		#military_station_medium = {
+		#	random_names = {
+		#		"Citadel Station" "Albacore Station" "Gateway Station" "Vincent Station" "Babylon Station" "Caernavon Station" "Acre Station" "Pembroke Station" 
+		#		"Acheron Station" "Spithead Station" "Halifax Station" "Victoria Station" "Chatham Station" "Anchorage Station" "Scapa Flow Station" "Hampton Roads Station"
+		#		"Brooklyn Station" "Norfolk Station" "Newport Station" "Guam Station" "Pensacola Station" "Vesuvius Station" "McKinley Station" "Everest Station"
+		#		"Kilimanjaro Station" "Aconcagua Station" "Elbrus Station" "St. Helens Station" "Fuji Station" "Olympus Station" "Sinai Station" "Ambrose Station"
+		#		"Bermuda Station" "Farpoint Station" "Blue Star Station" "Olympus Mons Station" "Tharsis Station" "Syrtis Station" "Blackham Station"
+		#	}
+		#		
+		#}
+		
+		military_station_large = { 
+			
+		}
+		
+		#military_station_large = { 
+		#	random_names = {
+		#		"Fletcher Naval Base" "Perry Naval Base" "Butakov Naval Base" "Morris Naval Base" "Moorsom Naval Base" "Hart Naval Base" "Hargood Naval Base"
+		#		"Spruance Naval Base" "Tanaka Naval Base" "Halsey Naval Base" "Turner Naval Base" "Doria Naval Base" "Tirpitz Naval Base" "Cunningham Naval Base"
+		#		"Jellicoe Naval Base" "Hipper Naval Base" "Beatty Naval Base" "Potemkin Naval Base" "Durham Naval Base" "Codrington Naval Base" "Milne Naval Base"
+		#		"Laforey Naval Base" "Tyler Naval Base" "Hawke Naval Base" "Yonai Naval Base" "Pound Naval Base" "King Naval Base" "Crutchley Naval Base"
+		#		"Mountbatten Naval Base" "Kountouriotis Naval Base" "Kuznetsov Naval Base" "Essen Naval Base" "Kornilov Naval Base" "Suffren Naval Base"
+		#		"Treville Naval Base" "Villeneuve Naval Base" "Grasse Naval Base" "Byng Naval Base" "Lezo Naval Base"
+		#	}
+		#}
+	}
+
+	fleet_names = {
+		random_names = {
+			
+		}
+		sequential_name = "%O% Albans Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% House Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Expeditionary Force"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robot Army"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Army"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+			first_names_male = {
+				Achilles Adonis Adrian Agamemnon Ajax Alcander Alcibiades Alexander Altair Amar Ambrose Anacletus 
+ Anastasius Anatole Andrew Andromeda Anker Anstice Antenor Anthony Antigonus Apollo Apostolos 
+ Archelaus Archimedes Ares Argus Arion Aristide Arsenio Asmodel Aster Athan Athanasios Athos Atlas 
+ Autolocus Avel Baptiste Basil Bates Bemus Bishop Caesar Callistus Cancer Carsten Castor Centaurus 
+ Charon Chiron Christian Christopher Cipriano Claus Cleon Coeus Cohn Colin Corydon Cosimo Cronus 
+ Cyd Cyril Damasus Damien Dard Darius Deacon Deion Demetrius Dennis Deo Diomedes Dionysus Dooley 
+ Doran Dorian Elie Ellis Eneas Erastus Eris Eros Euclid Eugene Eustace Evagelos Evangelista 
+ Flavian Galen Gelasius Geode Geordi George Giles Goran Greer Gregory Hadrian Hamon Harmon Hector 
+ Helios Hephaestus Hercules Hermes Hieronymus Hipparchus Hippias Hippocrates Homer Horace Hydrus 
+ Hyginus Hypnos Iakobos Icarus Ilias Indigo Ioan Jace Jason Kai Kalin Kallen Karey Karsten Kirill 
+ Kit Konstantinos Kosmo Kozma Krischnan Kristoffer Kyros Laertes Leander Leon Leonidas Linus 
+ Loikanos Lucas Lykaios Lysander Marinos Mateo Melancton Melun Mete Momus Morpheus Myles Myron 
+ Narcissus Nectarios Nektarios Neo Nereus Nestor Nicholas Nicodemus Nike Nikos Obelia Obelix Ocean 
+ Oceana Odea Odele Odessa Odette Odysseus Olympia Omega Orea Orestes Orion Orrin Osanna Osias Otis 
+ Panos Panthea Paris Patroclus Peder Pello Pericles Perseus Philander Philemon Philip Philo 
+ Philostrate Philotus Phoenix Plato Platon Pluto Plutus Poseidon Priam Prometheus Proteus Ptolemy 
+ Rastus Rhodes Sesame Simonides Sisyphus Socrates Sofronio Solinus Soteria Soterios Spiridon 
+ Stamos Stavros Stephen Strom Talos Tansy Tarasios Thanos Theodore Theophilus Theron Thomas Tibalt 
+ Timeus Timoleon Timon Timothy Titus Tony Tracy Tymon Tyrone Uranus Urian Urien Vander Vasilios 
+ Vitaly Vitas Vivar Volney Xanthus Xeno Xenophon Xerarch Xuthus Xylo Xylon Xyst Xystum Xystus 
+ Yannis Yuri Zale Zander Zefirino Zendo Zeno Zenobio Zenos Zephyr Zero Zeth Zeus Zoello Zorba 
+ Zosimo Zowie  Alvis Balder Borg Dana Freyr Gareth Gunnar Haldor Hardicanute Harper Hogarth Holm Hsin Hume Kelby 
+ Ker Kirk Lamont Leif Magne Njord Oda Oddvar Odin Olaf Oliver Oscar Ove Quimby Ragnar Ronald 
+ Roscoe Sigurd Sindri Skipp Sutherland Terje Thor Thurston Turpin Ulfred Unni Volund 
+ Yongvar
+			}
+			first_names_female = {
+				Acantha Adara Adelpha Adrienne Aegle Afrodite Agape Agata Aglaia Agnes Aileen Alcina Aldora 
+ Alethea Alexandra Alice Alida Alisha Alixia Althea Aludra Amara Ambrosia Amethyst Aminta 
+ Amphitrite Anastasia Andrea Andromache Andromeda Angela Anstice Antonia Anysia Aphrodite Apus 
+ Arali Aretha Ariadne Ariana Arissa Artemia Artemis Astrid Athena Atropos Aurora Avel Basalt 
+ Basilissa Bernice Bloodstone Calandra Calantha Calista Calliope Candace Candra Carina Carisa 
+ Cassandra Cassiopeia Catherine Celandia Cerelia Chalcedony Charisma Christina Cinnabar Clio 
+ Cloris Clotho Colette Cora Cressida Cybill Cyd Cynthia Damaris Damia Daphne Daria Daryn Dasha 
+ Dea Delbin Della Delphine Delta Demetria Desdemona Desma Despina Dionne Diotama Dora Dorcas 
+ Doria Dorian Doris Dorothy Dorrit Drew Drucilla Dysis Ebony Effie Eileen Elani Eleanor Electra 
+ Elke Elma Elodie Eos Eppie Erato Eris Ethereal Eudora Eugenia Eulalia Eunice Euphemia Euphrosyne 
+ Euterpe Evadne Evangeline Filmena Gaea Galina Gelasia Gemini Georgia Greer Greta Harmony Hebe 
+ Hecate Hecuba Helen Hera Hermia Hermione Hero Hestia Hilary Hippolyta Hyacinth Hydra Ianthe Ilena 
+ Iolite Iona Irene Iris Isidore Jacey Jacinta Jolanta Kacia Kaethe Kaia Kaija Kairi Kairos Kali 
+ Kalidas Kalika Kalista Kalli Kalliope Kallista Kalonice Kalyca Kanchana Kandace Kandice Kara 
+ Karana Karen Karin Karis Karissa Karlyn Kasandra Kassandra Katarina Kate Katherine Katina Khina 
+ Kineta Kirsten Kolina Kora Koren Kori Korina Kosma Kristen Kristi Kristina Kristine Kristy 
+ Kristyn Krysten Krystina Kynthia Kyra Kyrene Kyria Lacy Lali Lareina Laria Larina Larisa Larissa 
+ Lasthenia Latona Layna Leandra Leda Ledell Lenore Leonora Leta Letha Lethia Lexi Lexie Lidia 
+ Lilika Lina Linore Litsa Livana Livvy Lotus Lyanne Lycorida Lycoris Lydia Lydie Lykaios Lyra 
+ Lyric Lyris Lysandra Macaria Madalena Madelia Madeline Madge Maeve Magan Magdalen Maia Mala 
+ Malissa Mara Margaret Marigold Marilee Marjorie Marlene Marmara Marta Maya Medea Medora Megan 
+ Megara Melanctha Melanie Melba Melenna Melia Melinda Melissa Melitta Melody Melpomene Minta 
+ Mnemosyne Mona Muse Myda Myrtle Naia Naida Naiyah Narcissa Narella Natasha Nell Nellie Nellis 
+ Nelly Astrid Bo Deila Frigg Gail Grid Gro Guro Haley Harper Heidrun Hela Kippi Magna Nessa Oda Olive 
+ Ove Ragnhild Ronalda Sigrid Thora Unni Valda
+			}
+			second_names = {
+				Callas Callis Caras Carras Castellanos Chaconas Chontos Chris Christakos Christodoulou 
+ Christopoulos Christos Christou Chronis Collias Comis Condos Constantinides Constantinou Contos 
+ Cosmos Cosse Costas Delis Dellis Demetriou Demo Demopoulos Demos Dimitriou Doukas Drakos Drivas 
+ Dukas Economides Economos Economou Eliades Elias Eliopoulos Floros Fotopoulos Fotos Frangos 
+ Gabris Galanis Galanos Galatas Gallo Ganas Ganis Garis Gekas Georgas Georgiades Georgiadis 
+ Georgiou Georgopoulos German Gerou Gianakos Giannopoulos Gianopoulos Gikas Glaros Glavan Goga 
+ Gogola Golias Gonce Goulas Gounaris Grammatico Grivas Halkias Hallas Hanas Hanno Harris Hatzis 
+ Hero Herod Hondros Ioannou Jason Kairis Kakos Kalfas Kalivas Kallas Kallis Kamber Kanas Kanelos 
+ Kappas Kara Karahalios Karalis Karas Karras Katsaros Kaya Kazan Kefalas Kellis Kokes Kollias 
+ Kondos Kontos Korba Kormos Kosko Kosta Kostas Kostopoulos Kotas Kouris Kozma Kritikos Ladas 
+ Lagana Lagos Lambros Lampros Laskaris Lasko Lazos Lekas Leos Leva Leventis Liakos Lias Lillis 
+ Linard Livas Logo Lois Loris Loukas Macris Maheras Makos Makris Malas Malia Mallas Manago Manella 
+ Mangas Maniatis Manikas Manis Manolis Manos Maragos Maras Marinos Maris Markos Martha Martis Mate 
+ Mates Matis Matranga Mattas Matthias Mavros Mega Melis Mellas Mellis Mena Metaxas Metro 
+ Michaelides Michel Mihal Mikos Milas Milonas Mina Minas Minga Mires Miron Misko Mitro Mola Mona 
+ Moraitis Moros Mula Mundis Murga Musto Muto Myron Nanos Nasso Nicolaides Nicolaou Nicolas Nicoli 
+ Nicolo Nikas Nikitas Nikolas Nini Nino Pagonis Palamara Palas Pallas Panagakos Panagopoulos 
+ Panagos Panas Panos Papa Papadakis Papadopoulos Papageorgiou Papalia Papandrea Papas Pappas Pardo 
+ Patera Patras Paules Paulos Pavlis Penna Pepi Peri Peris Perris Perro Petracca Petrakis Petralia 
+ Petras Petrides Petro Petropoulos Petros Petrou Sideris Simos Siska Sisko Sita Soter Sotir 
+ Sotiropoulos Soulis Spanos Speros Spino Spiros Spiteri Stamas Stamatis Stamos Stanis Stathakis 
+ Stathis Stathopoulos Stathos Stavropoulos Stavros Stavrou Straka Stratis Stratos Takes Tantalo 
+ Tassi Tasso Tata Tavoularis Teresi Terzi Thanos Theodorou Thoma Tocci Toles Tomaras Toto Traino 
+ Trakas Tripi Tripoli Valis Vallas Valli Vallis Varela Vasco Vasil Vasilakis Vasiliou Vassallo 
+ Vassos Velis Verga Vidales Vitalis Vlachos Vlahakis Vlahos Xenakis Xenos Zacharias Zane Zanni 
+ Zaro Zeno Zenon Zervas Zervos Zika Zografos Zurlo
+			}
+			regnal_first_names_male = {
+				Adam-Andrew Josef Wenceslas Anto Florian Johan Adam Nepomuk Charles Francis Aloysius Hans-Adam Hans Andrew Achilles Adonis Adrian Agamemnon Ajax Alcander Alcibiades Alexander Altair Amar Ambrose Anacletus 
+ Anastasius Anatole Andrew Andromeda Anker Anstice Antenor Anthony Antigonus Apollo Apostolos 
+ Archelaus Archimedes Ares Argus Arion Aristide Arsenio Asmodel Aster Athan Athanasios Athos Atlas 
+ Autolocus Avel Baptiste Basil Bates Bemus Bishop Caesar Callistus Cancer Carsten Castor Centaurus 
+ Charon Chiron Christian Christopher Cipriano Claus Cleon Coeus Cohn Colin Corydon Cosimo Cronus 
+ Cyd Cyril Damasus Damien Dard Darius Deacon Deion Demetrius Dennis Deo Diomedes Dionysus Dooley 
+ Doran Dorian Elie Ellis Eneas Erastus Eris Eros Euclid Eugene Eustace Evagelos Evangelista 
+ Flavian Galen Gelasius Geode Geordi George Giles Goran Greer Gregory Hadrian Hamon Harmon Hector 
+ Helios Hephaestus Hercules Hermes Hieronymus Hipparchus Hippias Hippocrates Homer Horace Hydrus 
+ Hyginus Hypnos Iakobos Icarus Ilias Indigo Ioan Jace Jason Kai Kalin Kallen Karey Karsten Kirill 
+ Kit Konstantinos Kosmo Kozma Krischnan Kristoffer Kyros Laertes Leander Leon Leonidas Linus 
+ Loikanos Lucas Lykaios Lysander Marinos Mateo Melancton Melun Mete Momus Morpheus Myles Myron 
+ Narcissus Nectarios Nektarios Neo Nereus Nestor Nicholas Nicodemus Nike Nikos Obelia Obelix Ocean 
+ Oceana Odea Odele Odessa Odette Odysseus Olympia Omega Orea Orestes Orion Orrin Osanna Osias Otis 
+ Panos Panthea Paris Patroclus Peder Pello Pericles Perseus Philander Philemon Philip Philo 
+ Philostrate Philotus Phoenix Plato Platon Pluto Plutus Poseidon Priam Prometheus Proteus Ptolemy 
+ Rastus Rhodes Sesame Simonides Sisyphus Socrates Sofronio Solinus Soteria Soterios Spiridon 
+ Stamos Stavros Stephen Strom Talos Tansy Tarasios Thanos Theodore Theophilus Theron Thomas Tibalt 
+ Timeus Timoleon Timon Timothy Titus Tony Tracy Tymon Tyrone Uranus Urian Urien Vander Vasilios 
+ Vitaly Vitas Vivar Volney Xanthus Xeno Xenophon Xerarch Xuthus Xylo Xylon Xyst Xystum Xystus 
+ Yannis Yuri Zale Zander Zefirino Zendo Zeno Zenobio Zenos Zephyr Zero Zeth Zeus Zoello Zorba 
+ Zosimo Zowie  Alvis Balder Borg Dana Freyr Gareth Gunnar Haldor Hardicanute Harper Hogarth Holm Hsin Hume Kelby 
+ Ker Kirk Lamont Leif Magne Njord Oda Oddvar Odin Olaf Oliver Oscar Ove Quimby Ragnar Ronald 
+ Roscoe Sigurd Sindri Skipp Sutherland Terje Thor Thurston Turpin Ulfred Unni Volund 
+ Yongvar
+			}
+			regnal_first_names_female = {
+				Acantha Adara Adelpha Adrienne Aegle Afrodite Agape Agata Aglaia Agnes Aileen Alcina Aldora 
+ Alethea Alexandra Alice Alida Alisha Alixia Althea Aludra Amara Ambrosia Amethyst Aminta 
+ Amphitrite Anastasia Andrea Andromache Andromeda Angela Anstice Antonia Anysia Aphrodite Apus 
+ Arali Aretha Ariadne Ariana Arissa Artemia Artemis Astrid Athena Atropos Aurora Avel Basalt 
+ Basilissa Bernice Bloodstone Calandra Calantha Calista Calliope Candace Candra Carina Carisa 
+ Cassandra Cassiopeia Catherine Celandia Cerelia Chalcedony Charisma Christina Cinnabar Clio 
+ Cloris Clotho Colette Cora Cressida Cybill Cyd Cynthia Damaris Damia Daphne Daria Daryn Dasha 
+ Dea Delbin Della Delphine Delta Demetria Desdemona Desma Despina Dionne Diotama Dora Dorcas 
+ Doria Dorian Doris Dorothy Dorrit Drew Drucilla Dysis Ebony Effie Eileen Elani Eleanor Electra 
+ Elke Elma Elodie Eos Eppie Erato Eris Ethereal Eudora Eugenia Eulalia Eunice Euphemia Euphrosyne 
+ Euterpe Evadne Evangeline Filmena Gaea Galina Gelasia Gemini Georgia Greer Greta Harmony Hebe 
+ Hecate Hecuba Helen Hera Hermia Hermione Hero Hestia Hilary Hippolyta Hyacinth Hydra Ianthe Ilena 
+ Iolite Iona Irene Iris Isidore Jacey Jacinta Jolanta Kacia Kaethe Kaia Kaija Kairi Kairos Kali 
+ Kalidas Kalika Kalista Kalli Kalliope Kallista Kalonice Kalyca Kanchana Kandace Kandice Kara 
+ Karana Karen Karin Karis Karissa Karlyn Kasandra Kassandra Katarina Kate Katherine Katina Khina 
+ Kineta Kirsten Kolina Kora Koren Kori Korina Kosma Kristen Kristi Kristina Kristine Kristy 
+ Kristyn Krysten Krystina Kynthia Kyra Kyrene Kyria Lacy Lali Lareina Laria Larina Larisa Larissa 
+ Lasthenia Latona Layna Leandra Leda Ledell Lenore Leonora Leta Letha Lethia Lexi Lexie Lidia 
+ Lilika Lina Linore Litsa Livana Livvy Lotus Lyanne Lycorida Lycoris Lydia Lydie Lykaios Lyra 
+ Lyric Lyris Lysandra Macaria Madalena Madelia Madeline Madge Maeve Magan Magdalen Maia Mala 
+ Malissa Mara Margaret Marigold Marilee Marjorie Marlene Marmara Marta Maya Medea Medora Megan 
+ Megara Melanctha Melanie Melba Melenna Melia Melinda Melissa Melitta Melody Melpomene Minta 
+ Mnemosyne Mona Muse Myda Myrtle Naia Naida Naiyah Narcissa Narella Natasha Nell Nellie Nellis 
+ Nelly Astrid Bo Deila Frigg Gail Grid Gro Guro Haley Harper Heidrun Hela Kippi Magna Nessa Oda Olive 
+ Ove Ragnhild Ronalda Sigrid Thora Unni Valda
+			}
+			regnal_second_names = {
+				Callas Callis Caras Carras Castellanos Chaconas Chontos Chris Christakos Christodoulou 
+ Christopoulos Christos Christou Chronis Collias Comis Condos Constantinides Constantinou Contos 
+ Cosmos Cosse Costas Delis Dellis Demetriou Demo Demopoulos Demos Dimitriou Doukas Drakos Drivas 
+ Dukas Economides Economos Economou Eliades Elias Eliopoulos Floros Fotopoulos Fotos Frangos 
+ Gabris Galanis Galanos Galatas Gallo Ganas Ganis Garis Gekas Georgas Georgiades Georgiadis 
+ Georgiou Georgopoulos German Gerou Gianakos Giannopoulos Gianopoulos Gikas Glaros Glavan Goga 
+ Gogola Golias Gonce Goulas Gounaris Grammatico Grivas Halkias Hallas Hanas Hanno Harris Hatzis 
+ Hero Herod Hondros Ioannou Jason Kairis Kakos Kalfas Kalivas Kallas Kallis Kamber Kanas Kanelos 
+ Kappas Kara Karahalios Karalis Karas Karras Katsaros Kaya Kazan Kefalas Kellis Kokes Kollias 
+ Kondos Kontos Korba Kormos Kosko Kosta Kostas Kostopoulos Kotas Kouris Kozma Kritikos Ladas 
+ Lagana Lagos Lambros Lampros Laskaris Lasko Lazos Lekas Leos Leva Leventis Liakos Lias Lillis 
+ Linard Livas Logo Lois Loris Loukas Macris Maheras Makos Makris Malas Malia Mallas Manago Manella 
+ Mangas Maniatis Manikas Manis Manolis Manos Maragos Maras Marinos Maris Markos Martha Martis Mate 
+ Mates Matis Matranga Mattas Matthias Mavros Mega Melis Mellas Mellis Mena Metaxas Metro 
+ Michaelides Michel Mihal Mikos Milas Milonas Mina Minas Minga Mires Miron Misko Mitro Mola Mona 
+ Moraitis Moros Mula Mundis Murga Musto Muto Myron Nanos Nasso Nicolaides Nicolaou Nicolas Nicoli 
+ Nicolo Nikas Nikitas Nikolas Nini Nino Pagonis Palamara Palas Pallas Panagakos Panagopoulos 
+ Panagos Panas Panos Papa Papadakis Papadopoulos Papageorgiou Papalia Papandrea Papas Pappas Pardo 
+ Patera Patras Paules Paulos Pavlis Penna Pepi Peri Peris Perris Perro Petracca Petrakis Petralia 
+ Petras Petrides Petro Petropoulos Petros Petrou Sideris Simos Siska Sisko Sita Soter Sotir 
+ Sotiropoulos Soulis Spanos Speros Spino Spiros Spiteri Stamas Stamatis Stamos Stanis Stathakis 
+ Stathis Stathopoulos Stathos Stavropoulos Stavros Stavrou Straka Stratis Stratos Takes Tantalo 
+ Tassi Tasso Tata Tavoularis Teresi Terzi Thanos Theodorou Thoma Tocci Toles Tomaras Toto Traino 
+ Trakas Tripi Tripoli Valis Vallas Valli Vallis Varela Vasco Vasil Vasilakis Vasiliou Vassallo 
+ Vassos Velis Verga Vidales Vitalis Vlachos Vlahakis Vlahos Xenakis Xenos Zacharias Zane Zanni 
+ Zaro Zeno Zenon Zervas Zervos Zika Zografos Zurlo
+			}
+		}
+		
+		
+	}
+}

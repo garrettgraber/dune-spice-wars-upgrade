@@ -1,0 +1,132 @@
+#########################################
+#
+# DUNE on_action_events
+#
+#########################################
+
+namespace = dune_action
+
+
+
+# Enable DUNE resources for Galactic Market
+event = {
+	id = dune_action.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = galactic_market_founded
+
+		OR = {
+			NOT = { is_on_market = sr_spice }
+			NOT = { is_on_market = sr_ixian }
+			NOT = { is_on_market = sr_mentats }
+			NOT = { is_on_market = sr_truthsayers }
+			NOT = { is_on_market = sr_tleilaxu }
+			NOT = { is_on_market = sr_guild }
+			NOT = { is_on_market = sr_sardaukar }
+			NOT = { is_on_market = sr_swordmasters }
+			NOT = { is_on_market = sr_elacca }
+			NOT = { is_on_market = sr_suk }
+		}
+
+		NOT = { has_country_flag = synchronised_worlds }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_spice }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_spice value >= 1 } }
+			}
+			enable_on_market = sr_spice
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_ixian }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_ixian value >= 1 } }
+			}
+			enable_on_market = sr_ixian
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_mentats }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_mentats value >= 1 } }
+			}
+			enable_on_market = sr_mentats
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_truthsayers }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_truthsayers value >= 1 } }
+			}
+			enable_on_market = sr_truthsayers
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_tleilaxu }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_tleilaxu value >= 1 } }
+			}
+			enable_on_market = sr_tleilaxu
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_guild }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_guild value >= 1 } }
+			}
+			enable_on_market = sr_guild
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_sardaukar }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_sardaukar value >= 1 } }
+			}
+			enable_on_market = sr_sardaukar
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_swordmasters }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_swordmasters value >= 1 } }
+			}
+			enable_on_market = sr_swordmasters
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_elacca }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_elacca value >= 1 } }
+			}
+			enable_on_market = sr_elacca
+		}
+		if = {
+			limit = {
+				NOT = { is_on_market = sr_suk }
+				any_playable_country = { resource_stockpile_compare = {  resource = sr_suk value >= 1 } }
+			}
+			enable_on_market = sr_suk
+		}
+	}
+}
+
+
+
+
+event = {
+	id = dune_action.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			if = {
+				limit = { has_country_flag = benegesserit }
+				log = "Current Bene Gesserit Name: [This.GetName]"
+				set_name = "Bene Gesserit Sisterhood"
+				log = "New Bene Gesserit Name: [This.GetName]"
+			}
+		}
+	}
+}
+
+
+
+

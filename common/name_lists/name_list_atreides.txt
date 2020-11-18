@@ -1,0 +1,637 @@
+﻿### Dune Name List
+atreides = {
+	randomized = yes
+
+	ship_names = {
+		generic = {
+		}
+		
+		corvette = {Corydon
+		}
+		
+		constructor = {Cohn
+		}
+		
+		colonizer = {Cleon
+		}
+		
+		science = {Solinus
+		}
+		
+		destroyer = {Deacon
+		}
+		
+		cruiser = {Centaurus
+		}
+		
+		battleship = {Bishop
+		}
+		
+		mining_station = { }
+		research_station = { }
+		#terraform_station = { }
+		observation_station = { }
+		
+		transport = {Turner
+			
+		}
+
+		military_station_small = { 
+			
+		}
+		
+		military_station_medium = { 
+			 
+		}
+		
+		military_station_large = { 
+			
+		}
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			
+		}
+		sequential_name = "%O% Atreides Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% House Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Expeditionary Force"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robot Army"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Army"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+			first_names_male = {
+				Aaron Abbas Abdiel Abel Abijah Abner Abraham Abrahsa Absolom Acacio Adalai Adam Adar Addai Adin 
+ Adley Admon Adon Agrippa Ahab Ahmik Aitan Akim Alphaeus Alphus Alva Amal Amiel Amon Amos Amram 
+ Anath Annas Arel Arion Aristotle Arnon Asa Asher Asphar Azariah Barbaras Barnabas Bartholomew 
+ Baruch Bates Bela Benaiah Benjamin Benson Bethuel Boaz Cain Caleb Carmelo Carpus Chaim Chatan 
+ Dagan Dalit Daniel David Dekel Doran Dov Eben Ebner Eden Edom Ehud Eisig Eitan Elam Elan Elazar 
+ Elias Elijah Eliot Elkanah Ellis Emanuel Enoch Ephraim Eran Esau Ezekiel Ezra Gabai Gabriel Gan 
+ Gatian Genesis Gersham Giacomo Gian Giannes Gideon Giuseppe Goliath Haggai Haran Heber Heinz 
+ Hezekiah Hilel Hiram Hosea Hyman Ichabod Ike Ilan Ilia Ilias Immanuel Imre Ioan Ira Irin Isaac 
+ Isaiah Ishmael Israel Ithamar Jabez Jabin Jachin Jacob Jaden Jairus James Japhet Jared Jaron 
+ Javan Jebediah Jeremiah Jeremy Jesse Jesus Jethro Joachim Job Jody Joel John Jonas Jonathan Joram 
+ Jordan Joseph Joshua Juan Judd Kabos Kadmiel Kaniel Karmel Katzir Kedar Kenan Kobe Laban Label 
+ Lael Lavan Lazarus Lemuel Leor Leshem Levi Lot Madai Makayla Makis Malachi Mario Marlin Matai 
+ Matthew Mattison Mayer Mehetabel Meshach Mica Michael Mihaly Mitchell Mordecai Moses Nachman 
+ Nachmanke Nachum Nadav Nadir Nahir Nahum Nathaniel Naum Nehemiah Nimrod Nirel Nisi Noadiah Noah 
+ Noy Nuriel Obadiah Oded Oma Omar Omri Oralee Oren Orli Orly Ornice Osaze Osip Oz Pallu Palti Pau 
+ Phinneaus Pontus Rafa Rafael Ranen Raphael Ravid Reuben Reuel Rishon Roman Roni Rouvin Ruben Saad 
+ Sachiel Sagiv Saloman Sam Samson Samuel Saul Seff Seraphim Seth Shafir Shailen Shiloh Shimon 
+ Shulamith Shylock Simon Simpson Sivan Solomon Talman Temani Temo Terach Timur Tivon Tobias Tomer 
+ Tov Tuvya Tyrek Tzuriel Udeh Uehudah Uri Urias Ury Uzi Uziah Uziel Vered Vida Volf Yaakov Yaar 
+ Yadon Yago Yahir Yair Yakim Yakov Yamin Yan Yanis Yanoach Yaphet Yarin Yechezkel Yehudi Yered 
+ Yeshaya Yitro Yitzchak Abelard Adalbert Adalgiso Adelbert Adelfried Adelino Adelmio Adelmo Ademaro 
+ Adie Adler Adolph Ahren Aksel Alaric Albert Albrecht Alfonso Alger Alice Aloysius Ancel Anselm 
+ Arland Armand Arnold Avicus Baldwin Baltasar Baron Bergen Bernard Bernstein Bertram Bingham Blaz 
+ Bogart Brandeis Bronson Bud Burke Burle Carl Carolus Carsten Clay Clovis Colbert Conrad Dagobert 
+ Dalbert Dale Derek Dewitt Dian Dieter Dietrich Dolf Drake Dutch Eberhard Egbert Egmont Elbert 
+ Eldwin Emery Engelbert Ernest Ethelred Everett Falk Ferdinand Franz Frederick Fremont Fritz Gary 
+ Geert Geoffrey Gerlac Gilbert Godfrey Hagan Hahn Hamlet Hammet Harbin Harlan Harold Harry Harvey 
+ Heinrich Heller Henry Herbert Herman Hernan Hershel Hildebrand Hobart Horst Hubert Hugh Humbert 
+ Huni Hutch Ing Ingram Ivo Jarvis Jerry Kagan Kant Karcher Karl Kasch Kass Kay Kearn Kellen Kepler 
+ Kiefer Klaus Klein Konrad Kurt Lance Lando Lang Lear Len Leonard Leopold Lindberg Loring Louis 
+ Ludwig Luther Lyulf Mallory Mandel Manfred Mathias Meyer Miles Milo Nevin Norbert Oberon Obert 
+ Odette Odis Orlan Orlantha Ormand Ormanda Osborn Osten Otis Otto Paulos Penrod Rainart Redmond 
+ Reinhart Reinhold Rikard Ring Ritter Roderick Roger Roland Rolf Rollins Ross Roswald Roth Rudeger 
+ Rudolph Rune Schaffer Schmidt Schneider Sinbad Stark Stefan Stein Strom Tab Theobold Tyson Uben 
+ Uberto Ubrig Ubrigens Uhr Ulas Ulbrecht Ulbrich Ulexite Ulgar Ulman Ulriah Ulrich Unser Uwe Vaduz 
+ Valdermar Varick Varner Verile Verner Vid Vilem Vilmos Volker Waggoner Wagner Walbert Waldemar 
+ Waldron Walmond Walten Walter Waltraut Warner Warren Wes Wilbert Willis Wilmer Wilson Winfield 
+ Yale Yohann Zamael Zelig Aleron Algernon Ames Amiens Anicetus Aramis Audric Bassett Bayard Beau 
+ Bellamy Blaise Boden Bonar Boniface Borden Boswell Boyce Briar Brigham Bruce Byron Cabal Cable 
+ Cade Campbell Canaan Canon Carolus Carvell Chainey Chancellor Channing Chase Chevy Chivalry Ciel 
+ Circinus Colar Colville Corbin Courvoisier Coyne Curtis Dabney Darrell Dashiell Dax Delano Demont 
+ Destin Didier Dior Donatien Etienne Fabron Ferrand Flannery Fletcher Forrest Foster Franchot 
+ Francis Francois Franklin Frasier Gage Garen Gareth Garland Garner Garrison Gaston Gaylord 
+ Gerald Germain Geron Giles Glanville Gower Granger Grant Granville Guy Hackett Hello Holland 
+ Honore Jacques Jasper Javier Jay Jean Jeffrey Jemond Jesper Justin Labaron Lance Landry Laramie 
+ Laron Larrimore Launcelot Laurent Leggett Leroy Leverett Lionel Luc Lyle Macy Mallory Marcel 
+ Mardian Marin Marlon Marshall Marvel Maslin Mason Merrill Montague Montgomery Montrell Montrose 
+ Mortimer Nazaire Neville Newell Noel Odil Odilon Odo Olier Oliver Olympe Orane Oriel Orleans 
+ Orson Orville Ouida Page Paris Pascal Percival Percy Pernell Pierre Platt Porter Prewitt Quennel 
+ Quincy Rance Ranger Raul Ray Raynard Remi Romain Ross Roy Royal Rupert Rush Russel Saber Sargent 
+ Satch Senior Sennett Sergeant Severin Seymour Sezni Sid Similien Sinclair Sinjon Sorrel Sumner 
+ Talbot Telford Telo Tenenan Thibaud Travis Tremeur Tugdual Tujan Turiau Tyson Umber Vachel Vail 
+ Valeray Varden Varil Varocher Verdun Vere Verity Vermont Vernon Verrier Verrill Villard Villiers 
+ Wyatt Xebec Yannick Alden Alder Crockett Kemp Kipling Ladd Lander Lane Latimer Lyman Macon Mendel 
+ Mercer Mull Nye Perry Prentice Reeve Sanders Sawyer Skeet Sterne Swain Tab Taylor Tennyson Todd 
+ Trey Tucker Turner Twain Tyler Vance Vane Wade Walker Yates Amund Arvid Bjorn Canute Carolus 
+ Carson Dag Davin Denholm Dyre Egil Elvis Eric Filip Fortinbras Frey Haakon Hannes Igor Ingmar 
+ Ingvar Jarl Kaj Karr Kelsey Kerr Kettil Knute Kolby Lars Ludvig Lunt Mats Nels Niels Norb Odell 
+ Odo Olan Pal Quinby Rad Rune Skjøld Snorre Sølve Steinar Stieran Sven Thiassi Thoralf Thorin 
+ Thorstein Toste Tryggvi Ulffr Ulick Ull Ulrik Ulster Ultar Vali Vannevar Vanslow Vidar Vidkun 
+ Viggo Viljalmr Viljo Von Waage Wray ZviAfton Ahearn Annan Fallon Finley Kearney Keary Kegan Keir 
+ Kendall Mannix Marmaduke Melvin Merlin Murray Perth Ronan Sean Tadc Tegan Tiernan Torin Tuathal 
+ Ultan Vaughan York Alan Angus Blaan Conan Fagan Kade Keefe Keegan Keeland Keenan Kennedy Kenyon 
+ Kermit Kern Kerry Kevin Kieran Kinnel Lawler Lee Lennon Lon Mackenzie Neal Oren Parlan Phelan 
+ Regan Renny Riley Riordan Rogan Rooney Rory Ryan Seamus Senach Sheehan Slevin Sloan Sullivan 
+ Sully Sweeny Tee Tiernan Gurney Thufir Wellington Duncan
+			}
+			first_names_female = {
+				Aaliyah Aari Aase Abbellonna Abie Abigail Abira Abital Abra Achazia Ada Adamina Adena Affera Afra 
+ Ahava Ahmose Akiva Aliza Alumit Amissa Anita Ann Apphia Araminta Arashel Arella Ariel Arnon Ascah 
+ Asenath Asenka Asisa Atara Aviva Ayala Ayla Ayn Bara Basha Bathsheba Becky Bena Beryl Bess Bethany 
+ Bettina Beulah Bina Bo Bracha Carmel Chaka Chanah Chaya Daba Dagen Dalia Danielle Danuta Dara 
+ Davan Daya Dayla Deborah Delilah Denna Derora Dinah Diza Dodie Dorrit Eden Edena Edna Edria 
+ Efrosini Elam Eleora Eliann Elizabeth Emanuelle Endora Eve Gabriela Galya Gana Gayora Gelilah 
+ Geva Gilana Gilla Gita Giuseppina Hadara Hadassa Hannah Hariel Hava Heba Hedia Hedva Hepziba Hila 
+ Hinda Hosea Ideh Idit Ikia Ilana Iras Isela Iva Ivana Ivria Iyana Jael Jaen Jana Jane Janese 
+ Janica Jariah Jedida Jemima Jenay Jenova Jerusha Jesse Jessica Jezebel Jimena Joakima Joan 
+ Joaquina Jobey Joelle Jonina Jora Jordan Josephine Josie Judith Kadisha Kaila Kalanit Kaleigh 
+ Kanara Karmel Karmina Katriel Kay Kayla Kazia Kefira Keilah Kelila Kenia Keturah Ketzia Kezia 
+ Kitra Kizzy Kochava Laah Labana Lael Laela Laila Lailie Laisha Lavey Lavi Lea Leah Ledah Leeza 
+ Leia Lemuela Lena Leora Levia Lexine Lia Liana Libba Libby Liora Lirit Lisa Lisbet Lisea Livia 
+ Liza Lizbeth Lizeth Lois Lysia Macayle Madeline Magda Magdalen Magena Mahala Mahalia Mahola Malca 
+ Malha Malina Malka Mangena Mara Maretta Margaret Maria Mariah Mariam Mariasha Marilynne Marna 
+ Marnina Marsena Marta Mary Matana Mathea Mattea May Meera Mehitabel Meira Mia Michaela Minna Mira 
+ Mireya Miriam Moria Moselle Nancy Nanna Naomi Nasya Natania Nataniella Naysa Nediva Neorah Neria 
+ Netta Neviah Nina Nira Nisi Nitza Nitzana Nizana Noemi Nuria Odeda Odele Odelia Odera Ofira Oma 
+ Oprah Oralee Oralia Orpah Ozora Paz Peliah Peninah Raanana Rachel Rahab Raizel Rakel Raphaella 
+ Rayna Reba Rebecca Rena Richael Rimona Rishona Ruth Sabeans Sabra Saloma Salome Samara Samatha 
+ Samicah Sammy-Jo Samuela Sarah Sarahi Sarai Sarea Adalgisa Adelaide Adolfina Aemilia Alberta Alice 
+ Alisha Aloysia Amelia Amerie Anneliese Antje Arabelle Aria Arrietty Aubrey Berit Berlynn Bertha 
+ Binney Bluma Bruna Callan Carla Carol Cecania Chay Clay Dagmar Dale Dame Della Dustin Ebba Edwina 
+ Elfriede Ella Emiline Emma Emmylou Ermine Ernestine Etta Faiga Farica Frederica Frieda Galiana 
+ Geraldine Gertrude Gretchen Griselda Hallam Heidi Henrietta Hilda Honey Ida Ilsa Imelda Irma 
+ Isela Jarvia Jenell Jerolyn Johanna Joss Kalona Karel Karla Karlotta Kateri Katrin Katrina Kelby 
+ Kerstin Klarissa Leisel Leoma Leona Leonie Leopolda Leyna Liese Liesel Lise Lorelei Lorraine 
+ Lotte Louanna Louisa Louise Luana Lucina Lysa Mallory Mandel Mariel Maritza Mathilda Meryl Meta 
+ Mina Minna Morgen Nixie Norberta Nordica Notburga Odelia Odella Olinda Oma Orlantha Ormanda Otylia 
+ Quartz Rae Rayma Richelle Roderica Rolanda Rory Rosamund Schmetterling Senta Serilda Sieglinde 
+ Silke Sommer Sonnenschein Tabea Tawanda Tilda Tillie Trude Trula Ulla Ulrika Ulva Uta Viveka 
+ Walda Wanda Wilhelmina Wilma Winola Zelda Zelinda Zelma Zenzi Abril Alair Alberta Alize Amour Avril 
+ Babette Bailey Bedelia Bernadette Caroline Caron Cerise Chablis Chance Chanel Chantal Charlotte 
+ Cheriss Cheryl Claudette Colette Courtesy Cydney Darcie Darlene Deja Delight Denise Desiree 
+ Destiny Didina Dior Djab Dominique Doreen Elaine Elise Elita Elle Eloise Emeraude Etoile Evonne 
+ Fay Fifine Fleur Fontanna Fortune Frances Garland Gay Geneva Gervaise Ghislaine Harriet Honor 
+ Isabeau Ivette Jacqueline Jaimie Janel Jewel Jolie Juliet Kadence Kalet Kordell Kyrielle Larue 
+ Lauren Laverne Leala Leontyne Lesh Linette Lisette Lisle Lois L'Oréal Loring Lucetta Lucie 
+ Lunette Lyla Lyle Maine Mallory Manon Mardi Margo Marianne Maribel Marie Marion Marvelle Maureen 
+ Mauve Mavis Melisenda Merane Merla Merle Merlyn Meryl Miette Mignon Monique Moselle Musetta Nadia 
+ Naeva Nanette Narcisse Nathaly Ninon Noella Odetta Odette Odil Olive Opaline Orane Oriel Ouida 
+ Page Pascale Perry Prunella Purvis Questa Quiterie Raissa Raylene Remy Renee Riva Rochelle Roslin 
+ Ruby Rui Sage Salene Salina Sarotte Satin Scout Searlait Sebastiona Sennett Shannelle Shantay 
+ Shanton Sharice Shyann Sidonie Sigourney Sojourner Solange Soleil Sorrel Sosie Stella Susie 
+ Suzette Sydney Sydni Symone Tallis Tallys Tayce Taylar Tempest Therese Tiffany Tilda Tolena Toni 
+ Tracy Troy Turquoise Vedette Vilette Yvonne Zanette Amiable Cavanaugh Citrine Doe Knowledge Lane 
+ Mercy Merry Scarlet Alleta Bo Dagna Dahlia Delling Eir Erica Evonne Freya Gudrun Gunda Halle 
+ Idonea Ingrid Jesen Karena Kelda Kelsey Kiersten Krystyn Lang Larsen Linnea Lis Lisolette Litzy 
+ Loki Lundy Malin Marny Marta Mia Nissa Quenby Quinby Ran Ranveig Rinda Runa Sanna Savea Selma 
+ Signa Signild Sigrun Snøfrid Sonja Sorley Sunniva Svea Synnove Teal Thorborg Thurid Thyra Thyrrni 
+ Toril Toyah Tyra Ula Unn Valkyrie Vanja Vigdis Viola Ylwa Zainab Fallon Flannery Kaie Kaitlyn 
+ Kassidy Kathleen Keena Keir Keira Keita Kendall Kenna Kera Kern Kiara Kirra Kylee Lachlan Lorna 
+ Maeve Malise Morgance Morgandy Nonnita Nuala Raelin Rhonda Saoirse Saraid Seanna Shela Shylah 
+ Tara Teranika Tieve Treasa Treva Blaine Blair Eilis Kalene Kassidy Katelyn Keaira Keelty Keely 
+ Keen Keitha Kellan Kenna Kennis Kera Kern Kerry Kevina Kiara Killian Kyna Lachlan Lakyle Lee Mab 
+ Maeryn Maille Mairi Maisie Meara Meckenzie Myrna Nara Neala Nelia Nuala Oona Quinn Rhoswen Riane 
+ Riley Rogan Rona Ryan Sadb Saoirse Shanley Shelagh Sine Siobhan Sorcha Tara Teranika Tieve Ultreia 
+ Vevila
+			}
+			second_names = {
+				Akerman Akers Akhavan Akkerman Aksamit Albo Alhadeff Alman Almen Almon Alon Alper Alperin Alpern 
+ Alperstein Alpert Alt Alter Alterman Altes Althaus Altis Altland Altman Altmann Altschul 
+ Altschuler Altshuler Altstadt Amado Amar Amberg Amdur Amiel Amir Amos Amsel Amsler Amster 
+ Amsterdam Ancel Ancona Andelman Angert Antman Antos Apel Apfel Apfelbaum Appel Appelbaum Appelman 
+ Appleman April Apt Apter Arch Arenberg Arender Arendt Arenson Arian Arias Ariel Arkin Arko Arnold 
+ Arnow Aron Aronin Aronoff Aronov Aronow Aronowitz Arons Aronson Aronstein Artz Arzt Asch Ascher 
+ Ash Asher Ashkenazi Aslan Assaf Ast Atlas Attia Attias Auerbach Auslander Averbach Avner Avram 
+ Axelrad Axelrod Axler Azizi Babe Babel Babicz Babin Babinski Bable Bach Bachar Bacharach Bacher 
+ Bachman Bachmann Bachrach Bader Badgett Baeder Baehr Baer Bahar Bakal Bakst Balaban Baldinger 
+ Balin Balkin Ballas Ballin Balsam Balser Balter Bamberg Bamberger Band Banda Bandel Bander Banet 
+ Bank Banker Bar Barach Barad Barak Baran Baranek Baranoski Baranowski Baranski Barasch Barash 
+ Baratz Barber Bard Barish Bark Barkan Barkin Barnes Barocas Baron Barrish Barsky Baruch Basch 
+ Baskin Baskind Bass Bassin Bassman Batko Bauer Baum Baumann Baumel Baumgard Baumgarner Baumgart 
+ Baumgarten Bayer Baylin Bazar Bazer Becher Beck Becker Beckerman Beckman Beder Bednarski Bednarz 
+ Beemer Begin Begun Behar Behrman Behrmann Beier Beigel Beim Beiser Bejar Bejarano Bek Belen 
+ Belfer Belich Belin Belinsky Belitz Belka Belkin Bell Belman Belmonte Beloff Below Belsky Belson 
+ Belzer Benda Ben-David Bendix Benenson Ben-Ezra Bengel Benis Benison Benjamin Benowitz Benson 
+ Benveniste Ber Beran Berenbaum Berenson Berezin Berg Bergen Berger Bergner Bergson Bergstein Berk 
+ Berke Berkeley Berkley Berkman Berko Berkovich Berkovitz Cantor Cap Caplan Carlin Carmel Caro Carp 
+ Caspary Castiglione Castro Ceder Cerf Chacko Chafetz Chaikin Chait Chanin Charnas Chasen Chasin 
+ Chason Chazen Cherkas Cherner Chernick Chernin Chernoff Cherny Chertok Chesky Chesnick Chlebowski 
+ Chmiel Chmura Chodosh Chorney Cibula Citrin Citron Clingerman Coblentz Coen Coggan Cohen Cohn 
+ Coleman Cooper Cooperman Copelan Cotler Covitz Cremin Crespi Czarnecki Czarny Czerniak 
+ Czerniawski Dachs Da Costa Dagan Dahan Dahl Dain Daitch Dales Damian Damsky Danenberg Daniel 
+ Danieli Daniels Danielson Daniely Danoff Danon Dansky Danzig Danziger Dar Daskal Daub Daube Daum 
+ David Davidoff Davidov Davidovich Davidow Davidowitz Davids Davidson Davydov Dayan 
+ Deibler Deichman Deitch Deitchman Deitsch Delman Del Vecchio Dembek Dembinski Dembo Dembski 
+ Demski Demsky Denenberg Denes Dentz Derman Dermer Desser Deutsch Deutscher Diamant Diamond 
+ Dichter Dick Dicker Dickerman Dickman Dickmann Dickstein Dillon Diment Din Diner Dinerman 
+ Dinerstein Dinkin Director Distel Ditch Dobin Dobkin Dobrin Dobrow Dolgin Dolin Dolinski Dolinsky 
+ Dombrowski Dombrowsky Don Donn Donner Doppelt Dorf Dorfman Dorin Dorman Dorn Dornbusch Doron 
+ Drabkin Drach Drachman Dragon Drapkin Drechsler Dreier Drell Drescher Dresden Dresner Dressler 
+ Drexler Dreyer Dreyfus Dreyfuss Dropkin Drozd Druck Drucker Druckman Druker Dub Dubin Dubinski 
+ Dubner Duboff Dubow Dubrow Dubsky Duchin Ducker Dunaj Dunay Dunkelberger Dvorkin Dweck Dworkin 
+ Dworsky Dyche Dyches Dym Dzikowski Dziuba Eagle Eber Eck Ecker Eckerman Eckhaus Eckman Eckmann 
+ Eckstein Edel Edelberg Edelman Edelmann Edelson Edelstein Efron Egert Ehmann Ehrenberg Ehrenfeld 
+ Ehrenreich Ehrlich Ehrman Ehrmann Eichel Eichelberg Eichen Eichenbaum Eichenlaub Eichholz 
+ Eichhorn Eidelman Eigen Eigner Einbinder Einhorn Einstein Eisemann Eisen Eisenbach Eisenberg 
+ Eisenberger Eisenbraun Eisenhardt Eisenstadt Eisenstein Eisner Ekstein Elbaum Elbaz Euler Ewen 
+ Ezra Fabian Fabish Fabricant Fabrikant Faden Fagin Faiman Fairman Falin Falk Falkenberg 
+ Falkenstein Falkowitz Falkowski Fallas Fangman Farb Farber Farbman Farkas Fass Faust Fayer 
+ Feder Federer Federman Feher Feierstein Feig Feige Feigel Feigenbaum Fein Feinberg Feiner 
+ Feingold Feinman Feinstein Feintuch Feist Feit Fekete Felber Feld Feldberg Felderman Feldman 
+ Feldner Feldstein Felix Fell Feller Fellman Fells Felman Fels Felsenthal Fenster Fenstermacher 
+ Fenton Ferber Ferdman Ferro Fertal Fertel Fertig Fessler Fester Fetter Fetterman Feuer Feuerman 
+ Feuerstein Fidel Fiedler Field Fierstein Filene Finberg Findling Fine Fineberg Finegold Finger 
+ Fingerhut Fingerman Fink Finkel Finkelman Finkelstein Finkler Finster Fireman First Fisch 
+ Fischbach Fischbein Fischel Fischer Fischl Fischler Fischman Fishbein Fishel Fisher Fishkin 
+ Fishler Fishman Fixler Flam Flamm Flasch Flash Flaster Flatow Flaum Flax Flaxman Fleck 
+ Fleckenstein Fleischer Fleischhacker Fleischmann Fliegelman Flink Flint Flis Fliss Flohr Flom 
+ Fogel Fogelman Fogelson Follman Ford Forgacs Forman Forster Fortgang Foster Fox Foxman Fradin 
+ Fradkin Fraenkel Frager Fraker Frame Francis Franco Frank Frankel Frankenberg Frankenberger 
+ Frankenstein Frankford Frankfort Frankl Franko Franzblau Franzman Fread Fredman Freed Freedman 
+ Freidhof Freidman Freifeld Freilich Freiman Freitag Frenkel Freud Freudenberg Freudenberger 
+ Freudenthal Freund Freundlich Freyman Freytag Friberg Frid Fridman Fried Friedberg Friedemann 
+ Frieden Friedenberg Frieder Friedhoff Friedland Friedlander Friedler Friedman Friedmann Frieling 
+ Frieman Fries Frisch Frischkorn Frischman Frischmann Frishman Froehlich Frohlich Frolich From 
+ Fromer Fromm Fruchter Fruchtman Fruehling Fruhling Frum Frumkin Fuchs Fuks Fuld Fulop Fund Furer 
+ Furman Furmanski Furst Furstenberg Furth Futter Futterman Gabay Gabbay Gabel Gabelman Gaber 
+ Gabler Gabor Gabriel Gaer Gal Galicki Galin Galinski Galinsky Galkin Galler Gallin Galper
+ Genzer Gerber Gerlach Gerlich Gerlitz German Gersch Gersh Gershen Gershenson Gershman Gershon 
+ Gershowitz Gerstein Gersten Gerstenfeld Gerstenkorn Gerstman Gertler Gertner Gertz Gerwitz 
+ Getman Gettinger Getz Gewirtz Gideon Gilberg Gilbert Gildner Gilinsky Gill Giller Gimbel Gimpel 
+ Gimple Gindi Gingold Ginsberg Ginsburg Ginzburg Gips Gitelman Gitlin Gitlitz Gittelman Gitter 
+ Gittleman Gittler Gittleson Gladstein Gladstone Glantz Glanz Glanzer Glanzman Glas Glaser Glasner 
+ Glass Glassberg Glasser Glassman Glatt Glatz Glatzer Glauber Gleicher Glen Glick Glickman 
+ Glicksman Glickstein Glinsky Glogowski Glotzer Gluck Gluckman Glucksman Glueck Godel Godlewski 
+ Goffman Gofman Gogol Golan Golberg Gold Golda Goldbach Goldbaum Goldbeck Goldberg Goldberger 
+ Goldblatt Goldblum Golde Goldenberg Goldenstein Golder Goldfarb Goldfeder Goldfein Goldfield 
+ Goldfine Goldfinger Goldhammer Goldin Golding Goldinger Goldman Goldmann Goldner Goldrich 
+ Goldring Goldschmidt Goldstein Goldstone Goldwasser Goldwire Goldwyn Golick Golin Golod Golomb 
+ Golombek Goltz Golub Golz Goman Gomberg Gonter Gora Gordin Gordon Gorecki Gorelick Gorelik Goren 
+ Gorenstein Gorin Gorski Gorsky Goshen Gosman Gottesman Gottfried Gotthelf Gottlieb Gottman 
+ Gottschalk Goudelock Graber Grabowski Grad Grade Graf Graff Gralla Granat Granoff Grau Graubard 
+ Grauberger Grauer Graumann Graziani Greber Green Greenhouse Greenleaf Greenspon Greiman Greitzer 
+ Gretz Gretzinger Griffel Grinberg Griner Grob Grobman Grodsky Gros Groskopf Grosman Gross 
+ Grossbard Grossberg Grossinger Grosskopf Grossman Grossmann Grosz Groszek Gruber Grubman Gruen 
+ Gruenberg Gruener Gruenewald Gruenhagen Gruenwald Gruman Grumet Grun Grunberg Gruner Grunewald 
+ Grunfeld Grunwald Gruskin Gruszka Grzywacz Guber Guberman Guetter Guggenheim Gulden Guldin 
+ Gunzenhauser Gura Guralnick Gurevich Gurewitz Gurin Gurman Gurske Gurski Gursky Gurwitz Gusman 
+ Gut Gute Guterman Guth Gutkin Gutman Gutmann Gutstein Gutt Guttenberg Gutter Gutterman Guttman 
+ Guttmann Guzman Haar Haas Haase Hammerschmidt Hammerstein Hampel Hamra Han Hanan Hanauer Hand 
+ Handel Handelman Handelsman Handleman Handler Handwerker Haney Hanis Hankes Hankin Hanover Hanson 
+ Hantman Harari Harary Hardt Harel Haring Harkavy Harman Harmel Harnick Harris Harshbarger Hart 
+ Hartenstein Harth Hartman Hartmann Hartog Hartstein Hartzog Harz Hasan Hase Hasen Haskell Haskin 
+ Hason Haspel Hass Hassman Hasson Hatten Hattendorf Hauber Haupt Hauptmann Hausen Hauser Hausler 
+ Hausman Hausmann Hausner Haut Hauter Havlin Hayden Hayes Hayman Hayn Hazan Hearst Hecht Hechtman 
+ Hecker Heffner Hefner Hefter Hegedus Heid Heide Heidelberg Heidelberger Heideman Heidemann Heiden 
+ Heifetz Heikes Heilbrun Heilbrunn Heilig Heiliger Heilmann Heim Heiman Heimberger Heimburger 
+ Heimerdinger Heimlich Hein Heine Heineman Heinemann Heinitz Heino Heinrich Heins Heinz Heinze 
+ Heiss Helberg Held Heldman Helfand Helfgott Helfman Hellberg Heller Hellerman Hellman Helm Helman 
+ Helmer Helper Heltzel Hempel Hendel Hendler Henig Henkin Henry Henschel Hensel Henzel Hepner 
+ Heppner Her Herbert Herbst Herfurth Hering Herling Herlinger Herman Hernandez Herold Herr Herrera 
+ Herring Hersch Herschberger Herschel Herscher Herschman Hersh Hershey Hershfield Hershkowitz 
+ Hershman Herskovits Herskovitz Herskowitz Herson Herst Hertz Hertzberg Hertzog Herz Herzberg 
+ Herzberger Herzer Herzfeld Herzig Herzog Hess Hetman Heuberger Heuman Heumann Hexter Heyman 
+ Heymann Hibshman Hill Hillesheim Himel Himelfarb Himelstein Himmel Himmelfarb Himmelman 
+ Himmelreich Himmelstein Hinden Hindes Hindin Hipsher Hirsch Hirschberg Hirschel Hirschey 
+ Hirschfeld Hirschhorn Hirschler Hirschman Hirsh Hirshman Hiter Hober Hoberman Hoch Hochberg 
+ Hochhauser Hochheiser Hochman Hochmuth Hochstadt Hock Hodak Hodes Hoenig Hofer Hoffberg 
+ Hoffenberg Hoffer Hoffman Hoffmann Hoffner Hofman Hofmann Hofstetter Hohenstein Holberg Holder 
+ Holland Hollander Hollinger Hollingsworth Holtz Holtzer Holtzman Holub Holz Holzer Holzinger 
+ Holzman Holzmann Homberg Homburg Hon Isaak Israel Israelson Itkin Itzkowitz Jablon Jablonowski 
+ Jablonski Jablonsky Jachim Jacob Jacobe Jacober Jacobi Jacobowitz Jacobs Jacobsohn Jacoby Jaeger 
+ Jaffa Jaffe Jaffee Jagoda Jagodzinski Jakub Jakubowicz Jakubowski Janeski Janko Janovsky Janowicz 
+ Janowitz Janowski Javorsky Jaworowski Jaworski Jekel Jelen Jelinek Jeremias Joffe Joles Jonas 
+ Jonathan Joseph Josephs Joshua Juda Judah Jung Junge Junger Jungling Jungman Jungmann Jupiter 
+ Justman Kaatz Kacer Kachel Kacher Kachur Kaczor Kaczynski Kadar Kader Kadin Kadis Kadish Kaetzel 
+ Kafka Kagan Kagen Kahan Kahana Kahane Kahn Kaim Kain Kaine Kainer Kairis Kaiser Kaiserman Kalb 
+ Kalbfleisch Kaldor Kalin Kalina Kalinowski Kalinski Kalinsky Kalisch Kalisz Kaliszewski Kalkstein 
+ Kallay Kallus Kalman Kalmus Kalp Kalter Kaluzny Kam Kaman Kamber Kamel Kamen Kamensky Kamer Kamin 
+ Kaminer Kamins Kaminski Kaminsky Kamm Kamman Kammerman Kampf Kan Kanarek Kandel Kane Kaner 
+ Kanevsky Kanfer Kania Kanitz Kann Kanne Kanner Kano Kanter Kantor Kantrowitz Kaplan Kaplin Kaplon 
+ Kaplow Kaplowitz Kaplun Kapner Kar Karabin Karan Karas Karasek Karash Karasik Karch Karcz 
+ Karczewski Kardash Kardon Kardos Karg Karger Karlik Karlin Karman Karmazin Karmel Karnowski Karo 
+ Karol Karon Karp Karpel Karper Karpf Karpinski Karpman Karpovich Karpowicz Karsch Karsh Karten 
+ Kartman Kasdan Kasen Kash Kasman Kasner Kasperski Kass Kassab Kassin Kassis Kassman Kastner Katch 
+ Katon Kats Katsnelson Kattan Katz Katzen Katzenberg Katzenberger Katzenstein Katzin Katzman 
+ Kaufer Kaufman Kaufmann Kava Kayser Kaz Kazan Kazen Keim Keitel Kellman Kellner Kelman Kelner 
+ Kelson Kempler Kenner Kerekes Kerman Kern Kerner Kerper Kersch Kersh Kerstein Kertesz Kerzner 
+ Kesler Kesselman Kessler Kestenbaum Kettler Kiefer Kieffer Kiel Kienast Kienbaum Kifer Kihn Kil 
+ Kilberg Kill Kilman Kimber Kimelman Kimmel Kimmelman Lowe Lowenberg Lowenstein Lowenthal Lowinger 
+ Lowy Lozinski Lubarsky Lubin Lubinski Lubinsky Lubliner Lubow Luckow Luger Lukin Luks Luna Lunger 
+ Lupu Luria Lurie Luskin Lusky Lustgarten Lustig Lutsky Lutzker Luxenberg Luz Luzadder Luzader 
+ Lysak Mabe Mach Macht Mackler Madar Magat Magid Magidson Mahler Maier Maiers Maiman Maimon Mainz 
+ Mainzer Mair Maisel Maizel Majer Majesky Majewski Major Mak Makosky Makovsky Makowski Makuch 
+ Malach Malachi Malakoff Malamud Malen Maler Malin Malina Maline Malinowski Malinski Malinsky 
+ Malis Malka Malkin Malkus Malter Maltz Maltzman Man Mandel Mandelbaum Mandl Mandle Mandler Mangel 
+ Manheim Manheimer Manilow Manis Manker Mankowski Mann Manne Mannheimer Mannis Manor Mansberger 
+ Manson Mantel Mantell Marantz Marchewka Marchuk Marcus Marder Margolies Margolin Margolis 
+ Margulies Margulis Marinoff Marker Markin Markman Markov Markovich Markovits Markow Markowicz 
+ Markowitz Markowski Marks Markson Marmer Marmor Marshak Marx Masch Mase Mash Maslak Maslanka 
+ Maslowski Mass Matalon Mates Math Matis Matlin Mattes Matus Matza Matzner Mauer Maurer Maus 
+ Maxwell May Mayer Mayerson Mayor Mayr Mazar Mazer Mazey Mazie Mazin Mazo Mazor Mazur Mechanic 
+ Mecklenburg Meckler Mednick Medow Medved Meer Mehlberg Mehler Mehlman Meier Meinzer Meir Meisel 
+ Meiselman Meisels Meisler Meisner Meissner Meister Melamed Melber Melcer Meller Mellman Melman 
+ Melnik Melnikoff Melnyk Meltzer Melzer Men Mena Menaker Menashe Mencher Mendel Mendelsohn 
+ Mendelson Mendlowitz Merin Merker Merkes Merkin Merl Merlin Mermelstein Merson Mervis Mesch 
+ Meskin Messer Messinger Mestre Meth Metrick Metz Metzer Metzger Meurer Meyer Meyerowitz Meyers 
+ Meyerson Mezger Michael Michaelis Michalski Michelson Michl Migdal Milanese Milano Milberg Miler 
+ Miles Milgram Milgrim Milgrom Miller Millman Millstein Milman Milstein Mincer Mindel Mindell 
+ Mindlin Morgenstern Moritz Morningstar Moroz Mosbacher Moschel Moscowitz Moses Moskal Mosko 
+ Moskovitz Moskowitz Mossberg Mossman Most Motola Moyse Muchnick Muehlbauer Mueller Muenzer Muhl 
+ Muhle Muller Munk Munz Munzer Murin Muscat Mushinski Muskat Myszkowski Nachbar Nachman Nacht 
+ Nachtigal Nachtigall Nachtman Nadel Nadell Nadelman Nadler Nadolny Nagar Nagel Nager Nagorski 
+ Nagy Nahas Nahmias Naim Naiman Najjar Narrow Nash Nassau Nathan Nathans Nathanson Natt Nauman 
+ Navarra Navarro Nay Nayman Nebel Needle Needleman Needler Neeman Neer Neff Negri Negrin Negro 
+ Nehmer Neidich Neier Nejman Nelkin Neman Nemer Nemeroff Nemes Nemet Nemiroff Nemirovsky Nerenberg 
+ Nestel Netter Netz Netzer Neu Neubauer Neuberger Neuburger Neufeld Neugebauer Neuhaus Neuhauser 
+ Neuhoff Neuman Neumann Neustadt Neustadter Neuwirth Nevel New Newberg Newcomer Newfield Ney Neyer 
+ Neyman Nichols Nick Nieder Niederman Niemczyk Niemiec Nierenberg Nierman Nirenberg Niss Nissan 
+ Nissen Nissenbaum Nissim Nisson Nitka Nitzberg Niznik Noa Noah Nobel Noble Nolen Noll Norcia Nord 
+ Norden Nordman Nordmann Norman Norton Notman Novak November Novick Novik Novikoff Novitski 
+ Novitsky Novosad Novosel Novotny Novy Nowak Nowicki Nowik Nowinski Noy Nudell Nudelman Null 
+ Nurenberg Nurnberg Nurnberger Nussbaum Nyman Ober Oberlander Oberman Obremski Obst Ochs Oder 
+ Oesterreich Oestreich Oestreicher Oettinger Offen Offenbacher Offer Offermann Ohayon Okin Okon 
+ Okun Oldenburg Olejnik Olender Olin Olshansky Olszewski Opfer Oppenheim Oppenheimer Orbach Orel 
+ Oren Orenstein Orgel Orkin Orland Orlin Orloff Orloski Orlosky Orlov Orlovsky Orlowski Orlowsky 
+ Orman Ornstein Ortman Ortner Orzech Orzel Osgood Osher Oshinsky Oshman Osinski Osman Osofsky 
+ Osowski Ost Ostberg Oster Osterman Ostheimer Ostreicher Ostroff Ostrosky Ostrov Ostrovsky Ostrow 
+ Ostrowski Ostwald Otter Otterman Ottinger Ovadia Oxman Ozer Pachter Pacifico Perloff Perlow 
+ Perlstein Perman Pernick Perr Persky Person Peskin Pester Petruska Pevzner Pfau Pfeffer 
+ Pfeifer Pfeiffer Pfeuffer Pflaum Philipp Philips Philipson Phillips Pianka Picard Pick Pickel 
+ Picker Pickman Pickus Piekarz Pilch Piller Piltz Pilz Pincus Pinero Pines Pinheiro Pinkas Pinkert 
+ Pinkus Pinner Pinsker Pinsky Pinta Pinter Pinto Piontek Pitter Pizer Plachta Planer Plant Plaster 
+ Platek Platner Platt Plattner Platz Platzer Pliner Pliskin Plonski Plotkin Plotnik Plott Plum 
+ Pniewski Podgorny Podgorski Podgurski Podoll Podolski Podolsky Pohle Pohlman Pokorny Pol Polacek 
+ Polachek Polack Polak Polakoff Polakowski Polan Polanski Polansky Poleski Poley Polgar Poliak 
+ Polich Policky Polin Polish Politi Polkowski Pollack Pollak Poller Polonsky Polosky Polski Polsky 
+ Polter Poltorak Polyak Polyakov Pomerantz Ponte Pontecorvo Pool Popick Popik Popov Popper Porath 
+ Poremba Porges Port Porta Portal Porte Porter Portnoy Portugal Posen Posluszny Posner Post Postel 
+ Poster Potash Potocki Poznanski Pozniak Prado Praeger Prager Preciado Preis Preiser Preiss 
+ Present Presler Press Presser Pressler Pressman Preuss Primack Prins Prinz Pritzker Probst 
+ Profeta Propes Propp Propst Prost Provencal Prus Prusak Puder Pugliese Pullman Pultorak Pulver 
+ Pulvermacher Putterman Pyzik Raben Rabin Rabine Rabinovich Rabinovitz Rabinowitz Rabkin Rachlin 
+ Radin Radzik Rafael Raines Rak Rakowski Ram Ramm Rann Rantz Ranz Rapaport Raphael Rapkin Rapoport 
+ Rappaport Rappe Rappoport Rapps Rasch Rash Raskin Rath Ratkovich Ratner Rattner Ratz Rauch Ravin 
+ Ravitz Rayman Rayner Raz Razon Recht Redel Redinger Redish Redlich Redlinger Redstone Regen 
+ Reggio Reh Rehberger Rehfeld Rehfeldt Reiber Reich Reichel Reichenbach Reichenberg Reicher 
+ Reichlin Reichman Reichmann Reidel Reider Reier Reif Reifer Reiff Reik Reim Reiman Reindel Reines 
+ Reingold Reinhard Stupak Sturm Sturman Stutman Suchman Suess Sugarman Sugerman Sukenik Sulkin 
+ Sulkowski Sulla Sulzbach Sum Super Supinski Susan Suskin Suss Susser Susskind Sussman Swerdloff 
+ Swidler Swirsky Syms Szafran Szanto Szasz Szatkowski Szczygiel Szostak Szpak Szumski Szwed Szydlo 
+ Szydlowski Tabachnick Taback Tabak Tabor Tager Tahan Tal Talman Tanenbaum Tannen Tannenbaum 
+ Tanzer Tanzman Tapia Taran Taranto Tarlow Tarnoff Tarnowski Tarshis Tash Tashman Tatar Taub Taube 
+ Tauber Taubman Taus Taussig Tawil Tay Tedeschi Tedesco Tehrani Teich Teicher Teichmann Teig 
+ Teitel Teitelbaum Teitelman Teitler Teller Teman Temkin Tendler Tenenbaum Tener Tenerowicz 
+ Tennenbaum Tenzer Teper Tepper Terracina Teschner Tesler Tesser Tessler Test Teutsch Thal 
+ Thalheimer Thau Thaw Thein Thon Thurm Tiano Tibor Tiefenthaler Tiger Tilles Tillis Tilman Tisch 
+ Tischler Tish Tishler Tishman Tkach Tkachuk Tkacz Toben Tober Toberman Tobias Tobolski Tock Toder 
+ Tokar Tokarski Tokarz Tolchin Toledano Toledo Tolentino Tomer Tomkiewicz Top Topel Topolski Topor 
+ Toporek Topp Toren Torres Trachtenberg Trachtman Tracz Traeger Trager Traister Trani Traub Traube 
+ Traum Traurig Treiber Tress Tretter Treu Triebwasser Trier Trocki Tropp Trost Troyan Truman Trunk 
+ Tuch Tuchman Tucholski Tunick Tur Turchin Turcott Turek Turetsky Turin Turk Turkel Turkovich 
+ Turner Turoff Turowski Tuter Twersky Uhr Ullman Ulman Umansky Umbach Ungar Unger Ungerman Urbach 
+ Urban Urbas Urman Ury Usher Vadas Vajda Valentin Valero Valis Van Buren Vandermolen Vang
+ Varon Vayner Vaynshteyn Vaysman Veil Veksler Venezia Ventura Verba Vesely Vincze Viner Vinokur 
+ Vitale Vogel Vogelman Vogelsang Volk Volkov Voloshin Volosin Volpe Volpert Vredenburg Waber 
+ Wachs Wachsman Wachtel Wachter Wadler Wage Wageman Wager Wagman Wagner Monsen Morck Morgensen Mork 
+ Morken Morland Morstad Mortensen Mosby Moseby Moseng Mossing Mostad Mostrom Moy Mundahl Munsen 
+ Murer Muri Myhr Myhre Myklebust Myre Myren Naas Narum Natvig Negaard Nelsen Nerby Nerison Nesby 
+ Nese Nesheim Ness Nesset Nesseth Netland Nicolaisen Nicolaysen Nielsen Nilsen Nodland Nohr 
+ Norberg Nordahl Nordberg Nordby Nordheim Nordholm Nordland Nordmark Nordness Nordrum Nore Nored 
+ Norgaard Norgard Norheim Norland Norred Norum Noss Nyhus Nyland Nylund Nystuen Odden Odegaard 
+ Odland Oen Offerdahl Oftedahl Ohlsen Ohm Ohnstad Oie Oien Oines Okland Olden Olesen Olsen Olstad 
+ Omdahl Onsager Onstad Opdahl Opheim Opland Oppegard Opsal Orten Orvik Osberg Ose Osen Osland 
+ Osmundsen Osness Ostberg Ostby Ostenson Osterberg Osterholt Ostlund Ostrem Otness Otterness 
+ Ottesen Ottosen Ottum Ouren Overbay Overbey Overby Overland Oye Oyen Paulsen Paulsrud Pedersen 
+ Petersen Pettersen Pollen Poulsen Prestegard Ramberg Ramsland Ramstad Ranum Rasmussen Ree 
+ Reinertsen Reishus Reistad Reitan Reiten Rendahl Riis Rike Rindahl Rindal Rinde Ringdahl Ringen 
+ Ringstad Rise Ritland Roberg Rod Rodberg Roe Roed Roen Rogne Rogness Rogstad Roisum Rolstad Rong 
+ Rongstad Ronning Ronningen Rosdahl Roseth Rosett Rosholt Rostad Rosten Roys Royse Rud Rudi Rue 
+ Ruen Runde Rustad Rusten Ruud Rye Ryen Rygg Rygh Ryland Sabo Saetern Sagen Sahlberg Salberg 
+ Salmonsen Salvesen Samuelsen Sand Sandahl Sandberg Sande Sanden Sander Sando Sandvig Sandvik 
+ Sanner Sannes Satter Saugstad Schanke Schau Schei Schou Seim Selberg Selland Selvig Sem Sether 
+ Setter Siem Simensen Simonsen Sivert Sivertsen Skaar Skagen Skar Skare Skaug Skeie Skog Skogen 
+ Skoglund Skogstad Skora Skramstad Skyberg Slette Sletten Slinde Smeby Smedberg Smestad Snare 
+ Sogard Sogge Soland Solberg Solem Solheim Solie Halleck Hawat Idaho Yueh
+			}
+			regnal_first_names_male = {
+				Leto Paul Paulus Vorian Aaron Abbas Abdiel Abel Abijah Abner Abraham Abrahsa Absolom Acacio Adalai Adam Adar Addai Adin 
+ Adley Admon Adon Agrippa Ahab Ahmik Aitan Akim Alphaeus Alphus Alva Amal Amiel Amon Amos Amram 
+ Anath Annas Arel Arion Aristotle Arnon Asa Asher Asphar Azariah Barbaras Barnabas Bartholomew 
+ Baruch Bates Bela Benaiah Benjamin Benson Bethuel Boaz Cain Caleb Carmelo Carpus Chaim Chatan 
+ Dagan Dalit Daniel David Dekel Doran Dov Eben Ebner Eden Edom Ehud Eisig Eitan Elam Elan Elazar 
+ Elias Elijah Eliot Elkanah Ellis Emanuel Enoch Ephraim Eran Esau Ezekiel Ezra Gabai Gabriel Gan 
+ Gatian Genesis Gersham Giacomo Gian Giannes Gideon Giuseppe Goliath Haggai Haran Heber Heinz 
+ Hezekiah Hilel Hiram Hosea Hyman Ichabod Ike Ilan Ilia Ilias Immanuel Imre Ioan Ira Irin Isaac 
+ Isaiah Ishmael Israel Ithamar Jabez Jabin Jachin Jacob Jaden Jairus James Japhet Jared Jaron 
+ Javan Jebediah Jeremiah Jeremy Jesse Jesus Jethro Joachim Job Jody Joel John Jonas Jonathan Joram 
+ Jordan Joseph Joshua Juan Judd Kabos Kadmiel Kaniel Karmel Katzir Kedar Kenan Kobe Laban Label 
+ Lael Lavan Lazarus Lemuel Leor Leshem Levi Lot Madai Makayla Makis Malachi Mario Marlin Matai 
+ Matthew Mattison Mayer Mehetabel Meshach Mica Michael Mihaly Mitchell Mordecai Moses Nachman 
+ Nachmanke Nachum Nadav Nadir Nahir Nahum Nathaniel Naum Nehemiah Nimrod Nirel Nisi Noadiah Noah 
+ Noy Nuriel Obadiah Oded Oma Omar Omri Oralee Oren Orli Orly Ornice Osaze Osip Oz Pallu Palti Pau 
+ Phinneaus Pontus Rafa Rafael Ranen Raphael Ravid Reuben Reuel Rishon Roman Roni Rouvin Ruben Saad 
+ Sachiel Sagiv Saloman Sam Samson Samuel Saul Seff Seraphim Seth Shafir Shailen Shiloh Shimon 
+ Shulamith Shylock Simon Simpson Sivan Solomon Talman Temani Temo Terach Timur Tivon Tobias Tomer 
+ Tov Tuvya Tyrek Tzuriel Udeh Uehudah Uri Urias Ury Uzi Uziah Uziel Vered Vida Volf Yaakov Yaar 
+ Yadon Yago Yahir Yair Yakim Yakov Yamin Yan Yanis Yanoach Yaphet Yarin Yechezkel Yehudi Yered 
+ Yeshaya Yitro Yitzchak Abelard Adalbert Adalgiso Adelbert Adelfried Adelino Adelmio Adelmo Ademaro 
+ Adie Adler Adolph Ahren Aksel Alaric Albert Albrecht Alfonso Alger Alice Aloysius Ancel Anselm 
+ Arland Armand Arnold Avicus Baldwin Baltasar Baron Bergen Bernard Bernstein Bertram Bingham Blaz 
+ Bogart Brandeis Bronson Bud Burke Burle Carl Carolus Carsten Clay Clovis Colbert Conrad Dagobert 
+ Dalbert Dale Derek Dewitt Dian Dieter Dietrich Dolf Drake Dutch Eberhard Egbert Egmont Elbert 
+ Eldwin Emery Engelbert Ernest Ethelred Everett Falk Ferdinand Franz Frederick Fremont Fritz Gary 
+ Geert Geoffrey Gerlac Gilbert Godfrey Hagan Hahn Hamlet Hammet Harbin Harlan Harold Harry Harvey 
+ Heinrich Heller Henry Herbert Herman Hernan Hershel Hildebrand Hobart Horst Hubert Hugh Humbert 
+ Huni Hutch Ing Ingram Ivo Jarvis Jerry Kagan Kant Karcher Karl Kasch Kass Kay Kearn Kellen Kepler 
+ Kiefer Klaus Klein Konrad Kurt Lance Lando Lang Lear Len Leonard Leopold Lindberg Loring Louis 
+ Ludwig Luther Lyulf Mallory Mandel Manfred Mathias Meyer Miles Milo Nevin Norbert Oberon Obert 
+ Odette Odis Orlan Orlantha Ormand Ormanda Osborn Osten Otis Otto Paulos Penrod Rainart Redmond 
+ Reinhart Reinhold Rikard Ring Ritter Roderick Roger Roland Rolf Rollins Ross Roswald Roth Rudeger 
+ Rudolph Rune Schaffer Schmidt Schneider Sinbad Stark Stefan Stein Strom Tab Theobold Tyson Uben 
+ Uberto Ubrig Ubrigens Uhr Ulas Ulbrecht Ulbrich Ulexite Ulgar Ulman Ulriah Ulrich Unser Uwe Vaduz 
+ Valdermar Varick Varner Verile Verner Vid Vilem Vilmos Volker Waggoner Wagner Walbert Waldemar 
+ Waldron Walmond Walten Walter Waltraut Warner Warren Wes Wilbert Willis Wilmer Wilson Winfield 
+ Yale Yohann Zamael Zelig Aleron Algernon Ames Amiens Anicetus Aramis Audric Bassett Bayard Beau 
+ Bellamy Blaise Boden Bonar Boniface Borden Boswell Boyce Briar Brigham Bruce Byron Cabal Cable 
+ Cade Campbell Canaan Canon Carolus Carvell Chainey Chancellor Channing Chase Chevy Chivalry Ciel 
+ Circinus Colar Colville Corbin Courvoisier Coyne Curtis Dabney Darrell Dashiell Dax Delano Demont 
+ Destin Didier Dior Donatien Etienne Fabron Ferrand Flannery Fletcher Forrest Foster Franchot 
+ Francis Francois Franklin Frasier Gage Garen Gareth Garland Garner Garrison Gaston Gaylord 
+ Gerald Germain Geron Giles Glanville Gower Granger Grant Granville Guy Hackett Hello Holland 
+ Honore Jacques Jasper Javier Jay Jean Jeffrey Jemond Jesper Justin Labaron Lance Landry Laramie 
+ Laron Larrimore Launcelot Laurent Leggett Leroy Leverett Lionel Luc Lyle Macy Mallory Marcel 
+ Mardian Marin Marlon Marshall Marvel Maslin Mason Merrill Montague Montgomery Montrell Montrose 
+ Mortimer Nazaire Neville Newell Noel Odil Odilon Odo Olier Oliver Olympe Orane Oriel Orleans 
+ Orson Orville Ouida Page Paris Pascal Percival Percy Pernell Pierre Platt Porter Prewitt Quennel 
+ Quincy Rance Ranger Raul Ray Raynard Remi Romain Ross Roy Royal Rupert Rush Russel Saber Sargent 
+ Satch Senior Sennett Sergeant Severin Seymour Sezni Sid Similien Sinclair Sinjon Sorrel Sumner 
+ Talbot Telford Telo Tenenan Thibaud Travis Tremeur Tugdual Tujan Turiau Tyson Umber Vachel Vail 
+ Valeray Varden Varil Varocher Verdun Vere Verity Vermont Vernon Verrier Verrill Villard Villiers 
+ Wyatt Xebec Yannick Alden Alder Crockett Kemp Kipling Ladd Lander Lane Latimer Lyman Macon Mendel 
+ Mercer Mull Nye Perry Prentice Reeve Sanders Sawyer Skeet Sterne Swain Tab Taylor Tennyson Todd 
+ Trey Tucker Turner Twain Tyler Vance Vane Wade Walker Yates Amund Arvid Bjorn Canute Carolus 
+ Carson Dag Davin Denholm Dyre Egil Elvis Eric Filip Fortinbras Frey Haakon Hannes Igor Ingmar 
+ Ingvar Jarl Kaj Karr Kelsey Kerr Kettil Knute Kolby Lars Ludvig Lunt Mats Nels Niels Norb Odell 
+ Odo Olan Pal Quinby Rad Rune Skjøld Snorre Sølve Steinar Stieran Sven Thiassi Thoralf Thorin 
+ Thorstein Toste Tryggvi Ulffr Ulick Ull Ulrik Ulster Ultar Vali Vannevar Vanslow Vidar Vidkun 
+ Viggo Viljalmr Viljo Von Waage Wray ZviAfton Ahearn Annan Fallon Finley Kearney Keary Kegan Keir 
+ Kendall Mannix Marmaduke Melvin Merlin Murray Perth Ronan Sean Tadc Tegan Tiernan Torin Tuathal 
+ Ultan Vaughan York Alan Angus Blaan Conan Fagan Kade Keefe Keegan Keeland Keenan Kennedy Kenyon 
+ Kermit Kern Kerry Kevin Kieran Kinnel Lawler Lee Lennon Lon Mackenzie Neal Oren Parlan Phelan 
+ Regan Renny Riley Riordan Rogan Rooney Rory Ryan Seamus Senach Sheehan Slevin Sloan Sullivan 
+ Sully Sweeny Tee Tiernan
+			}
+			regnal_first_names_female = {
+				Jessica Ghanima Alia Aaliyah Aari Aase Abbellonna Abie Abigail Abira Abital Abra Achazia Ada Adamina Adena Affera Afra 
+ Ahava Ahmose Akiva Aliza Alumit Amissa Anita Ann Apphia Araminta Arashel Arella Ariel Arnon Ascah 
+ Asenath Asenka Asisa Atara Aviva Ayala Ayla Ayn Bara Basha Bathsheba Becky Bena Beryl Bess Bethany 
+ Bettina Beulah Bina Bo Bracha Carmel Chaka Chanah Chaya Daba Dagen Dalia Danielle Danuta Dara 
+ Davan Daya Dayla Deborah Delilah Denna Derora Dinah Diza Dodie Dorrit Eden Edena Edna Edria 
+ Efrosini Elam Eleora Eliann Elizabeth Emanuelle Endora Eve Gabriela Galya Gana Gayora Gelilah 
+ Geva Gilana Gilla Gita Giuseppina Hadara Hadassa Hannah Hariel Hava Heba Hedia Hedva Hepziba Hila 
+ Hinda Hosea Ideh Idit Ikia Ilana Iras Isela Iva Ivana Ivria Iyana Jael Jaen Jana Jane Janese 
+ Janica Jariah Jedida Jemima Jenay Jenova Jerusha Jesse Jessica Jezebel Jimena Joakima Joan 
+ Joaquina Jobey Joelle Jonina Jora Jordan Josephine Josie Judith Kadisha Kaila Kalanit Kaleigh 
+ Kanara Karmel Karmina Katriel Kay Kayla Kazia Kefira Keilah Kelila Kenia Keturah Ketzia Kezia 
+ Kitra Kizzy Kochava Laah Labana Lael Laela Laila Lailie Laisha Lavey Lavi Lea Leah Ledah Leeza 
+ Leia Lemuela Lena Leora Levia Lexine Lia Liana Libba Libby Liora Lirit Lisa Lisbet Lisea Livia 
+ Liza Lizbeth Lizeth Lois Lysia Macayle Madeline Magda Magdalen Magena Mahala Mahalia Mahola Malca 
+ Malha Malina Malka Mangena Mara Maretta Margaret Maria Mariah Mariam Mariasha Marilynne Marna 
+ Marnina Marsena Marta Mary Matana Mathea Mattea May Meera Mehitabel Meira Mia Michaela Minna Mira 
+ Mireya Miriam Moria Moselle Nancy Nanna Naomi Nasya Natania Nataniella Naysa Nediva Neorah Neria 
+ Netta Neviah Nina Nira Nisi Nitza Nitzana Nizana Noemi Nuria Odeda Odele Odelia Odera Ofira Oma 
+ Oprah Oralee Oralia Orpah Ozora Paz Peliah Peninah Raanana Rachel Rahab Raizel Rakel Raphaella 
+ Rayna Reba Rebecca Rena Richael Rimona Rishona Ruth Sabeans Sabra Saloma Salome Samara Samatha 
+ Samicah Sammy-Jo Samuela Sarah Sarahi Sarai Sarea Adalgisa Adelaide Adolfina Aemilia Alberta Alice 
+ Alisha Aloysia Amelia Amerie Anneliese Antje Arabelle Aria Arrietty Aubrey Berit Berlynn Bertha 
+ Binney Bluma Bruna Callan Carla Carol Cecania Chay Clay Dagmar Dale Dame Della Dustin Ebba Edwina 
+ Elfriede Ella Emiline Emma Emmylou Ermine Ernestine Etta Faiga Farica Frederica Frieda Galiana 
+ Geraldine Gertrude Gretchen Griselda Hallam Heidi Henrietta Hilda Honey Ida Ilsa Imelda Irma 
+ Isela Jarvia Jenell Jerolyn Johanna Joss Kalona Karel Karla Karlotta Kateri Katrin Katrina Kelby 
+ Kerstin Klarissa Leisel Leoma Leona Leonie Leopolda Leyna Liese Liesel Lise Lorelei Lorraine 
+ Lotte Louanna Louisa Louise Luana Lucina Lysa Mallory Mandel Mariel Maritza Mathilda Meryl Meta 
+ Mina Minna Morgen Nixie Norberta Nordica Notburga Odelia Odella Olinda Oma Orlantha Ormanda Otylia 
+ Quartz Rae Rayma Richelle Roderica Rolanda Rory Rosamund Schmetterling Senta Serilda Sieglinde 
+ Silke Sommer Sonnenschein Tabea Tawanda Tilda Tillie Trude Trula Ulla Ulrika Ulva Uta Viveka 
+ Walda Wanda Wilhelmina Wilma Winola Zelda Zelinda Zelma Zenzi Abril Alair Alberta Alize Amour Avril 
+ Babette Bailey Bedelia Bernadette Caroline Caron Cerise Chablis Chance Chanel Chantal Charlotte 
+ Cheriss Cheryl Claudette Colette Courtesy Cydney Darcie Darlene Deja Delight Denise Desiree 
+ Destiny Didina Dior Djab Dominique Doreen Elaine Elise Elita Elle Eloise Emeraude Etoile Evonne 
+ Fay Fifine Fleur Fontanna Fortune Frances Garland Gay Geneva Gervaise Ghislaine Harriet Honor 
+ Isabeau Ivette Jacqueline Jaimie Janel Jewel Jolie Juliet Kadence Kalet Kordell Kyrielle Larue 
+ Lauren Laverne Leala Leontyne Lesh Linette Lisette Lisle Lois L'Oréal Loring Lucetta Lucie 
+ Lunette Lyla Lyle Maine Mallory Manon Mardi Margo Marianne Maribel Marie Marion Marvelle Maureen 
+ Mauve Mavis Melisenda Merane Merla Merle Merlyn Meryl Miette Mignon Monique Moselle Musetta Nadia 
+ Naeva Nanette Narcisse Nathaly Ninon Noella Odetta Odette Odil Olive Opaline Orane Oriel Ouida 
+ Page Pascale Perry Prunella Purvis Questa Quiterie Raissa Raylene Remy Renee Riva Rochelle Roslin 
+ Ruby Rui Sage Salene Salina Sarotte Satin Scout Searlait Sebastiona Sennett Shannelle Shantay 
+ Shanton Sharice Shyann Sidonie Sigourney Sojourner Solange Soleil Sorrel Sosie Stella Susie 
+ Suzette Sydney Sydni Symone Tallis Tallys Tayce Taylar Tempest Therese Tiffany Tilda Tolena Toni 
+ Tracy Troy Turquoise Vedette Vilette Yvonne Zanette Amiable Cavanaugh Citrine Doe Knowledge Lane 
+ Mercy Merry Scarlet Alleta Bo Dagna Dahlia Delling Eir Erica Evonne Freya Gudrun Gunda Halle 
+ Idonea Ingrid Jesen Karena Kelda Kelsey Kiersten Krystyn Lang Larsen Linnea Lis Lisolette Litzy 
+ Loki Lundy Malin Marny Marta Mia Nissa Quenby Quinby Ran Ranveig Rinda Runa Sanna Savea Selma 
+ Signa Signild Sigrun Snøfrid Sonja Sorley Sunniva Svea Synnove Teal Thorborg Thurid Thyra Thyrrni 
+ Toril Toyah Tyra Ula Unn Valkyrie Vanja Vigdis Viola Ylwa Zainab Fallon Flannery Kaie Kaitlyn 
+ Kassidy Kathleen Keena Keir Keira Keita Kendall Kenna Kera Kern Kiara Kirra Kylee Lachlan Lorna 
+ Maeve Malise Morgance Morgandy Nonnita Nuala Raelin Rhonda Saoirse Saraid Seanna Shela Shylah 
+ Tara Teranika Tieve Treasa Treva Blaine Blair Eilis Kalene Kassidy Katelyn Keaira Keelty Keely 
+ Keen Keitha Kellan Kenna Kennis Kera Kern Kerry Kevina Kiara Killian Kyna Lachlan Lakyle Lee Mab 
+ Maeryn Maille Mairi Maisie Meara Meckenzie Myrna Nara Neala Nelia Nuala Oona Quinn Rhoswen Riane 
+ Riley Rogan Rona Ryan Sadb Saoirse Shanley Shelagh Sine Siobhan Sorcha Tara Teranika Tieve Ultreia 
+ Vevila
+			}
+			regnal_second_names = {
+				Atreides
+			}
+		}
+		
+		
+	}
+}

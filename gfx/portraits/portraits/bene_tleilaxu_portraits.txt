@@ -1,0 +1,125 @@
+portraits = {
+	# bene_tleilaxu
+	bene_tleilaxu_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_bene_tleilaxu_female_clothes_01" 	hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_01.dds"
+		}
+	}
+	bene_tleilaxu_female_02 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "mammalian_bene_tleilaxu_female_clothes_01" 	hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/human/human_female_body_04.dds"
+		}
+	}
+	bene_tleilaxu_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_bene_tleilaxu_male_clothes_01" 	hair_selector = "human_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_01.dds"
+		}
+	}	
+	bene_tleilaxu_male_02 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "mammalian_bene_tleilaxu_male_clothes_01" 	hair_selector = "human_male_hair_02"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/human/human_male_body_04.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	bene_tleilaxu = {
+		default = bene_tleilaxu_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					bene_tleilaxu_male_01
+					bene_tleilaxu_male_02
+				}
+			}
+		}
+	}		
+		
+		
+		
